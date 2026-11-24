@@ -77,6 +77,7 @@ function dessiner(el, conf, d, depuisCache) {
     <div class="month-nav">
       <small class="muted" data-etat>${depuisCache ? 'Mise à jour…' : `À jour · ${esc(majTxt)}`}</small>
       <button class="icon-btn" data-rafraichir aria-label="Actualiser">${icon('refresh', 18)}</button>
+      <button class="btn small ghost" data-iphone>📱 Relier l'iPhone</button>
       <a class="btn small ghost" href="${esc(conf.lienSheet || 'https://docs.google.com/spreadsheets/')}" target="_blank" rel="noopener">Ouvrir le Sheet</a>
     </div>
   </header>
@@ -108,6 +109,12 @@ function dessiner(el, conf, d, depuisCache) {
 
   const on = (s, ev, fn) => el.querySelectorAll(s).forEach((b) => b.addEventListener(ev, (e) => fn(b, e)));
   on('[data-rafraichir]', 'click', () => render(el));
+  on('[data-iphone]', 'click', async (b) => {
+    const code = `${conf.url}#${conf.cle}`;
+    try { await navigator.clipboard.writeText(code); b.textContent = 'Code copié ✓'; }
+    catch { prompt('Copie ce code de connexion :', code); }
+    if (!el.querySelector('.iphone-aide')) el.querySelector('.page-head').insertAdjacentHTML('afterend', `<p class="hint iphone-aide card">Ton <strong>code de connexion</strong> est copié. Colle-le dans une note privée (ou directement sur l'iPhone si le presse-papiers est partagé), puis sur l'iPhone : Stage → « Déjà relié sur le Mac ? » → colle le code. Ne le partage avec personne.</p>`);
+  });
   on('[data-onglet]', 'click', (b) => { vue.onglet = b.dataset.onglet; vue.edition = null; vue.ajout = false; dessiner(el, conf, d, depuisCache); });
   on('[data-ajouter]', 'click', () => { vue.ajout = !vue.ajout; vue.edition = null; dessiner(el, conf, d, depuisCache); });
   on('[data-editer]', 'click', (b) => { vue.edition = +b.dataset.editer; vue.ajout = false; dessiner(el, conf, d, depuisCache); });
@@ -164,7 +171,12 @@ function installation(el, conf) {
   el.innerHTML = `
   <header class="page-head"><div><p class="eyebrow">Stage</p><h1>Relier ton tableau de stage</h1></div></header>
   <section class="card setup">
-    <p>Tes candidatures restent dans <strong>ton Google Sheet</strong>. L'appli les lit et les modifie en direct, grâce à un petit script installé sur ton compte Google. Rien ne passe par le site public. À faire <strong>une seule fois, sur le Mac</strong> (5 minutes).</p>
+    <form class="setup-form deja" data-code-form>
+      <strong>Déjà relié sur le Mac ?</strong><span class="hint" style="margin:0;width:100%">Sur le Mac, ouvre Stage et appuie sur « 📱 Relier l'iPhone », puis colle le code ici.</span>
+      <input name="code" required placeholder="Colle le code de connexion">
+      <button class="btn small">Relier</button>
+    </form>
+    <p>Sinon, première installation. Tes candidatures restent dans <strong>ton Google Sheet</strong>. L'appli les lit et les modifie en direct, grâce à un petit script installé sur ton compte Google. Rien ne passe par le site public. À faire <strong>une seule fois, sur le Mac</strong> (5 minutes).</p>
     <ol class="steps">
       <li>Ouvre ton tableau <strong>« Recherche de stage 2027 »</strong> dans Google Sheets.</li>
       <li>Menu <strong>Extensions → Apps Script</strong>. Sélectionne tout (Cmd + A), efface, puis colle ce code à la place :
@@ -181,20 +193,25 @@ function installation(el, conf) {
       <input name="url" type="url" required placeholder="https://script.google.com/macros/s/…/exec">
       <button class="btn">Relier</button>
     </form>
-    <p class="hint">Sur l'iPhone, il suffira de coller la même URL <em>et</em> la même clé : utilise « Copier la clé » ci-dessous et garde-la dans tes notes privées.</p>
-    <button class="btn small ghost" data-copier-cle>Copier la clé</button>
-    <details class="hint"><summary>J'ai déjà une clé (iPhone)</summary>
-      <form class="setup-form" data-cle-form><input name="cle" placeholder="Colle ta clé ici" required><button class="btn small">Utiliser cette clé</button></form>
-    </details>
   </section>`;
 
   const copier = async (txt, zone) => { try { await navigator.clipboard.writeText(txt); if (zone) zone.hidden = false; } catch { prompt('Copie ce texte :', txt); } };
   el.querySelector('[data-code]').value = scriptGoogle(cle);
   el.querySelector('[data-code]').addEventListener('focus', (e) => e.target.select());
   el.querySelector('[data-copier]').addEventListener('click', () => copier(scriptGoogle(lireConf().cle), el.querySelector('[data-copie]')));
-  el.querySelector('[data-copier-cle]').addEventListener('click', (e) => { copier(lireConf().cle); e.target.textContent = 'Clé copiée ✓'; });
-  el.querySelector('[data-cle-form]').addEventListener('submit', (e) => {
-    e.preventDefault(); ecrireConf({ ...lireConf(), cle: e.target.cle.value.trim() }); installation(el, lireConf());
+  el.querySelector('[data-code-form]').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const [url, cle] = e.target.code.value.trim().split('#');
+    const btn = e.target.querySelector('button'); btn.disabled = true; btn.textContent = 'Test…';
+    try {
+      if (!url || !cle) throw new Error('code incomplet');
+      await appel({ url, cle }, { action: 'lire' });
+      ecrireConf({ cle, url, lienSheet: 'https://docs.google.com/spreadsheets/d/1H69xDqDlQkR8xMhBPHXA3Y5IMxVihJXRjINrfwEqRqM/edit' });
+      render(el);
+    } catch (err) {
+      btn.disabled = false; btn.textContent = 'Relier';
+      e.target.insertAdjacentHTML('afterend', `<p class="warn">Ce code ne marche pas : ${esc(err.message)}. Recopie-le depuis le Mac.</p>`);
+    }
   });
   el.querySelector('[data-setup]').addEventListener('submit', async (e) => {
     e.preventDefault();

@@ -550,3 +550,6 @@ body.no-scroll { overflow: hidden; }
 .confirm .btn { white-space: nowrap; }
 .hero-small .hero-date { text-transform: none; }
 .code-txt { width: 100%; margin-top: 8px; font: 12px/1.4 ui-monospace, Menlo, monospace; color: var(--text); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+.setup-form.deja { align-items: center; padding: 12px; border-radius: 14px; background: var(--tint); margin: 0 0 16px; }
+.setup-form.deja strong { width: 100%; }
+.iphone-aide { margin: -8px 0 16px; padding: 12px 14px; }

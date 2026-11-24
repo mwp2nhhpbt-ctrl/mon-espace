@@ -1,6 +1,6 @@
 // Service worker : met l'appli en cache pour qu'elle s'ouvre même hors ligne.
 // Pensez à changer VERSION à chaque mise à jour pour forcer le rafraîchissement.
-const VERSION = 'v9';
+const VERSION = 'v10';
 const CACHE = `mon-espace-${VERSION}`;
 const FILES = [
   './',
