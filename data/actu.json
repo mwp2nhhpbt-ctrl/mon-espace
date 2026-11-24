@@ -1,7 +1,7 @@
 {
-  "demo": true,
+  "demo": false,
   "date": "2026-11-24",
-  "synthese": "Exemple de synthèse : chaque matin, ce paragraphe résumera en 4 ou 5 phrases les sujets qui dominent la presse, en croisant les points de vue de gauche, du centre et de droite.",
+  "synthese": "Ce mardi, l'Europe s'inquiète d'un possible satellite russe armé d'une bombe nucléaire, selon des médias allemands, tandis que l'Ukraine revendique avoir coulé une corvette russe jusque dans un port libyen. Côté géopolitique, la COP31 s'est terminée sans accord sur la sortie des énergies fossiles, et la Cour internationale de justice a reconnu le Myanmar responsable d'un génocide contre les Rohingyas. En Espagne, le dernier grand débat avant les législatives du 29 novembre confirme deux blocs : PP et Vox d'un côté, PSOE et gauche de l'autre. Attention : les flux de Libération, franceinfo, Le Monde, Le Figaro, L'Équipe, So Foot et El País étaient inaccessibles aujourd'hui, donc la politique française est peu couverte.",
   "rubriques": [
     { "id": "politique", "nom": "Politique & Éco" },
     { "id": "geo", "nom": "Géopolitique" },
@@ -10,61 +10,57 @@
     { "id": "rap", "nom": "Rap & Pop culture" }
   ],
   "articles": [
-    { "rubrique": "politique", "titre": "Exemple : le budget 2027 en débat à l'Assemblée", "resume": "Résumé en français de 2 phrases. Ici, la lecture d'un média de gauche.", "source": "Libération", "bord": "gauche", "url": "https://www.liberation.fr" },
-    { "rubrique": "politique", "titre": "Exemple : ce que le budget change pour les entreprises", "resume": "Résumé en français de 2 phrases. Ici, la lecture d'un média du centre.", "source": "Les Échos", "bord": "centre", "url": "https://www.lesechos.fr" },
-    { "rubrique": "politique", "titre": "Exemple : la dépense publique au cœur des critiques", "resume": "Résumé en français de 2 phrases. Ici, la lecture d'un média de droite.", "source": "Le Figaro", "bord": "droite", "url": "https://www.lefigaro.fr" },
-    { "rubrique": "geo", "titre": "Exemple : l'Europe face aux nouvelles routes commerciales", "resume": "Résumé en français d'un article de géopolitique.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu" },
-    { "rubrique": "geo", "titre": "Exemple : tensions sur les droits de douane transatlantiques", "resume": "Résumé en français d'un article anglophone, traduit.", "source": "Financial Times", "url": "https://www.ft.com", "vo": "en" },
-    { "rubrique": "defense", "titre": "Exemple : nouvelle commande de frégates pour la Marine", "resume": "Résumé en français d'un article défense.", "source": "Mer et Marine", "url": "https://www.meretmarine.com" },
-    { "rubrique": "defense", "titre": "Exemple : l'industrie européenne de l'armement accélère", "resume": "Résumé en français d'un article anglophone, traduit.", "source": "Defense News", "url": "https://www.defensenews.com", "vo": "en" },
-    { "rubrique": "sport", "titre": "Exemple : Ligue des champions, les clés du match de ce soir", "resume": "Résumé en français.", "source": "L'Équipe", "url": "https://www.lequipe.fr" },
-    { "rubrique": "sport", "titre": "Exemple : le Real Madrid prépare le Clásico", "resume": "Résumé en français d'un article espagnol, traduit.", "source": "Marca", "url": "https://www.marca.com", "vo": "es" },
-    { "rubrique": "rap", "titre": "Exemple : les sorties rap FR de la semaine", "resume": "Résumé en français.", "source": "Booska-P", "url": "https://www.booska-p.com" },
-    { "rubrique": "rap", "titre": "Exemple : l'album US dont tout le monde parle", "resume": "Résumé en français d'un article anglophone, traduit.", "source": "Complex", "url": "https://www.complex.com", "vo": "en" }
+    { "rubrique": "politique", "titre": "Et si le vrai sujet derrière la colère des jeunes était le climat ?", "resume": "Une tribune estime que le dérèglement climatique explique en partie les mobilisations de la jeunesse en France, comme il a aggravé les incendies de Los Angeles. Selon l'auteur, le débat politique passe à côté de cette cause de fond.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu/fr/2026/11/23/le-vrai-probleme-cest-le-climat/" },
+    { "rubrique": "politique", "titre": "En Chine, les offres d'emploi s'effondrent face à l'IA", "resume": "Les annonces d'emploi sur les grandes plateformes chinoises ont été divisées par plus de deux en trois ans, et celles pour les développeurs auraient chuté de 71 % depuis l'arrivée de ChatGPT. C'est un signal de ce que l'IA peut faire au marché du travail, y compris pour les jeunes diplômés.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu/fr/2026/11/24/en-chine-les-offres-demploi-seffondrent-face-a-lia/" },
+    { "rubrique": "politique", "titre": "Espagne : le congé de naissance passe à 20 semaines", "resume": "En pleine campagne électorale, le gouvernement espagnol allonge d'une semaine le congé de naissance, et l'étend davantage pour les familles monoparentales. Il prévoit aussi dix jours de congé en cas de décès d'un proche.", "source": "elDiario.es", "bord": "gauche", "url": "https://www.eldiario.es/economia/gobierno-eleva-20-semanas-permiso-nacimiento-34-semanas-familias-monomarentales_1_13688066.html", "vo": "es" },
+    { "rubrique": "geo", "titre": "L'armée russe a-t-elle encore assez d'hommes pour continuer la guerre ?", "resume": "Depuis mai, Moscou perdrait chaque mois plus de soldats qu'elle n'en recrute. C'est un indicateur clé pour savoir combien de temps la Russie peut tenir en Ukraine sans nouvelle mobilisation.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu/fr/2026/11/23/larmee-russe-a-t-elle-assez-dhommes-pour-continuer-la-guerre/" },
+    { "rubrique": "geo", "titre": "COP31 : fin des négociations sans accord", "resume": "La conférence climat organisée en Turquie s'est achevée sans compromis, les pays restant divisés sur la sortie des énergies fossiles. Cet échec fragilise l'objectif de limiter le réchauffement.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu/fr/2026/11/23/que-sest-il-passe-a-la-cop-31/" },
+    { "rubrique": "geo", "titre": "Le Myanmar condamné pour génocide, bientôt Israël ?", "resume": "Le 19 novembre, la Cour internationale de justice a reconnu le Myanmar responsable d'un génocide contre les Rohingyas. L'IRIS compare avec la plainte de l'Afrique du Sud contre Israël, dont la décision pourrait tomber vers 2030.", "source": "IRIS", "url": "https://www.iris-france.org/genocide-le-myanmar-condamne-bientot-israel/" },
+    { "rubrique": "geo", "titre": "Espagne : le dernier débat confirme deux blocs avant le vote du 29 novembre", "resume": "Lors du débat à huit partis sur la télévision publique, PP et Vox ont évité de s'attaquer entre eux et visé les alliés du gouvernement. Les sondages donnent la droite majoritaire, mais de justesse.", "source": "elDiario.es", "url": "https://www.eldiario.es/politica/debate-ocho-confirma-bloques-apoyaran-29n-pp-vox-frente-psoe-exigido-izquierda_1_13687691.html", "vo": "es" },
+    { "rubrique": "defense", "titre": "La Russie pourrait lancer un satellite armé d'une bombe nucléaire d'ici la fin de l'année", "resume": "Des médias publics allemands, citant le renseignement, évoquent une mise en orbite possible dans les 60 jours. Le chef de l'OTAN, Mark Rutte, dit que l'alliance évalue en permanence sa dissuasion.", "source": "Defense News", "url": "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/", "vo": "en" },
+    { "rubrique": "defense", "titre": "L'Ukraine coule une corvette russe dans un port libyen", "resume": "Kiev revendique l'attaque de la corvette Merkury à Benghazi avec sept drones navals. Cela montre que l'Ukraine peut frapper la flotte russe loin de la mer Noire.", "source": "Defense News", "url": "https://www.defensenews.com/global/mideast-africa/2026/11/23/ukraine-confirms-it-sank-russian-corvette-in-libyan-port/", "vo": "en" },
+    { "rubrique": "defense", "titre": "Obus de 155 mm : KNDS agrandit son usine française", "resume": "L'armée française reconstitue ses stocks d'obus par commandes successives. KNDS en profite pour agrandir son site de La Chapelle-Saint-Ursin, dans le Cher, signe de la relance de l'industrie de défense.", "source": "FOB", "url": "https://forcesoperations.com/derriere-les-commandes-le-plan-de-knds-pour-muscler-sa-filiale-munitionnaire-francaise/" },
+    { "rubrique": "sport", "titre": "Coupe du monde féminine : les États-Unis en 2031, le Royaume-Uni en 2035", "resume": "La FIFA confirme les États-Unis comme co-organisateurs du Mondial 2031, puis le Royaume-Uni quatre ans plus tard. Le foot féminin continue de s'installer dans les grands pays du sport-business.", "source": "ESPN", "url": "https://www.espn.com/soccer/story/_/id/50571732/womens-world-cup-united-states-united-kindgom", "vo": "en" },
+    { "rubrique": "sport", "titre": "Manchester United en crise après le 4-0 contre Liverpool", "resume": "United va faire appel du carton rouge de Leny Yoro, et un chroniqueur estime que le club devra dépenser environ 150 millions de livres en janvier pour éviter la relégation. Une descente pourrait lui coûter deux fois plus.", "source": "ESPN", "url": "https://www.espn.com/soccer/story/_/id/50571270/man-united-january-transfers-premier-league-relegation", "vo": "en" },
+    { "rubrique": "rap", "titre": "Concert de Don Toliver évacué au Royaume-Uni", "resume": "Plus de 12 000 fans ont été évacués du concert de Don Toliver à Manchester après un incident. La date de Londres est reportée.", "source": "XXL", "url": "https://www.xxlmag.com/don-toliver-manchester-show-evacuated-tear-gas/", "vo": "en" },
+    { "rubrique": "rap", "titre": "Le show de Jay-Z au Super Bowl sortira en salles IMAX", "resume": "Le spectacle de la mi-temps du Super Bowl de Jay-Z aura droit à une diffusion au cinéma. Le rap confirme sa place au cœur du divertissement grand public américain.", "source": "XXL", "url": "https://www.xxlmag.com/jay-z-superbowl-halftime-show-movie-theaters/", "vo": "en" },
+    { "rubrique": "rap", "titre": "Festivals espagnols 2027 : Vetusta Morla en tête d'affiche", "resume": "Le groupe madrilène rejoint le SanSan Festival et le Bilbao BBK Live, aux côtés de Lykke Li et Of Monsters and Men. Les programmations de l'été prochain se remplissent déjà.", "source": "Mondo Sonoro", "url": "https://www.mondosonoro.com/noticias-actualidad-musical/vetusta-morla-se-suman-al-cartel-del-sansan-como-cabezas/", "vo": "es" }
   ],
   "lecture": [
-    {
-      "langue": "en",
-      "rubrique": "geo",
-      "source": "Texte de démonstration",
-      "titre": "Why small exporters are rethinking their supply chains",
-      "url": "",
+    { "langue": "en", "rubrique": "defense", "source": "Defense News", "titre": "Russia may launch nuke-laden satellite by year’s end, German report warns", "url": "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/",
       "texte": [
-        "For years, small and medium-sized exporters treated their supply chains as an afterthought. Goods were sourced wherever they were cheapest, and few companies had a plan B when a shipment got stuck at a port.",
-        "That mindset is shifting. Rising tariffs, longer delivery times and a string of disruptions have pushed many firms to diversify their suppliers. Some are bringing production closer to home, a trend often called nearshoring, while others are simply keeping larger stocks on hand.",
-        "The trade-off is clear: resilience comes at a cost. Holding more inventory ties up cash, and local suppliers rarely match Asian prices. Yet several business owners say the peace of mind is worth it. As one put it, being able to deliver on time has become a selling point in its own right."
+        "(Short quotes from the article; read the full text via the link.)",
+        "“Russia may place a satellite loaded with a nuclear weapon into orbit by the end of the year…”",
+        "“The satellite, dubbed Sputnik-S, has reportedly been assembled and stored in the greater Moscow area for several years.”",
+        "Asked about the reporting during a visit to Berlin, “NATO chief Mark Rutte said on Monday that the alliance was constantly assessing its deterrence and defence situation…”",
+        "“…we will always make sure that we defend every inch of NATO territory.”"
       ],
       "vocab": [
-        { "mot": "an afterthought", "trad": "une question secondaire, pensée après coup" },
-        { "mot": "to get stuck", "trad": "rester bloqué" },
-        { "mot": "mindset", "trad": "état d'esprit" },
-        { "mot": "nearshoring", "trad": "relocalisation de proximité" },
-        { "mot": "to keep stocks on hand", "trad": "garder des stocks disponibles" },
-        { "mot": "the trade-off", "trad": "le compromis" },
-        { "mot": "to tie up cash", "trad": "immobiliser de la trésorerie" },
-        { "mot": "a selling point in its own right", "trad": "un argument de vente à part entière" }
-      ]
-    },
-    {
-      "langue": "es",
-      "rubrique": "sport",
-      "source": "Texto de demostración",
-      "titre": "El fútbol español busca nuevos mercados en Asia",
-      "url": "",
+        { "mot": "nuke-laden", "trad": "chargé d'une arme nucléaire" },
+        { "mot": "to warn", "trad": "avertir, mettre en garde" },
+        { "mot": "into orbit", "trad": "en orbite" },
+        { "mot": "dubbed", "trad": "surnommé, baptisé" },
+        { "mot": "reportedly", "trad": "selon certaines sources" },
+        { "mot": "deterrence", "trad": "dissuasion" },
+        { "mot": "every inch of", "trad": "chaque centimètre de" }
+      ] },
+    { "langue": "es", "rubrique": "geo", "source": "elDiario.es", "titre": "El debate a ocho confirma los bloques que se apoyarán tras el 29N: PP y Vox frente a un PSOE exigido por su izquierda", "url": "https://www.eldiario.es/politica/debate-ocho-confirma-bloques-apoyaran-29n-pp-vox-frente-psoe-exigido-izquierda_1_13687691.html",
       "texte": [
-        "Los clubes españoles llevan años intentando hacerse un hueco en el mercado asiático. Las giras de pretemporada, las academias y los acuerdos de patrocinio se han convertido en herramientas clave para ganar aficionados al otro lado del mundo.",
-        "Sin embargo, la competencia es feroz. La Premier League sigue llevando la delantera en audiencias y en derechos televisivos, y los clubes ingleses disponen de presupuestos mucho más holgados.",
-        "Aun así, varios directivos se muestran optimistas. Según ellos, la clave está en apostar por el largo plazo: formar entrenadores locales, crear contenidos en el idioma de cada país y no limitarse a vender camisetas."
+        "(Resumen en español escrito a partir del artículo; el texto original completo está en el enlace.)",
+        "El debate a ocho de RTVE del lunes dejó ver los dos bloques que pueden formarse tras las elecciones del 29 de noviembre: por un lado, PP y Vox; por otro, el PSOE y los partidos de izquierda que apoyaron al Gobierno, que intentaron marcar distancias con Sánchez con exigencias económicas y sociales.",
+        "PP y Vox no se atacaron entre sí. Sus portavoces se dedicaron a criticar al resto de partidos, a los que llamaron «cómplices» del Gobierno.",
+        "Esa estrategia reduce el riesgo de mostrar grietas en la alianza de la derecha. Las encuestas apuntan a una mayoría de PP y Vox, pero ambos partidos temen que se repita lo que pasó en 2023.",
+        "La portavoz del PP, Ester Muñoz, culpó a sus rivales de los recientes accidentes de tren, de los casos de corrupción y de los problemas de vivienda y de precios."
       ],
       "vocab": [
-        { "mot": "hacerse un hueco", "trad": "se faire une place" },
-        { "mot": "la pretemporada", "trad": "la présaison" },
-        { "mot": "el patrocinio", "trad": "le sponsoring" },
-        { "mot": "feroz", "trad": "acharné(e), féroce" },
-        { "mot": "llevar la delantera", "trad": "avoir une longueur d'avance" },
-        { "mot": "un presupuesto holgado", "trad": "un budget confortable" },
-        { "mot": "apostar por el largo plazo", "trad": "miser sur le long terme" }
-      ]
-    }
+        { "mot": "el debate a ocho", "trad": "le débat à huit (partis)" },
+        { "mot": "los bloques", "trad": "les blocs (alliances)" },
+        { "mot": "marcar distancias", "trad": "prendre ses distances" },
+        { "mot": "el portavoz / la portavoz", "trad": "le/la porte-parole" },
+        { "mot": "los cómplices", "trad": "les complices" },
+        { "mot": "las grietas", "trad": "les fissures" },
+        { "mot": "las encuestas", "trad": "les sondages" },
+        { "mot": "la vivienda", "trad": "le logement" }
+      ] }
   ]
 }
