@@ -172,8 +172,9 @@ function installation(el, conf) {
   <header class="page-head"><div><p class="eyebrow">Stage</p><h1>Relier ton tableau de stage</h1></div></header>
   <section class="card setup">
     <form class="setup-form deja" data-code-form>
-      <strong>Déjà relié sur le Mac ?</strong><span class="hint" style="margin:0;width:100%">Sur le Mac, ouvre Stage et appuie sur « 📱 Relier l'iPhone », puis colle le code ici.</span>
-      <input name="code" required placeholder="Colle le code de connexion">
+      <strong>Script déjà installé ?</strong><span class="hint" style="margin:0;width:100%">Colle l'URL de ton script (elle finit par /exec), puis ta clé. La clé est dans Apps Script, ligne 4 : <code>const CLE = '…'</code>, copie ce qu'il y a entre les guillemets (ou la ligne entière). Si tu as un code de connexion copié depuis le Mac, colle-le simplement dans le premier champ.</span>
+      <input name="code" required placeholder="URL /exec (ou code de connexion)">
+      <input name="cle2" placeholder="Clé (ligne const CLE du script)">
       <button class="btn small">Relier</button>
     </form>
     <p>Sinon, première installation. Tes candidatures restent dans <strong>ton Google Sheet</strong>. L'appli les lit et les modifie en direct, grâce à un petit script installé sur ton compte Google. Rien ne passe par le site public. À faire <strong>une seule fois, sur le Mac</strong> (5 minutes).</p>
@@ -201,7 +202,9 @@ function installation(el, conf) {
   el.querySelector('[data-copier]').addEventListener('click', () => copier(scriptGoogle(lireConf().cle), el.querySelector('[data-copie]')));
   el.querySelector('[data-code-form]').addEventListener('submit', async (e) => {
     e.preventDefault();
-    const [url, cle] = e.target.code.value.trim().split('#');
+    const [url, cleCode] = e.target.code.value.trim().split('#');
+    const brut = cleCode || e.target.cle2.value;
+    const cle = (brut.match(/[0-9a-f]{24,}/i) || [brut.trim()])[0];
     const btn = e.target.querySelector('button'); btn.disabled = true; btn.textContent = 'Test…';
     try {
       if (!url || !cle) throw new Error('code incomplet');
@@ -210,7 +213,7 @@ function installation(el, conf) {
       render(el);
     } catch (err) {
       btn.disabled = false; btn.textContent = 'Relier';
-      e.target.insertAdjacentHTML('afterend', `<p class="warn">Ce code ne marche pas : ${esc(err.message)}. Recopie-le depuis le Mac.</p>`);
+      e.target.insertAdjacentHTML('afterend', `<p class="warn">Ça ne marche pas : ${esc(err.message)}. Vérifie que la clé est bien celle de la ligne const CLE de ton script, et que l'URL finit par /exec.</p>`);
     }
   });
   el.querySelector('[data-setup]').addEventListener('submit', async (e) => {
