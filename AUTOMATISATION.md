@@ -1,4 +1,4 @@
-# Revue de presse du matin : consignes de la tâche programmée
+# Tâche du matin : revue de presse + leçons de langues
 
 Chaque matin, une tâche Claude suit ces consignes pour réécrire `data/actu.json`, puis pousse le fichier sur `main`.
 Le site (GitHub Pages) affiche alors l'actu du jour dans les pages « Aujourd'hui » et « Actu ».
@@ -56,8 +56,38 @@ Format exact :
 }
 ```
 
-## 3. Vérifier et publier
+## 3. Leçons de langues (`data/langues.json` et `data/langues-semaine.json`)
 
-1. Vérifie que le fichier est du JSON valide (`python3 -m json.tool data/actu.json`).
-2. Commit sur `main` avec le message `Actu du AAAA-MM-JJ`, puis push.
-3. Ne modifie aucun autre fichier.
+Hugues est en L3 LEA (commerce international). Espagnol : son point fort (niveau B2-C1). Anglais : niveau B1-B2, l'oral est sa difficulté.
+Chaque jour, une leçon en anglais **et** une en espagnol, en suivant ce roulement (jour de la semaine, heure de Paris) :
+
+| Jour | Type de leçon (`type`) |
+|---|---|
+| Lundi | Grammaire |
+| Mardi | Vocabulaire thématique (commerce, export, négociation, stage…) |
+| Mercredi | Orthographe et prononciation |
+| Jeudi | Grammaire |
+| Vendredi | Expressions idiomatiques et langue professionnelle |
+| Samedi | Révision des points de la semaine |
+| Dimanche | Révision légère (l'évaluation de la semaine se fait dans l'appli) |
+
+Pour chaque langue (`en`, `es`), écris :
+- `lecon` : `type`, `titre`, `explication` (2 à 4 paragraphes **en français**, `**gras**` autorisé), `exemples` (4 phrases `vo` + traduction `fr`), `exercices` (6 exercices variés, voir les 3 formats ci-dessous).
+- `mots` : **5 mots nouveaux** (`mot`, `trad`, `exemple` en VO), utiles pour le commerce international ou la vie courante. Ne reprends pas les mots déjà présents dans `data/langues-semaine.json`.
+- `oral` : `repeter` (3 phrases courtes à répéter, réutilisant la leçon ou les mots), `question` (une question ouverte en VO), `aide` (conseil en français).
+- `ecrit` : `sujet` (en français, 80 à 100 mots à écrire, situation concrète : e-mail, message pro…), `mots_imposes` (3), `conseils`.
+
+Formats d'exercices :
+- QCM : `{ "type": "qcm", "question": "…", "choix": ["…","…","…"], "reponse": 1, "explication": "…" }` (`reponse` = index de la bonne réponse, à partir de 0)
+- Texte à trou : `{ "type": "trou", "phrase": "… ___ (verbe) …", "reponse": ["réponse", "variante acceptée"], "explication": "…" }`
+- Remettre dans l'ordre : `{ "type": "ordre", "fr": "phrase en français", "mots": ["mots","en","désordre"], "reponse": "Phrase dans le bon ordre" }` (sans ponctuation finale, mêmes mots que `mots`)
+
+Garde exactement la structure de l'exemple déjà présent dans `data/langues.json` (avec `"date"` à la date du jour).
+
+Puis mets à jour `data/langues-semaine.json` : ajoute en fin de liste `jours` l'entrée du jour `{ "date", "en": { "titre", "mots", "exercices" }, "es": { … } }` et ne garde que les **7 derniers jours**. L'appli s'en sert pour l'évaluation de fin de semaine.
+
+## 4. Vérifier et publier
+
+1. Vérifie que les 3 fichiers sont du JSON valide (`python3 -m json.tool` sur `data/actu.json`, `data/langues.json`, `data/langues-semaine.json`).
+2. Commit sur `main` avec le message `Actu et langues du AAAA-MM-JJ`, puis push.
+3. Ne modifie aucun autre fichier. Si la revue de presse échoue, publie quand même les leçons (et inversement).

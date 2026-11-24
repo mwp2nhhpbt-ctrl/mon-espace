@@ -4,7 +4,7 @@ export const MODULES = [
   { id: 'aujourdhui', label: "Aujourd'hui", icon: 'sun',      ready: true,  tab: true },
   { id: 'calendrier', label: 'Calendrier',  icon: 'calendar', ready: true, tab: true },
   { id: 'actu',       label: 'Actu',        icon: 'globe',    ready: true, tab: true },
-  { id: 'langues',    label: 'Langues',     icon: 'chat',     ready: false, tab: true },
+  { id: 'langues',    label: 'Langues',     icon: 'chat',     ready: true, tab: true },
   { id: 'cours',      label: 'Cours',       icon: 'book',     ready: false, tab: true },
   { id: 'stage',      label: 'Stage',       icon: 'brief',    ready: false, group: 'Bonus' },
   { id: 'barber',     label: 'Barber',      icon: 'scissors', ready: false, group: 'Bonus' },
@@ -29,6 +29,8 @@ const P = {
   right: '<path d="M9 6l6 6-6 6"/>',
   note: '<path d="M5 4h14v12l-4 4H5z"/><path d="M15 20v-4h4M9 9h6M9 12h4"/>',
   edit: '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/>',
+  volume: '<path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/>',
+  mic: '<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>',
   arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>'
 };
 

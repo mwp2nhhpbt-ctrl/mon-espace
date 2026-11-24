@@ -1,6 +1,7 @@
 import { store, isoLocal, rdvDuJour } from '../store.js';
 import { icon } from '../modules.js';
 import { loadActu } from '../actu-data.js';
+import { loadLangues, LANGS } from '../langues-data.js';
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const iso = isoLocal;
@@ -35,7 +36,7 @@ export function render(el) {
     <div class="hero-stats">
       <div><strong>${rdv.length}</strong><span>rendez-vous</span></div>
       <div><strong>${aFaire}</strong><span>devoirs à faire</span></div>
-      <div><strong>${s.lecon.mots.length}</strong><span>mots du jour</span></div>
+      <div><strong>10</strong><span>mots du jour</span></div>
     </div>
   </header>
 
@@ -77,10 +78,8 @@ export function render(el) {
     </section>
 
     <section class="card lesson">
-      <div class="card-head"><h2>${icon('chat')} Leçon du jour</h2><span class="pill">${esc(s.lecon.langue)}</span></div>
-      <h3>${esc(s.lecon.titre)}</h3>
-      <p>${esc(s.lecon.resume)}</p>
-      <div class="words">${s.lecon.mots.map((m) => `<div class="word"><strong>${esc(m.mot)}</strong><span>${esc(m.trad)}</span></div>`).join('')}</div>
+      <div class="card-head"><h2>${icon('chat')} Leçon du jour</h2></div>
+      <div data-lecons><p class="empty">Chargement…</p></div>
       <a class="btn ghost" href="#/langues">Commencer la leçon ${icon('arrow', 18)}</a>
     </section>
 
@@ -102,6 +101,18 @@ export function render(el) {
         <p>${esc(x.titre)}</p>
         <small>${esc(x.source)}</small>
       </a>`).join('') || '<p class="empty">Pas encore d\'actu aujourd\'hui.</p>';
+  });
+
+  // Leçons du jour (anglais + espagnol)
+  loadLangues().then((d) => {
+    const zone = el.querySelector('[data-lecons]');
+    if (!zone) return;
+    zone.innerHTML = ['en', 'es'].filter((l) => d[l]).map((l) => `
+      <div class="mini-lesson">
+        <span class="pill">${LANGS[l].drapeau} ${LANGS[l].nom} · ${esc(d[l].lecon.type)}</span>
+        <h3>${esc(d[l].lecon.titre)}</h3>
+        <div class="words">${d[l].mots.slice(0, 3).map((m) => `<div class="word"><strong>${esc(m.mot)}</strong><span>${esc(m.trad)}</span></div>`).join('')}</div>
+      </div>`).join('') || '<p class="empty">Pas de leçon aujourd\'hui.</p>';
   });
 
   // Interactions

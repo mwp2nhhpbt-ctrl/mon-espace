@@ -1,6 +1,6 @@
 // Service worker : met l'appli en cache pour qu'elle s'ouvre même hors ligne.
 // Pensez à changer VERSION à chaque mise à jour pour forcer le rafraîchissement.
-const VERSION = 'v5';
+const VERSION = 'v6';
 const CACHE = `mon-espace-${VERSION}`;
 const FILES = [
   './',
@@ -16,6 +16,10 @@ const FILES = [
   './js/pages/actu.js',
   './js/actu-data.js',
   './data/actu.json',
+  './data/langues.json',
+  './data/langues-semaine.json',
+  './js/langues-data.js',
+  './js/pages/langues.js',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png'

@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-24",
+  "en": {
+    "lecon": {
+      "type": "Grammaire",
+      "titre": "Present perfect ou prétérit ?",
+      "explication": [
+        "Le **prétérit** (I worked) parle d'une action terminée à un moment précis du passé, souvent avec une date : yesterday, last year, in 2023, two days ago.",
+        "Le **present perfect** (I have worked) relie le passé au présent : une expérience (ever, never), un résultat visible maintenant, ou une action qui dure encore (for, since).",
+        "Piège pour les francophones : « J'ai envoyé le mail hier » se dit **I sent the email yesterday**, jamais *I have sent… yesterday*. Dès qu'il y a une date précise, c'est le prétérit."
+      ],
+      "exemples": [
+        { "vo": "I have applied for three internships this month.", "fr": "J'ai postulé à trois stages ce mois-ci (le mois n'est pas fini)." },
+        { "vo": "I applied for an internship at Airbus last week.", "fr": "J'ai postulé à un stage chez Airbus la semaine dernière." },
+        { "vo": "She has worked in export since 2022.", "fr": "Elle travaille dans l'export depuis 2022." },
+        { "vo": "Have you ever negotiated a contract in English?", "fr": "As-tu déjà négocié un contrat en anglais ?" }
+      ],
+      "exercices": [
+        { "type": "qcm", "question": "I ___ the report yesterday.", "choix": ["have finished", "finished", "finish"], "reponse": 1, "explication": "« yesterday » = moment précis terminé → prétérit." },
+        { "type": "qcm", "question": "We ___ this supplier for five years.", "choix": ["have known", "knew", "know"], "reponse": 0, "explication": "« for five years » et c'est toujours vrai → present perfect." },
+        { "type": "trou", "phrase": "Have you ever ___ (be) to Spain?", "reponse": ["been"], "explication": "Ever + expérience → present perfect : have + participe passé (been)." },
+        { "type": "qcm", "question": "Quelle phrase est correcte ?", "choix": ["I have met the client in 2024.", "I met the client in 2024.", "I meet the client in 2024."], "reponse": 1, "explication": "« in 2024 » = date précise → prétérit." },
+        { "type": "ordre", "fr": "Elle n'a jamais travaillé à l'étranger.", "mots": ["abroad", "has", "worked", "She", "never"], "reponse": "She has never worked abroad" },
+        { "type": "trou", "phrase": "They ___ (sign) the deal two days ago.", "reponse": ["signed"], "explication": "« ago » → prétérit." }
+      ]
+    },
+    "mots": [
+      { "mot": "a lead", "trad": "un prospect, un contact commercial", "exemple": "We got ten new leads at the trade fair." },
+      { "mot": "to follow up", "trad": "relancer, faire un suivi", "exemple": "I'll follow up with the client on Monday." },
+      { "mot": "a shortlist", "trad": "une liste restreinte (de candidats)", "exemple": "You are on the shortlist for the internship." },
+      { "mot": "to meet a deadline", "trad": "respecter une échéance", "exemple": "We worked late to meet the deadline." },
+      { "mot": "a strength", "trad": "un point fort", "exemple": "My main strength is that I speak three languages." }
+    ],
+    "oral": {
+      "repeter": [
+        "I have applied for an internship in international trade.",
+        "My main strength is that I speak three languages.",
+        "I'll follow up with you next week."
+      ],
+      "question": "Tell me about a project you have worked on recently. What did you do, and what have you learned from it?",
+      "aide": "Utilise le prétérit pour ce que tu as fait (I organised, I contacted) et le present perfect pour ce que tu en retires (I have learned, I have improved)."
+    },
+    "ecrit": {
+      "sujet": "Écris un court e-mail (80 à 100 mots) à une entreprise pour relancer ta candidature de stage envoyée la semaine dernière.",
+      "mots_imposes": ["to follow up", "applied", "strength"],
+      "conseils": "Commence par « Dear Ms/Mr … », rappelle quand tu as postulé (prétérit), dis pourquoi tu es motivé, termine par « I look forward to hearing from you. »"
+    }
+  },
+  "es": {
+    "lecon": {
+      "type": "Grammaire",
+      "titre": "Le subjonctif après « es importante que » et « espero que »",
+      "explication": [
+        "Après une expression de **volonté, d'espoir ou de jugement** (espero que, quiero que, es importante que, es necesario que), l'espagnol utilise le **subjonctif présent** quand le sujet change.",
+        "Formation : on part du « yo » au présent, on enlève le -o, et on inverse la voyelle : -ar → -e (hablar → hable), -er/-ir → -a (comer → coma, vivir → viva). Irréguliers fréquents : tener → tenga, hacer → haga, ser → sea, ir → vaya.",
+        "Si le sujet ne change pas, on garde l'infinitif : « Espero conseguir las prácticas » (j'espère obtenir le stage), mais « Espero que me llamen » (j'espère qu'ils m'appellent)."
+      ],
+      "exemples": [
+        { "vo": "Espero que la empresa acepte mi candidatura.", "fr": "J'espère que l'entreprise acceptera ma candidature." },
+        { "vo": "Es importante que el cliente reciba el pedido a tiempo.", "fr": "Il est important que le client reçoive la commande à temps." },
+        { "vo": "Quiero que me envíes el presupuesto hoy.", "fr": "Je veux que tu m'envoies le devis aujourd'hui." },
+        { "vo": "Es necesario que tengamos una reunión.", "fr": "Il faut que nous ayons une réunion." }
+      ],
+      "exercices": [
+        { "type": "qcm", "question": "Espero que el proveedor ___ los precios.", "choix": ["baja", "baje", "bajar"], "reponse": 1, "explication": "Espero que + changement de sujet → subjonctif : bajar → baje." },
+        { "type": "trou", "phrase": "Es importante que nosotros ___ (llegar) puntuales.", "reponse": ["lleguemos"], "explication": "llegar → llegue au subjonctif, nosotros → lleguemos (le -g devient -gu)." },
+        { "type": "qcm", "question": "Quelle phrase est correcte ?", "choix": ["Quiero que trabajar en Madrid.", "Quiero trabajar en Madrid.", "Quiero que trabajo en Madrid."], "reponse": 1, "explication": "Même sujet (yo… yo) → infinitif, sans « que »." },
+        { "type": "trou", "phrase": "Es necesario que tú ___ (hacer) el informe.", "reponse": ["hagas"], "explication": "hacer → hago → haga, tú → hagas." },
+        { "type": "ordre", "fr": "J'espère qu'ils me répondent bientôt.", "mots": ["respondan", "Espero", "pronto", "me", "que"], "reponse": "Espero que me respondan pronto" },
+        { "type": "qcm", "question": "Es importante que el contrato ___ claro.", "choix": ["es", "sea", "está"], "reponse": 1, "explication": "ser → sea (irrégulier)." }
+      ]
+    },
+    "mots": [
+      { "mot": "el presupuesto", "trad": "le devis, le budget", "exemple": "Nos han enviado el presupuesto esta mañana." },
+      { "mot": "el plazo de entrega", "trad": "le délai de livraison", "exemple": "El plazo de entrega es de dos semanas." },
+      { "mot": "las prácticas", "trad": "le stage", "exemple": "Busco unas prácticas en comercio internacional." },
+      { "mot": "rentable", "trad": "rentable", "exemple": "Este mercado no es rentable a corto plazo." },
+      { "mot": "llegar a un acuerdo", "trad": "parvenir à un accord", "exemple": "Por fin llegamos a un acuerdo con el cliente." }
+    ],
+    "oral": {
+      "repeter": [
+        "Espero que la empresa acepte mi candidatura.",
+        "El plazo de entrega es de dos semanas.",
+        "Por fin llegamos a un acuerdo con el cliente."
+      ],
+      "question": "¿Qué esperas de tus prácticas de fin de carrera? Usa al menos dos veces « espero que » o « es importante que ».",
+      "aide": "Exemple de début : « Espero que mis prácticas me permitan… Es importante que la empresa tenga… »"
+    },
+    "ecrit": {
+      "sujet": "Écris un court message (80 à 100 mots) à un fournisseur espagnol pour lui demander un devis et un délai de livraison.",
+      "mots_imposes": ["el presupuesto", "el plazo de entrega", "es importante que"],
+      "conseils": "Commence par « Estimado/a señor/a: », présente ta demande, utilise un subjonctif après « es importante que », termine par « Quedo a la espera de su respuesta. Un saludo cordial »."
+    }
+  }
+}
