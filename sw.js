@@ -1,6 +1,6 @@
 // Service worker : met l'appli en cache pour qu'elle s'ouvre même hors ligne.
 // Pensez à changer VERSION à chaque mise à jour pour forcer le rafraîchissement.
-const VERSION = 'v11';
+const VERSION = 'v12';
 const CACHE = `mon-espace-${VERSION}`;
 const FILES = [
   './',
@@ -45,7 +45,8 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   e.respondWith(
-    fetch(e.request)
+    // no-cache : redemande toujours la version à jour au serveur (GitHub garde sinon 10 min en mémoire)
+    fetch(new URL(e.request.url).origin === location.origin ? new Request(e.request, { cache: 'no-cache' }) : e.request)
       .then((res) => {
         const copy = res.clone();
         if (new URL(e.request.url).origin === location.origin) {
