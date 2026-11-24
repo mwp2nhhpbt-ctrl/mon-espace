@@ -1,0 +1,70 @@
+{
+  "demo": true,
+  "date": "2026-11-24",
+  "synthese": "Exemple de synthèse : chaque matin, ce paragraphe résumera en 4 ou 5 phrases les sujets qui dominent la presse, en croisant les points de vue de gauche, du centre et de droite.",
+  "rubriques": [
+    { "id": "politique", "nom": "Politique & Éco" },
+    { "id": "geo", "nom": "Géopolitique" },
+    { "id": "defense", "nom": "Défense" },
+    { "id": "sport", "nom": "Foot & Sport" },
+    { "id": "rap", "nom": "Rap & Pop culture" }
+  ],
+  "articles": [
+    { "rubrique": "politique", "titre": "Exemple : le budget 2027 en débat à l'Assemblée", "resume": "Résumé en français de 2 phrases. Ici, la lecture d'un média de gauche.", "source": "Libération", "bord": "gauche", "url": "https://www.liberation.fr" },
+    { "rubrique": "politique", "titre": "Exemple : ce que le budget change pour les entreprises", "resume": "Résumé en français de 2 phrases. Ici, la lecture d'un média du centre.", "source": "Les Échos", "bord": "centre", "url": "https://www.lesechos.fr" },
+    { "rubrique": "politique", "titre": "Exemple : la dépense publique au cœur des critiques", "resume": "Résumé en français de 2 phrases. Ici, la lecture d'un média de droite.", "source": "Le Figaro", "bord": "droite", "url": "https://www.lefigaro.fr" },
+    { "rubrique": "geo", "titre": "Exemple : l'Europe face aux nouvelles routes commerciales", "resume": "Résumé en français d'un article de géopolitique.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu" },
+    { "rubrique": "geo", "titre": "Exemple : tensions sur les droits de douane transatlantiques", "resume": "Résumé en français d'un article anglophone, traduit.", "source": "Financial Times", "url": "https://www.ft.com", "vo": "en" },
+    { "rubrique": "defense", "titre": "Exemple : nouvelle commande de frégates pour la Marine", "resume": "Résumé en français d'un article défense.", "source": "Mer et Marine", "url": "https://www.meretmarine.com" },
+    { "rubrique": "defense", "titre": "Exemple : l'industrie européenne de l'armement accélère", "resume": "Résumé en français d'un article anglophone, traduit.", "source": "Defense News", "url": "https://www.defensenews.com", "vo": "en" },
+    { "rubrique": "sport", "titre": "Exemple : Ligue des champions, les clés du match de ce soir", "resume": "Résumé en français.", "source": "L'Équipe", "url": "https://www.lequipe.fr" },
+    { "rubrique": "sport", "titre": "Exemple : le Real Madrid prépare le Clásico", "resume": "Résumé en français d'un article espagnol, traduit.", "source": "Marca", "url": "https://www.marca.com", "vo": "es" },
+    { "rubrique": "rap", "titre": "Exemple : les sorties rap FR de la semaine", "resume": "Résumé en français.", "source": "Booska-P", "url": "https://www.booska-p.com" },
+    { "rubrique": "rap", "titre": "Exemple : l'album US dont tout le monde parle", "resume": "Résumé en français d'un article anglophone, traduit.", "source": "Complex", "url": "https://www.complex.com", "vo": "en" }
+  ],
+  "lecture": [
+    {
+      "langue": "en",
+      "rubrique": "geo",
+      "source": "Texte de démonstration",
+      "titre": "Why small exporters are rethinking their supply chains",
+      "url": "",
+      "texte": [
+        "For years, small and medium-sized exporters treated their supply chains as an afterthought. Goods were sourced wherever they were cheapest, and few companies had a plan B when a shipment got stuck at a port.",
+        "That mindset is shifting. Rising tariffs, longer delivery times and a string of disruptions have pushed many firms to diversify their suppliers. Some are bringing production closer to home, a trend often called nearshoring, while others are simply keeping larger stocks on hand.",
+        "The trade-off is clear: resilience comes at a cost. Holding more inventory ties up cash, and local suppliers rarely match Asian prices. Yet several business owners say the peace of mind is worth it. As one put it, being able to deliver on time has become a selling point in its own right."
+      ],
+      "vocab": [
+        { "mot": "an afterthought", "trad": "une question secondaire, pensée après coup" },
+        { "mot": "to get stuck", "trad": "rester bloqué" },
+        { "mot": "mindset", "trad": "état d'esprit" },
+        { "mot": "nearshoring", "trad": "relocalisation de proximité" },
+        { "mot": "to keep stocks on hand", "trad": "garder des stocks disponibles" },
+        { "mot": "the trade-off", "trad": "le compromis" },
+        { "mot": "to tie up cash", "trad": "immobiliser de la trésorerie" },
+        { "mot": "a selling point in its own right", "trad": "un argument de vente à part entière" }
+      ]
+    },
+    {
+      "langue": "es",
+      "rubrique": "sport",
+      "source": "Texto de demostración",
+      "titre": "El fútbol español busca nuevos mercados en Asia",
+      "url": "",
+      "texte": [
+        "Los clubes españoles llevan años intentando hacerse un hueco en el mercado asiático. Las giras de pretemporada, las academias y los acuerdos de patrocinio se han convertido en herramientas clave para ganar aficionados al otro lado del mundo.",
+        "Sin embargo, la competencia es feroz. La Premier League sigue llevando la delantera en audiencias y en derechos televisivos, y los clubes ingleses disponen de presupuestos mucho más holgados.",
+        "Aun así, varios directivos se muestran optimistas. Según ellos, la clave está en apostar por el largo plazo: formar entrenadores locales, crear contenidos en el idioma de cada país y no limitarse a vender camisetas."
+      ],
+      "vocab": [
+        { "mot": "hacerse un hueco", "trad": "se faire une place" },
+        { "mot": "la pretemporada", "trad": "la présaison" },
+        { "mot": "el patrocinio", "trad": "le sponsoring" },
+        { "mot": "feroz", "trad": "acharné(e), féroce" },
+        { "mot": "llevar la delantera", "trad": "avoir une longueur d'avance" },
+        { "mot": "un presupuesto holgado", "trad": "un budget confortable" },
+        { "mot": "apostar por el largo plazo", "trad": "miser sur le long terme" }
+      ]
+    }
+  ]
+}
