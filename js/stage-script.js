@@ -1,7 +1,8 @@
 // Code du script Google (Apps Script) à coller dans le tableau de stage.
 // Il ne contient aucune donnée : la clé secrète est ajoutée sur l'appareil au moment de l'installation.
-export const scriptGoogle = (cle) => `// Mon Espace : relie l'onglet Stage de l'appli à ce tableau.
-// Ne partage jamais cette clé.
+export const scriptGoogle = (cle) => `/** @OnlyCurrentDoc */
+// Mon Espace : relie l'onglet Stage de l'appli à ce tableau.
+// Ne partage jamais cette clé. Le script n'a accès qu'à ce tableau (pas à Gmail ni au reste du Drive).
 const CLE = '${cle}';
 const ONGLETS = ['Suivi candidatures', 'Offres de stage'];
 const COLONNES_MAX = { 'Suivi candidatures': 7, 'Offres de stage': 10 };
@@ -15,7 +16,6 @@ function repondre(p) {
     if (p.action === 'lire') return json({ onglets: ONGLETS.map(lire), maj: new Date().toISOString() });
     if (p.action === 'modifier') return json(modifier(p));
     if (p.action === 'ajouter') return json(ajouter(p));
-    if (p.action === 'emails') return json({ emails: emails() });
     return json({ erreur: 'Action inconnue' });
   } catch (err) { return json({ erreur: String(err) }); }
 }
@@ -47,24 +47,6 @@ function ajouter(p) {
   const f = feuille(p.onglet);
   f.appendRow(p.valeurs.slice(0, COLONNES_MAX[p.onglet]));
   return { ok: true, ligne: f.getLastRow() };
-}
-
-// E-mails récents liés au stage : envoyés par les entreprises du tableau, ou avec des mots clés.
-function emails() {
-  const domaines = {};
-  const perso = /gmail|yahoo|hotmail|outlook|icloud|orange|free|laposte|wanadoo|sfr/;
-  const tout = SpreadsheetApp.getActive().getSheets().map((s) => s.getDataRange().getDisplayValues().join(' ')).join(' ');
-  (tout.match(/[\\w.+-]+@([\\w-]+\\.)+[a-z]{2,}/gi) || []).forEach((m) => {
-    const d = m.split('@')[1].toLowerCase();
-    if (!perso.test(d)) domaines[d] = true;
-  });
-  const liste = Object.keys(domaines).slice(0, 40).map((d) => 'from:' + d);
-  const motsCles = 'subject:(stage OR internship OR candidature OR alternance OR "offre de stage")';
-  const requete = 'newer_than:30d -in:sent -category:promotions (' + (liste.length ? liste.join(' OR ') + ' OR ' : '') + motsCles + ')';
-  return GmailApp.search(requete, 0, 15).map((t) => {
-    const m = t.getMessages().pop();
-    return { de: m.getFrom(), sujet: t.getFirstMessageSubject(), extrait: m.getPlainBody().slice(0, 200), date: m.getDate().toISOString(), lien: 'https://mail.google.com/mail/u/0/#inbox/' + t.getId(), nonLu: t.isUnread() };
-  });
 }
 
 function json(o) { return ContentService.createTextOutput(JSON.stringify(o)).setMimeType(ContentService.MimeType.JSON); }

@@ -24,8 +24,7 @@ export async function render(el) {
   if (conf.cache) dessiner(el, conf, conf.cache, true);
   else el.innerHTML = '<p class="empty">Chargement de ton tableau…</p>';
   try {
-    const [donnees, mails] = await Promise.all([appel(conf, { action: 'lire' }), appel(conf, { action: 'emails' }).catch(() => ({ emails: null }))]);
-    const cache = { ...donnees, emails: mails.emails };
+    const cache = await appel(conf, { action: 'lire' });
     ecrireConf({ ...lireConf(), cache });
     dessiner(el, { ...conf, cache }, cache, false);
   } catch (err) {
@@ -97,16 +96,6 @@ function dessiner(el, conf, d, depuisCache) {
         : '<p class="empty">Rien à relancer pour l\'instant 👌</p>'}
     </section>
 
-    <section class="card">
-      <div class="card-head"><h2>${icon('mail')} Derniers e-mails stage</h2></div>
-      ${d.emails == null ? '<p class="hint">Les e-mails n\'ont pas pu être chargés.</p>'
-        : d.emails.length ? `<ul class="mails">${d.emails.map((m) => `
-          <li class="${m.nonLu ? 'unread' : ''}"><a href="${esc(m.lien)}" target="_blank" rel="noopener">
-            <div class="mail-top"><strong>${esc(m.de.replace(/<.*>/, '').trim())}</strong>
-              <small>${new Date(m.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })}</small></div>
-            <span>${esc(m.sujet)}</span><p>${esc(m.extrait)}</p></a></li>`).join('')}</ul>`
-        : '<p class="empty">Aucun e-mail stage ces 30 derniers jours.</p>'}
-    </section>
   </div>
 
   <nav class="filters">${onglets.map((o) => `<button class="filter${o === courant ? ' on' : ''}" style="--rub:var(--majorelle)" data-onglet="${esc(o.nom)}">${esc(o.nom)} · ${o.lignes.length}</button>`).join('')}
@@ -182,7 +171,7 @@ function installation(el, conf) {
         <div class="code-box"><button class="btn small" data-copier>${icon('copy', 16)} Copier le code</button><span class="hint" data-copie hidden>Copié ✓</span></div>
         <p class="hint">Le code contient ta clé secrète personnelle. Ne la partage pas.</p></li>
       <li>Clique sur l'icône disquette pour enregistrer, puis sur <strong>Déployer → Nouveau déploiement</strong>. Choisis le type <strong>« Application Web »</strong> (roue dentée), avec « Exécuter en tant que : <strong>Moi</strong> » et « Qui a accès : <strong>Tout le monde</strong> ». Clique sur Déployer.</li>
-      <li>Google demande d'autoriser l'accès : choisis ton compte, puis <strong>Paramètres avancés → Accéder au projet (non sécurisé)</strong> et Autoriser. C'est normal : c'est ton propre script.</li>
+      <li>Google demande d'autoriser l'accès : choisis ton compte, puis <strong>Paramètres avancés → Accéder au projet (non sécurisé)</strong> et Autoriser. C'est normal : c'est ton propre script, et il n'a accès qu'à ce tableau.</li>
       <li>Copie l'<strong>URL de l'application Web</strong> (elle se termine par /exec) et colle-la ici :</li>
     </ol>
     <form class="setup-form" data-setup>
