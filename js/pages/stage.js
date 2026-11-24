@@ -167,9 +167,12 @@ function installation(el, conf) {
     <p>Tes candidatures restent dans <strong>ton Google Sheet</strong>. L'appli les lit et les modifie en direct, grâce à un petit script installé sur ton compte Google. Rien ne passe par le site public. À faire <strong>une seule fois, sur le Mac</strong> (5 minutes).</p>
     <ol class="steps">
       <li>Ouvre ton tableau <strong>« Recherche de stage 2027 »</strong> dans Google Sheets.</li>
-      <li>Menu <strong>Extensions → Apps Script</strong>. Efface ce qu'il y a et colle ce code :
+      <li>Menu <strong>Extensions → Apps Script</strong>. Sélectionne tout (Cmd + A), efface, puis colle ce code à la place :
         <div class="code-box"><button class="btn small" data-copier>${icon('copy', 16)} Copier le code</button><span class="hint" data-copie hidden>Copié ✓</span></div>
-        <p class="hint">Le code contient ta clé secrète personnelle. Ne la partage pas.</p></li>
+        <p class="hint">Le code contient ta clé secrète personnelle. Ne la partage pas.</p>
+        <details class="hint"><summary>Le bouton ne marche pas ? Afficher le code</summary>
+          <textarea class="code-txt" readonly rows="8" data-code></textarea>
+          <p class="hint">Clique dans le cadre, fais Cmd + A puis Cmd + C.</p></details></li>
       <li>Clique sur l'icône disquette pour enregistrer, puis sur <strong>Déployer → Nouveau déploiement</strong>. Choisis le type <strong>« Application Web »</strong> (roue dentée), avec « Exécuter en tant que : <strong>Moi</strong> » et « Qui a accès : <strong>Tout le monde</strong> ». Clique sur Déployer.</li>
       <li>Google demande d'autoriser l'accès : choisis ton compte, puis <strong>Paramètres avancés → Accéder au projet (non sécurisé)</strong> et Autoriser. C'est normal : c'est ton propre script, et il n'a accès qu'à ce tableau.</li>
       <li>Copie l'<strong>URL de l'application Web</strong> (elle se termine par /exec) et colle-la ici :</li>
@@ -186,6 +189,8 @@ function installation(el, conf) {
   </section>`;
 
   const copier = async (txt, zone) => { try { await navigator.clipboard.writeText(txt); if (zone) zone.hidden = false; } catch { prompt('Copie ce texte :', txt); } };
+  el.querySelector('[data-code]').value = scriptGoogle(cle);
+  el.querySelector('[data-code]').addEventListener('focus', (e) => e.target.select());
   el.querySelector('[data-copier]').addEventListener('click', () => copier(scriptGoogle(lireConf().cle), el.querySelector('[data-copie]')));
   el.querySelector('[data-copier-cle]').addEventListener('click', (e) => { copier(lireConf().cle); e.target.textContent = 'Clé copiée ✓'; });
   el.querySelector('[data-cle-form]').addEventListener('submit', (e) => {
