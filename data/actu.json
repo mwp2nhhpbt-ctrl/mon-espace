@@ -1,66 +1,235 @@
 {
   "demo": false,
-  "date": "2026-11-24",
-  "synthese": "Ce mardi, l'Europe s'inquiète d'un possible satellite russe armé d'une bombe nucléaire, selon des médias allemands, tandis que l'Ukraine revendique avoir coulé une corvette russe jusque dans un port libyen. Côté géopolitique, la COP31 s'est terminée sans accord sur la sortie des énergies fossiles, et la Cour internationale de justice a reconnu le Myanmar responsable d'un génocide contre les Rohingyas. En Espagne, le dernier grand débat avant les législatives du 29 novembre confirme deux blocs : PP et Vox d'un côté, PSOE et gauche de l'autre. Attention : les flux de Libération, franceinfo, Le Monde, Le Figaro, L'Équipe, So Foot et El País étaient inaccessibles aujourd'hui, donc la politique française est peu couverte.",
+  "date": "2026-11-25",
+  "synthese": "Ce mercredi, la France reçoit le feu vert de Bruxelles pour son budget 2027, même si son déficit reste l'un des plus lourds d'Europe, et la gauche se divise encore avec le départ de Yannick Jadot des Écologistes. En Espagne, le dernier sondage avant les législatives de dimanche montre un PP à peine devant le PSOE, avec un bloc de droite proche de la majorité absolue. En Asie, la froideur entre Pékin et Tokyo au sommet de l'APEC confirme des tensions croissantes, pendant que le Japon et les États-Unis poussent leurs industriels de l'automobile vers la défense. Côté sport, Manchester United fait appel du rouge de Leny Yoro après sa claque à Liverpool. À noter : la plupart des médias français (20 Minutes, Ouest-France, Public Sénat, Contrepoints, Atlantico, Basta!, The Conversation) et la BBC, le Guardian et 20minutos étaient inaccessibles, donc aucun média de droite aujourd'hui.",
   "rubriques": [
-    { "id": "politique", "nom": "Politique & Éco" },
-    { "id": "geo", "nom": "Géopolitique" },
-    { "id": "defense", "nom": "Défense" },
-    { "id": "sport", "nom": "Foot & Sport" },
-    { "id": "rap", "nom": "Rap & Pop culture" }
+    {
+      "id": "politique",
+      "nom": "Politique & Éco"
+    },
+    {
+      "id": "geo",
+      "nom": "Géopolitique"
+    },
+    {
+      "id": "defense",
+      "nom": "Défense"
+    },
+    {
+      "id": "sport",
+      "nom": "Foot & Sport"
+    },
+    {
+      "id": "rap",
+      "nom": "Rap & Pop culture"
+    }
   ],
   "articles": [
-    { "rubrique": "politique", "titre": "Et si le vrai sujet derrière la colère des jeunes était le climat ?", "resume": "Une tribune estime que le dérèglement climatique explique en partie les mobilisations de la jeunesse en France, comme il a aggravé les incendies de Los Angeles. Selon l'auteur, le débat politique passe à côté de cette cause de fond.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu/fr/2026/11/23/le-vrai-probleme-cest-le-climat/" },
-    { "rubrique": "politique", "titre": "En Chine, les offres d'emploi s'effondrent face à l'IA", "resume": "Les annonces d'emploi sur les grandes plateformes chinoises ont été divisées par plus de deux en trois ans, et celles pour les développeurs auraient chuté de 71 % depuis l'arrivée de ChatGPT. C'est un signal de ce que l'IA peut faire au marché du travail, y compris pour les jeunes diplômés.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu/fr/2026/11/24/en-chine-les-offres-demploi-seffondrent-face-a-lia/" },
-    { "rubrique": "politique", "titre": "Espagne : le congé de naissance passe à 20 semaines", "resume": "En pleine campagne électorale, le gouvernement espagnol allonge d'une semaine le congé de naissance, et l'étend davantage pour les familles monoparentales. Il prévoit aussi dix jours de congé en cas de décès d'un proche.", "source": "elDiario.es", "bord": "gauche", "url": "https://www.eldiario.es/economia/gobierno-eleva-20-semanas-permiso-nacimiento-34-semanas-familias-monomarentales_1_13688066.html", "vo": "es" },
-    { "rubrique": "geo", "titre": "L'armée russe a-t-elle encore assez d'hommes pour continuer la guerre ?", "resume": "Depuis mai, Moscou perdrait chaque mois plus de soldats qu'elle n'en recrute. C'est un indicateur clé pour savoir combien de temps la Russie peut tenir en Ukraine sans nouvelle mobilisation.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu/fr/2026/11/23/larmee-russe-a-t-elle-assez-dhommes-pour-continuer-la-guerre/" },
-    { "rubrique": "geo", "titre": "COP31 : fin des négociations sans accord", "resume": "La conférence climat organisée en Turquie s'est achevée sans compromis, les pays restant divisés sur la sortie des énergies fossiles. Cet échec fragilise l'objectif de limiter le réchauffement.", "source": "Le Grand Continent", "url": "https://legrandcontinent.eu/fr/2026/11/23/que-sest-il-passe-a-la-cop-31/" },
-    { "rubrique": "geo", "titre": "Le Myanmar condamné pour génocide, bientôt Israël ?", "resume": "Le 19 novembre, la Cour internationale de justice a reconnu le Myanmar responsable d'un génocide contre les Rohingyas. L'IRIS compare avec la plainte de l'Afrique du Sud contre Israël, dont la décision pourrait tomber vers 2030.", "source": "IRIS", "url": "https://www.iris-france.org/genocide-le-myanmar-condamne-bientot-israel/" },
-    { "rubrique": "geo", "titre": "Espagne : le dernier débat confirme deux blocs avant le vote du 29 novembre", "resume": "Lors du débat à huit partis sur la télévision publique, PP et Vox ont évité de s'attaquer entre eux et visé les alliés du gouvernement. Les sondages donnent la droite majoritaire, mais de justesse.", "source": "elDiario.es", "url": "https://www.eldiario.es/politica/debate-ocho-confirma-bloques-apoyaran-29n-pp-vox-frente-psoe-exigido-izquierda_1_13687691.html", "vo": "es" },
-    { "rubrique": "defense", "titre": "La Russie pourrait lancer un satellite armé d'une bombe nucléaire d'ici la fin de l'année", "resume": "Des médias publics allemands, citant le renseignement, évoquent une mise en orbite possible dans les 60 jours. Le chef de l'OTAN, Mark Rutte, dit que l'alliance évalue en permanence sa dissuasion.", "source": "Defense News", "url": "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/", "vo": "en" },
-    { "rubrique": "defense", "titre": "L'Ukraine coule une corvette russe dans un port libyen", "resume": "Kiev revendique l'attaque de la corvette Merkury à Benghazi avec sept drones navals. Cela montre que l'Ukraine peut frapper la flotte russe loin de la mer Noire.", "source": "Defense News", "url": "https://www.defensenews.com/global/mideast-africa/2026/11/23/ukraine-confirms-it-sank-russian-corvette-in-libyan-port/", "vo": "en" },
-    { "rubrique": "defense", "titre": "Obus de 155 mm : KNDS agrandit son usine française", "resume": "L'armée française reconstitue ses stocks d'obus par commandes successives. KNDS en profite pour agrandir son site de La Chapelle-Saint-Ursin, dans le Cher, signe de la relance de l'industrie de défense.", "source": "FOB", "url": "https://forcesoperations.com/derriere-les-commandes-le-plan-de-knds-pour-muscler-sa-filiale-munitionnaire-francaise/" },
-    { "rubrique": "sport", "titre": "Coupe du monde féminine : les États-Unis en 2031, le Royaume-Uni en 2035", "resume": "La FIFA confirme les États-Unis comme co-organisateurs du Mondial 2031, puis le Royaume-Uni quatre ans plus tard. Le foot féminin continue de s'installer dans les grands pays du sport-business.", "source": "ESPN", "url": "https://www.espn.com/soccer/story/_/id/50571732/womens-world-cup-united-states-united-kindgom", "vo": "en" },
-    { "rubrique": "sport", "titre": "Manchester United en crise après le 4-0 contre Liverpool", "resume": "United va faire appel du carton rouge de Leny Yoro, et un chroniqueur estime que le club devra dépenser environ 150 millions de livres en janvier pour éviter la relégation. Une descente pourrait lui coûter deux fois plus.", "source": "ESPN", "url": "https://www.espn.com/soccer/story/_/id/50571270/man-united-january-transfers-premier-league-relegation", "vo": "en" },
-    { "rubrique": "rap", "titre": "Concert de Don Toliver évacué au Royaume-Uni", "resume": "Plus de 12 000 fans ont été évacués du concert de Don Toliver à Manchester après un incident. La date de Londres est reportée.", "source": "XXL", "url": "https://www.xxlmag.com/don-toliver-manchester-show-evacuated-tear-gas/", "vo": "en" },
-    { "rubrique": "rap", "titre": "Le show de Jay-Z au Super Bowl sortira en salles IMAX", "resume": "Le spectacle de la mi-temps du Super Bowl de Jay-Z aura droit à une diffusion au cinéma. Le rap confirme sa place au cœur du divertissement grand public américain.", "source": "XXL", "url": "https://www.xxlmag.com/jay-z-superbowl-halftime-show-movie-theaters/", "vo": "en" },
-    { "rubrique": "rap", "titre": "Festivals espagnols 2027 : Vetusta Morla en tête d'affiche", "resume": "Le groupe madrilène rejoint le SanSan Festival et le Bilbao BBK Live, aux côtés de Lykke Li et Of Monsters and Men. Les programmations de l'été prochain se remplissent déjà.", "source": "Mondo Sonoro", "url": "https://www.mondosonoro.com/noticias-actualidad-musical/vetusta-morla-se-suman-al-cartel-del-sansan-como-cabezas/", "vo": "es" }
+    {
+      "rubrique": "politique",
+      "titre": "Macron veut accélérer l'installation des usines",
+      "resume": "Le gouvernement crée des « zones industrielles à haut potentiel » pour simplifier les démarches des industriels, annoncées au sommet Choose France du 23 novembre. L'objectif est d'attirer des usines plus vite, mais les écologistes craignent un recul des protections de l'environnement.",
+      "source": "Reporterre",
+      "url": "https://reporterre.net/Macron-veut-supersimplifier-les-implantations-industrielles",
+      "bord": "gauche"
+    },
+    {
+      "rubrique": "politique",
+      "titre": "Yannick Jadot quitte Les Écologistes et fonde un nouveau parti",
+      "resume": "Le sénateur Yannick Jadot et quatre élus quittent Les Écologistes pour lancer « Écologistes et Démocrates », proche de Raphaël Glucksmann. C'est une nouvelle division à gauche, à quelques mois des élections et alors que la gauche cherche une candidature commune.",
+      "source": "Reporterre",
+      "url": "https://reporterre.net/Yannick-Jadot-et-des-ecologistes-pro-Glucksmann-fondent-leur-parti-politique",
+      "bord": "gauche"
+    },
+    {
+      "rubrique": "politique",
+      "titre": "Budget 2027 : Bruxelles valide la copie de la France",
+      "resume": "La Commission européenne juge le projet de budget français conforme aux règles de l'UE. Mais elle prévoit encore un déficit de 5,4 % du PIB en 2027 et une dette de 122 % du PIB, parmi les plus élevés de la zone euro.",
+      "source": "Toute l'Europe",
+      "url": "https://www.touteleurope.eu/economie-et-social/budget-2027-la-commission-europeenne-donne-son-feu-vert-a-la-france-malgre-un-deficit-toujours-preoccupant/",
+      "bord": "centre"
+    },
+    {
+      "rubrique": "politique",
+      "titre": "Espagne : le PP devance de peu le PSOE dans le dernier sondage",
+      "resume": "Avant les législatives du 29 novembre, un sondage pour elDiario.es donne le PP à 32,1 %, le PSOE à 30,8 % et Vox à 17,6 %. Le bloc de droite approche la majorité absolue, alors que le PSOE remonte depuis début novembre.",
+      "source": "elDiario.es",
+      "url": "https://www.eldiario.es/politica/pp-gana-minima-psoe-derecha-supera-izquierda-ultima-encuesta-29n_1_13684963.html",
+      "bord": "gauche",
+      "vo": "es"
+    },
+    {
+      "rubrique": "geo",
+      "titre": "Japon-Chine : un accueil glacial au sommet de l'APEC",
+      "resume": "À Shenzhen, la Première ministre japonaise Sanae Takaichi n'a obtenu aucune rencontre avec Xi Jinping. Pour l'IRIS, c'est le signe d'une dégradation profonde des relations, sur fond d'îles Senkaku et de Taïwan.",
+      "source": "IRIS",
+      "url": "https://www.iris-france.org/le-japon-au-sommet-de-lapec-2026-une-froideur-diplomatique-qui-revele-lampleur-des-tensions-sino-japonaises/"
+    },
+    {
+      "rubrique": "geo",
+      "titre": "Élargissement de l'UE : qui entrera en premier ?",
+      "resume": "Dix pays sont candidats. Le Monténégro vise une adhésion en 2028, l'Albanie veut boucler ses négociations en 2027, l'Ukraine et la Moldavie visent 2028, tandis que la Turquie et la Géorgie sont à l'arrêt.",
+      "source": "Toute l'Europe",
+      "url": "https://www.touteleurope.eu/fonctionnement-de-l-ue/infographie-elargissement-de-l-union-europeenne-ou-en-est-on/"
+    },
+    {
+      "rubrique": "geo",
+      "titre": "L'Allemagne réarme massivement",
+      "resume": "Le chancelier Merz veut faire de la Bundeswehr la première armée conventionnelle d'Europe, avec une forte hausse du budget de défense en 2027. L'IRIS s'interroge sur ce que ce changement signifie pour l'équilibre européen, notamment face à la France.",
+      "source": "IRIS",
+      "url": "https://www.iris-france.org/une-allemagne-surarmee-les-mardis-de-liris/"
+    },
+    {
+      "rubrique": "defense",
+      "titre": "Le Japon pousse ses sous-traitants automobiles vers l'armement",
+      "resume": "Face à la concurrence chinoise dans l'automobile, Tokyo encourage les fabricants de pièces auto à produire pour la défense, surtout des drones. C'est le plus grand réarmement du Japon depuis 1945.",
+      "source": "Defense News",
+      "url": "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/",
+      "vo": "en"
+    },
+    {
+      "rubrique": "defense",
+      "titre": "Le MI5 alerte les industriels britanniques contre le sabotage russe",
+      "resume": "Le service de renseignement intérieur britannique demande aux entreprises de défense de limiter les informations publiques sur leurs employés et leurs sites. La menace de sabotage russe contre l'industrie européenne est prise de plus en plus au sérieux.",
+      "source": "Breaking Defense",
+      "url": "https://breakingdefense.com/2026/11/uks-mi5-warns-local-defense-firms-of-russian-sabotage-risk/",
+      "vo": "en"
+    },
+    {
+      "rubrique": "defense",
+      "titre": "Ford discute avec le Pentagone pour fabriquer des véhicules militaires",
+      "resume": "Le constructeur automobile confirme des discussions avec le Pentagone, qui parle aussi à GM pour produire des composants de drones en grande série. Comme au Japon, l'industrie automobile se tourne vers la défense.",
+      "source": "Defense News",
+      "url": "https://www.defensenews.com/pentagon/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles/",
+      "vo": "en"
+    },
+    {
+      "rubrique": "sport",
+      "titre": "Manchester United fait appel du carton rouge de Yoro",
+      "resume": "Après la lourde défaite 4-0 contre Liverpool, MU conteste l'expulsion du défenseur français Leny Yoro. Sans appel gagné, il manquerait plusieurs matchs dans une période déjà difficile pour le club.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50572590/man-united-leny-yoro-red-card-liverpool-premier-league",
+      "vo": "en"
+    },
+    {
+      "rubrique": "sport",
+      "titre": "Washington Spirit limoge son entraîneur après une 3e finale perdue",
+      "resume": "Le club de foot féminin américain renvoie Adrián González après sa troisième défaite de suite en finale du championnat NWSL. Une décision dure qui montre la pression sur les résultats dans le foot féminin pro.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50575099/spirit-fire-gonzalez-nwsl-championship-third-straight",
+      "vo": "en"
+    },
+    {
+      "rubrique": "rap",
+      "titre": "2 Chainz sort indemne d'un accident en Cybertruck",
+      "resume": "Le rappeur d'Atlanta a eu un accident au volant de son Cybertruck Tesla personnalisé. Il s'en sort sans blessure grave, selon XXL.",
+      "source": "XXL",
+      "url": "https://www.xxlmag.com/2-chainz-survives-car-accident-cybertruck/",
+      "vo": "en"
+    },
+    {
+      "rubrique": "rap",
+      "titre": "GloRilla répond aux rumeurs de clash avec Megan Thee Stallion",
+      "resume": "La rappeuse de Memphis s'exprime sur un supposé conflit avec Megan Thee Stallion, sans l'attaquer. Une façon de calmer les réseaux sociaux qui alimentaient le « beef ».",
+      "source": "XXL",
+      "url": "https://www.xxlmag.com/glorilla-addresses-megan-thee-stallion-beef/",
+      "vo": "en"
+    },
+    {
+      "rubrique": "rap",
+      "titre": "Life Without Buildings revient après 24 ans",
+      "resume": "Le groupe culte écossais de post-punk, séparé en 2002 après un seul album, a rejoué à Glasgow et Londres devant des salles complètes. Son retour s'inscrit dans les 50 ans du label Rough Trade.",
+      "source": "Mondo Sonoro",
+      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/life-without-buildings-vuelve/",
+      "vo": "es"
+    }
   ],
   "lecture": [
-    { "langue": "en", "rubrique": "defense", "source": "Defense News", "titre": "Russia may launch nuke-laden satellite by year’s end, German report warns", "url": "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/",
+    {
+      "langue": "en",
+      "rubrique": "defense",
+      "source": "Rédigé d'après Defense News (Reuters)",
+      "titre": "From car parts to drones: Japan's suppliers switch gears",
+      "url": "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/",
       "texte": [
-        "(Short quotes from the article; read the full text via the link.)",
-        "“Russia may place a satellite loaded with a nuclear weapon into orbit by the end of the year…”",
-        "“The satellite, dubbed Sputnik-S, has reportedly been assembled and stored in the greater Moscow area for several years.”",
-        "Asked about the reporting during a visit to Berlin, “NATO chief Mark Rutte said on Monday that the alliance was constantly assessing its deterrence and defence situation…”",
-        "“…we will always make sure that we defend every inch of NATO territory.”"
+        "Japan's car industry, long a symbol of the country's economic power, is losing ground to Chinese competitors. Japanese factories built almost 900,000 fewer vehicles in 2025 than a decade earlier, and thousands of small parts makers are looking for new customers. The government in Tokyo believes it has found one: the military.",
+        "Prime Minister Sanae Takaichi is overseeing Japan's largest arms buildup since the Second World War, driven by concerns about China, Russia and North Korea. To speed it up, officials want to tap into the country's dense network of automotive suppliers. The defence procurement agency, ATLA, is assessing companies, matching them with arms manufacturers and offering funding, including a new drone programme launched in October.",
+        "Some firms have already made the switch. Aster, a former Toyota supplier based in Akita Prefecture, now makes electric motors for drones built by the American company Anduril. Defence already accounts for about a tenth of its revenue, and its chief executive says drones are a far more profitable business than car motors. Another supplier, Kyowa Industrial, has seen its defence sales rise from 3% to 10% of turnover in about eighteen months.",
+        "Japan still has a long way to go. It exported around 1,100 drones last year, compared with roughly 123,000 from Taiwan. And the country's three biggest carmakers, Toyota, Honda and Nissan, are staying away: a Toyota executive said the group would not take on defence work. A new national security strategy, expected by the end of the year, should set out Japan's plans for drone fleets."
       ],
       "vocab": [
-        { "mot": "nuke-laden", "trad": "chargé d'une arme nucléaire" },
-        { "mot": "to warn", "trad": "avertir, mettre en garde" },
-        { "mot": "into orbit", "trad": "en orbite" },
-        { "mot": "dubbed", "trad": "surnommé, baptisé" },
-        { "mot": "reportedly", "trad": "selon certaines sources" },
-        { "mot": "deterrence", "trad": "dissuasion" },
-        { "mot": "every inch of", "trad": "chaque centimètre de" }
-      ] },
-    { "langue": "es", "rubrique": "geo", "source": "elDiario.es", "titre": "El debate a ocho confirma los bloques que se apoyarán tras el 29N: PP y Vox frente a un PSOE exigido por su izquierda", "url": "https://www.eldiario.es/politica/debate-ocho-confirma-bloques-apoyaran-29n-pp-vox-frente-psoe-exigido-izquierda_1_13687691.html",
+        {
+          "mot": "to lose ground",
+          "trad": "perdre du terrain"
+        },
+        {
+          "mot": "an arms buildup",
+          "trad": "un réarmement, une montée en puissance militaire"
+        },
+        {
+          "mot": "a supplier",
+          "trad": "un fournisseur, un sous-traitant"
+        },
+        {
+          "mot": "procurement",
+          "trad": "les achats, l'approvisionnement (public)"
+        },
+        {
+          "mot": "to tap into",
+          "trad": "exploiter, puiser dans"
+        },
+        {
+          "mot": "revenue / turnover",
+          "trad": "le chiffre d'affaires"
+        },
+        {
+          "mot": "to switch gears",
+          "trad": "changer de cap (litt. changer de vitesse)"
+        }
+      ]
+    },
+    {
+      "langue": "es",
+      "rubrique": "politique",
+      "source": "Rédigé d'après elDiario.es",
+      "titre": "Empate técnico entre PP y PSOE a seis días del 29N",
+      "url": "https://www.eldiario.es/politica/pp-gana-minima-psoe-derecha-supera-izquierda-ultima-encuesta-29n_1_13684963.html",
       "texte": [
-        "(Resumen en español escrito a partir del artículo; el texto original completo está en el enlace.)",
-        "El debate a ocho de RTVE del lunes dejó ver los dos bloques que pueden formarse tras las elecciones del 29 de noviembre: por un lado, PP y Vox; por otro, el PSOE y los partidos de izquierda que apoyaron al Gobierno, que intentaron marcar distancias con Sánchez con exigencias económicas y sociales.",
-        "PP y Vox no se atacaron entre sí. Sus portavoces se dedicaron a criticar al resto de partidos, a los que llamaron «cómplices» del Gobierno.",
-        "Esa estrategia reduce el riesgo de mostrar grietas en la alianza de la derecha. Las encuestas apuntan a una mayoría de PP y Vox, pero ambos partidos temen que se repita lo que pasó en 2023.",
-        "La portavoz del PP, Ester Muñoz, culpó a sus rivales de los recientes accidentes de tren, de los casos de corrupción y de los problemas de vivienda y de precios."
+        "A menos de una semana de las elecciones generales del 29 de noviembre, la última encuesta de Ateneo del Dato para elDiario.es dibuja un escenario muy ajustado. El Partido Popular obtendría el 32,1 % de los votos, frente al 30,8 % del PSOE, una diferencia de apenas 1,3 puntos que, teniendo en cuenta el margen de error, equivale prácticamente a un empate técnico.",
+        "La tendencia, sin embargo, favorece a los socialistas. Desde el sondeo anterior, publicado el 6 de noviembre, el PSOE ha subido más de dos puntos, mientras que el PP solo ha ganado seis décimas y Vox ha retrocedido un punto, hasta el 17,6 %. El estudio se realizó entre el 18 y el 20 de noviembre mediante 2.000 entrevistas en línea.",
+        "Aun así, el bloque de la derecha sigue por delante. La suma de PP y Vox alcanza el 49,7 %, cerca de la mayoría absoluta, mientras que la izquierda (PSOE, Frente Amplio y Podemos) se queda en el 37,5 %. El PP ya ha dejado claro que está dispuesto a gobernar con Vox, por lo que el resultado final dependerá en gran medida de los apoyos de los partidos minoritarios y nacionalistas.",
+        "En cuanto a los líderes, Pedro Sánchez sigue siendo el candidato preferido como presidente del Gobierno, con un 34 %, por delante de Alberto Núñez Feijóo (26 %) y Santiago Abascal (19 %). Pero es Feijóo quien recibe la mejor valoración personal. Todo se decidirá en las urnas el próximo domingo."
       ],
       "vocab": [
-        { "mot": "el debate a ocho", "trad": "le débat à huit (partis)" },
-        { "mot": "los bloques", "trad": "les blocs (alliances)" },
-        { "mot": "marcar distancias", "trad": "prendre ses distances" },
-        { "mot": "el portavoz / la portavoz", "trad": "le/la porte-parole" },
-        { "mot": "los cómplices", "trad": "les complices" },
-        { "mot": "las grietas", "trad": "les fissures" },
-        { "mot": "las encuestas", "trad": "les sondages" },
-        { "mot": "la vivienda", "trad": "le logement" }
-      ] }
+        {
+          "mot": "una encuesta / un sondeo",
+          "trad": "un sondage"
+        },
+        {
+          "mot": "ajustado",
+          "trad": "serré"
+        },
+        {
+          "mot": "un empate técnico",
+          "trad": "une égalité statistique"
+        },
+        {
+          "mot": "retroceder",
+          "trad": "reculer"
+        },
+        {
+          "mot": "la mayoría absoluta",
+          "trad": "la majorité absolue"
+        },
+        {
+          "mot": "los apoyos",
+          "trad": "les soutiens"
+        },
+        {
+          "mot": "las urnas",
+          "trad": "les urnes"
+        }
+      ]
+    }
   ]
 }

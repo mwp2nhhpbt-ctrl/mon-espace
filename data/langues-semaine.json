@@ -188,6 +188,197 @@
      }
     ]
    }
+  },
+  {
+   "date": "2026-11-25",
+   "en": {
+    "titre": "Bien prononcer le -ed du passé",
+    "mots": [
+     {
+      "mot": "a receipt",
+      "trad": "un reçu, un ticket de caisse (le p est muet)",
+      "exemple": "Please keep the receipt for your expense report."
+     },
+     {
+      "mot": "a debt",
+      "trad": "une dette (le b est muet)",
+      "exemple": "The company has paid off most of its debt."
+     },
+     {
+      "mot": "a foreign market",
+      "trad": "un marché étranger (le g est muet)",
+      "exemple": "Mexico is our fastest-growing foreign market."
+     },
+     {
+      "mot": "a warehouse",
+      "trad": "un entrepôt",
+      "exemple": "The goods are stored in a warehouse near the port."
+     },
+     {
+      "mot": "to ship",
+      "trad": "expédier (par n'importe quel transport)",
+      "exemple": "We shipped the order to Madrid on Friday."
+     }
+    ],
+    "exercices": [
+     {
+      "type": "qcm",
+      "question": "Comment se prononce le -ed de « decided » ?",
+      "choix": [
+       "/t/",
+       "/d/",
+       "/ɪd/ (une syllabe en plus)"
+      ],
+      "reponse": 2,
+      "explication": "Le verbe se termine par d → /ɪd/ : de-ci-ded."
+     },
+     {
+      "type": "qcm",
+      "question": "Comment se prononce le -ed de « finished » ?",
+      "choix": [
+       "/t/",
+       "/d/",
+       "/ɪd/ (une syllabe en plus)"
+      ],
+      "reponse": 0,
+      "explication": "Son « sh » sourd → /t/ : finisht."
+     },
+     {
+      "type": "trou",
+      "phrase": "I ___ (apply) for three internships last week.",
+      "reponse": [
+       "applied"
+      ],
+      "explication": "Consonne + y → ied : apply → applied."
+     },
+     {
+      "type": "trou",
+      "phrase": "We ___ (plan) the meeting for Monday.",
+      "reponse": [
+       "planned"
+      ],
+      "explication": "plan = consonne + voyelle + consonne, une syllabe → on double le n."
+     },
+     {
+      "type": "qcm",
+      "question": "Quelle orthographe est correcte ?",
+      "choix": [
+       "offerred",
+       "offered",
+       "offred"
+      ],
+      "reponse": 1,
+      "explication": "OF-fer : l'accent est sur la 1re syllabe, donc on ne double pas le r."
+     },
+     {
+      "type": "ordre",
+      "fr": "Le client a accepté notre offre hier.",
+      "mots": [
+       "offer",
+       "accepted",
+       "The",
+       "yesterday",
+       "client",
+       "our"
+      ],
+      "reponse": "The client accepted our offer yesterday"
+     }
+    ]
+   },
+   "es": {
+    "titre": "La tilde diacritique : él/el, más/mas, sí/si…",
+    "mots": [
+     {
+      "mot": "el almacén",
+      "trad": "l'entrepôt, le magasin de stockage",
+      "exemple": "La mercancía está en el almacén de Valencia."
+     },
+     {
+      "mot": "la factura",
+      "trad": "la facture",
+      "exemple": "Le enviamos la factura por correo electrónico."
+     },
+     {
+      "mot": "el envío",
+      "trad": "l'envoi, l'expédition",
+      "exemple": "El envío sale del puerto el lunes."
+     },
+     {
+      "mot": "el éxito",
+      "trad": "le succès, la réussite (faux ami : pas « la sortie »)",
+      "exemple": "La feria fue un éxito para la empresa."
+     },
+     {
+      "mot": "la cuota de mercado",
+      "trad": "la part de marché",
+      "exemple": "Queremos aumentar nuestra cuota de mercado en México."
+     }
+    ],
+    "exercices": [
+     {
+      "type": "qcm",
+      "question": "___ cliente quiere hablar con ___.",
+      "choix": [
+       "El / el",
+       "Él / el",
+       "El / él"
+      ],
+      "reponse": 2,
+      "explication": "« El cliente » = article (le) ; « con él » = pronom (avec lui) → tilde."
+     },
+     {
+      "type": "qcm",
+      "question": "Quelle phrase est correcte ?",
+      "choix": [
+       "¿Cuando llega el pedido?",
+       "¿Cuándo llega el pedido?",
+       "¿Cuándo llegá el pedido?"
+      ],
+      "reponse": 1,
+      "explication": "Interrogatif → cuándo prend la tilde. « llega » n'en prend pas."
+     },
+     {
+      "type": "trou",
+      "phrase": "Este informe es para ___ (moi).",
+      "reponse": [
+       "mí"
+      ],
+      "explication": "Après une préposition, le pronom « moi » = mí, avec tilde. « mi » sans tilde = mon/ma."
+     },
+     {
+      "type": "trou",
+      "phrase": "No ___ (je sais) si el proveedor aceptará.",
+      "reponse": [
+       "sé"
+      ],
+      "explication": "saber → yo sé (tilde). « se » sans tilde est le pronom."
+     },
+     {
+      "type": "qcm",
+      "question": "Si l'on suit la RAE (2010), comment écrire « seulement » ?",
+      "choix": [
+       "sólo",
+       "solo",
+       "sòlo"
+      ],
+      "reponse": 1,
+      "explication": "La RAE recommande « solo » sans tilde dans tous les cas."
+     },
+     {
+      "type": "ordre",
+      "fr": "Je veux plus d'informations sur le prix.",
+      "mots": [
+       "el",
+       "información",
+       "Quiero",
+       "sobre",
+       "precio",
+       "más"
+      ],
+      "reponse": "Quiero más información sobre el precio"
+     }
+    ]
+   }
   }
  ]
 }
