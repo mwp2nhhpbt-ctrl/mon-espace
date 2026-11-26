@@ -1,281 +1,284 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "en": {
     "lecon": {
-      "type": "Orthographe et prononciation",
-      "titre": "Bien prononcer le -ed du passé",
+      "type": "Grammaire",
+      "titre": "Négocier avec les conditionnels : If we order…, will you…?",
       "explication": [
-        "Le **-ed** des verbes réguliers au passé (worked, called, wanted) ne se prononce pas toujours pareil. C'est une des erreurs qui s'entendent le plus chez les francophones, surtout quand on dit *work-ède* au lieu de *workt*.",
-        "Trois sons possibles : **/ɪd/** (on ajoute une syllabe) seulement après **t** ou **d** : wanted, needed, started, decided. **/t/** après un son sourd (p, k, s, sh, ch, f) : worked, stopped, helped, finished, faxed. **/d/** après tous les autres sons : called, planned, delivered, applied.",
-        "Côté orthographe : on **double la consonne finale** si le verbe se termine par consonne + voyelle + consonne et que l'accent est sur la dernière syllabe : stop → stopped, plan → planned, prefer → preferred. Mais **offer → offered** et **visit → visited** (accent sur la première syllabe). Et **y après consonne devient ied** : apply → applied, try → tried.",
-        "Astuce pour l'oral : ne lis jamais le -ed comme une syllabe à part, sauf après t ou d. « I worked in export » se dit en 2 syllabes pour *worked*, pas 3."
+        "En négociation, on passe son temps à poser des conditions : « si vous commandez plus, on baisse le prix ». En anglais, on utilise surtout deux structures, et les francophones les mélangent souvent.",
+        "**Le 1er conditionnel** sert pour une situation **réelle et probable** : **If + présent, will + base verbale**. « If you order 500 units, we **will** give you a 5 % discount. » Piège n°1 : jamais de *will* après *if* : on dit « If you **order** », pas « If you will order ».",
+        "**Le 2e conditionnel** sert pour une situation **hypothétique** ou pour faire une proposition **plus prudente et polie** : **If + prétérit, would + base verbale**. « If you **paid** in advance, we **would** ship faster. » Avec *to be*, on dit **If I were / If it were** en anglais soigné.",
+        "Astuce pro : **unless** = « sauf si » (= if… not) : « We can't lower the price **unless** you sign a two-year contract. » Et **as long as / provided that** = « à condition que »."
       ],
       "exemples": [
         {
-          "vo": "I worked for a logistics company last summer.",
-          "fr": "J'ai travaillé pour une entreprise de logistique l'été dernier (worked = /wɜːkt/)."
+          "vo": "If you order 500 units, we will give you a 5% discount.",
+          "fr": "Si vous commandez 500 unités, nous vous accorderons une remise de 5 %."
         },
         {
-          "vo": "We needed a new supplier.",
-          "fr": "Nous avions besoin d'un nouveau fournisseur (needed = /ˈniːdɪd/, 2 syllabes)."
+          "vo": "If we lowered the price, would you sign today?",
+          "fr": "Si nous baissions le prix, signeriez-vous aujourd'hui ?"
         },
         {
-          "vo": "She planned the trade fair and called every client.",
-          "fr": "Elle a organisé le salon et appelé chaque client (planned, called = /d/)."
+          "vo": "We can't ship the goods unless you pay the deposit.",
+          "fr": "Nous ne pouvons pas expédier la marchandise sauf si vous payez l'acompte."
         },
         {
-          "vo": "They stopped the shipment because the invoice was wrong.",
-          "fr": "Ils ont bloqué l'envoi parce que la facture était fausse (stopped = /t/)."
+          "vo": "If I were you, I would ask for a written quote.",
+          "fr": "À ta place, je demanderais un devis écrit."
         }
       ],
       "exercices": [
         {
           "type": "qcm",
-          "question": "Comment se prononce le -ed de « decided » ?",
+          "question": "If you ___ before Friday, we will deliver next week.",
           "choix": [
-            "/t/",
-            "/d/",
-            "/ɪd/ (une syllabe en plus)"
-          ],
-          "reponse": 2,
-          "explication": "Le verbe se termine par d → /ɪd/ : de-ci-ded."
-        },
-        {
-          "type": "qcm",
-          "question": "Comment se prononce le -ed de « finished » ?",
-          "choix": [
-            "/t/",
-            "/d/",
-            "/ɪd/ (une syllabe en plus)"
-          ],
-          "reponse": 0,
-          "explication": "Son « sh » sourd → /t/ : finisht."
-        },
-        {
-          "type": "trou",
-          "phrase": "I ___ (apply) for three internships last week.",
-          "reponse": [
-            "applied"
-          ],
-          "explication": "Consonne + y → ied : apply → applied."
-        },
-        {
-          "type": "trou",
-          "phrase": "We ___ (plan) the meeting for Monday.",
-          "reponse": [
-            "planned"
-          ],
-          "explication": "plan = consonne + voyelle + consonne, une syllabe → on double le n."
-        },
-        {
-          "type": "qcm",
-          "question": "Quelle orthographe est correcte ?",
-          "choix": [
-            "offerred",
-            "offered",
-            "offred"
+            "will confirm",
+            "confirm",
+            "would confirm"
           ],
           "reponse": 1,
-          "explication": "OF-fer : l'accent est sur la 1re syllabe, donc on ne double pas le r."
+          "explication": "1er conditionnel : if + présent. Jamais de will après if."
+        },
+        {
+          "type": "qcm",
+          "question": "If we had a bigger budget, we ___ a stand at the trade fair.",
+          "choix": [
+            "will book",
+            "would book",
+            "booked"
+          ],
+          "reponse": 1,
+          "explication": "2e conditionnel : if + prétérit (had), puis would + verbe."
+        },
+        {
+          "type": "trou",
+          "phrase": "If the client ___ (accept) our offer, we will start production on Monday.",
+          "reponse": [
+            "accepts"
+          ],
+          "explication": "Situation probable → présent après if, avec le -s de la 3e personne."
+        },
+        {
+          "type": "trou",
+          "phrase": "If I ___ (be) the manager, I would hire more interns.",
+          "reponse": [
+            "were",
+            "was"
+          ],
+          "explication": "Hypothèse → If I were (forme soignée) ; « was » est accepté à l'oral."
+        },
+        {
+          "type": "qcm",
+          "question": "Quelle phrase veut dire « Nous ne baisserons pas le prix sauf si vous commandez plus » ?",
+          "choix": [
+            "We won't lower the price unless you order more.",
+            "We won't lower the price if you order more.",
+            "We won't lower the price unless you don't order more."
+          ],
+          "reponse": 0,
+          "explication": "unless = if… not, donc pas de négation après unless."
         },
         {
           "type": "ordre",
-          "fr": "Le client a accepté notre offre hier.",
+          "fr": "Si vous payiez d'avance, nous expédierions plus vite.",
           "mots": [
-            "offer",
-            "accepted",
-            "The",
-            "yesterday",
-            "client",
-            "our"
+            "faster",
+            "paid",
+            "we",
+            "If",
+            "would",
+            "in",
+            "you",
+            "advance",
+            "ship"
           ],
-          "reponse": "The client accepted our offer yesterday"
+          "reponse": "If you paid in advance we would ship faster"
         }
       ]
     },
     "mots": [
       {
-        "mot": "a receipt",
-        "trad": "un reçu, un ticket de caisse (le p est muet)",
-        "exemple": "Please keep the receipt for your expense report."
+        "mot": "a quote",
+        "trad": "un devis",
+        "exemple": "Could you send us a quote for 1,000 units?"
       },
       {
-        "mot": "a debt",
-        "trad": "une dette (le b est muet)",
-        "exemple": "The company has paid off most of its debt."
+        "mot": "a bulk order",
+        "trad": "une commande en gros volume",
+        "exemple": "We offer better prices for bulk orders."
       },
       {
-        "mot": "a foreign market",
-        "trad": "un marché étranger (le g est muet)",
-        "exemple": "Mexico is our fastest-growing foreign market."
+        "mot": "a deposit",
+        "trad": "un acompte, une caution",
+        "exemple": "A 30% deposit is required before production."
       },
       {
-        "mot": "a warehouse",
-        "trad": "un entrepôt",
-        "exemple": "The goods are stored in a warehouse near the port."
+        "mot": "a profit margin",
+        "trad": "une marge bénéficiaire",
+        "exemple": "Our profit margin on this product is only 12%."
       },
       {
-        "mot": "to ship",
-        "trad": "expédier (par n'importe quel transport)",
-        "exemple": "We shipped the order to Madrid on Friday."
+        "mot": "to meet halfway",
+        "trad": "couper la poire en deux, faire un compromis",
+        "exemple": "If you meet us halfway, we can sign today."
       }
     ],
     "oral": {
       "repeter": [
-        "I worked in a warehouse and shipped orders abroad.",
-        "We needed a receipt for every payment.",
-        "She decided to enter a new foreign market."
+        "If you place a bulk order, we will lower the price.",
+        "If we paid a deposit, would you ship next week?",
+        "We can't sign unless you send a written quote."
       ],
-      "question": "Describe a job, a project or a task you finished recently. What did you do, step by step?",
-      "aide": "Raconte au prétérit et fais attention au -ed : worked, finished, helped = /t/ ; called, delivered = /d/ ; started, decided = /ɪd/. Enregistre-toi et vérifie que tu n'ajoutes pas de syllabe en trop."
+      "question": "Imagine you are selling a product to a foreign client. What conditions would you offer to close the deal?",
+      "aide": "Utilise au moins une phrase au 1er conditionnel (If you…, we will…) et une au 2e (If you…ed, we would…). Parle lentement et marque bien le « 'll » de we'll."
     },
     "ecrit": {
-      "sujet": "Écris un court e-mail (80 à 100 mots) à un client pour lui confirmer que sa commande a été expédiée, avec le numéro de suivi et le reçu en pièce jointe.",
+      "sujet": "Écris un e-mail (80 à 100 mots) à un fournisseur pour négocier : tu veux une remise si tu passes une grosse commande, et tu proposes de payer un acompte en échange d'un délai plus court.",
       "mots_imposes": [
-        "shipped",
-        "a receipt",
-        "a warehouse"
+        "a quote",
+        "a bulk order",
+        "a deposit"
       ],
-      "conseils": "Commence par « Dear Mr/Ms … », utilise le prétérit (we shipped, we checked), vérifie l'orthographe des -ed (pas de double consonne après une syllabe non accentuée), termine par « Kind regards »."
+      "conseils": "Commence par « Dear Mr/Ms … », fais au moins deux phrases avec if (une au 1er conditionnel, une au 2e pour rester poli), ajoute un « unless » si tu peux, termine par « I look forward to hearing from you. Kind regards »."
     }
   },
   "es": {
     "lecon": {
-      "type": "Orthographe et prononciation",
-      "titre": "La tilde diacritique : él/el, más/mas, sí/si…",
+      "type": "Grammaire",
+      "titre": "Por ou para ? Enfin clair",
       "explication": [
-        "En espagnol, certains petits mots s'écrivent pareil mais n'ont pas le même sens. On les distingue avec un accent écrit, la **tilde diacrítica**. À l'oral, le mot accentué est **tonique** (on appuie dessus), l'autre est atone.",
-        "Les paires à connaître : **él** (il, lui) / **el** (le) ; **tú** (toi) / **tu** (ton) ; **mí** (moi) / **mi** (mon) ; **sí** (oui, soi) / **si** (si) ; **sé** (je sais, sois) / **se** (pronom) ; **más** (plus) / **mas** (mais, littéraire) ; **té** (thé) / **te** (te) ; **dé** (donner, subjonctif) / **de** (de).",
-        "Les interrogatifs et exclamatifs prennent toujours la tilde, même dans une question indirecte : **¿Qué?**, **¿Cuándo?**, **¿Dónde?**, « No sé **cuándo** llega el pedido ». Mais sans question : « Te llamo **cuando** llegue ».",
-        "Depuis 2010, la RAE recommande de ne plus accentuer **solo** (seulement) ni les démonstratifs (**este, ese, aquel**). Tu les verras encore avec accent dans certains textes, mais en examen écris-les sans."
+        "**Por** et **para** se traduisent tous les deux par « pour », mais ils ne disent pas la même chose. Retiens l'idée : **para** regarde vers **le but, la destination, l'échéance** ; **por** regarde vers **la cause, le moyen, l'échange**.",
+        "**Para** : le but (« Estudio LEA **para** trabajar en comercio internacional »), le destinataire (« Este informe es **para** el director »), la destination (« Salgo **para** Madrid »), l'échéance (« Lo necesito **para** el lunes ») et l'opinion (« **Para** mí, es caro »).",
+        "**Por** : la cause (« Cancelaron el pedido **por** el retraso »), le moyen (« Le envío la factura **por** correo electrónico »), l'échange ou le prix (« Lo compramos **por** 500 euros »), la durée approximative ou le passage (« **por** la mañana », « pasamos **por** Barcelona ») et **por ciento** (pourcentage).",
+        "Expressions toutes faites très utiles au travail : **por favor, por supuesto, por fin, por lo tanto** (par conséquent), **por adelantado** (d'avance), **para siempre**. Astuce : si tu peux dire « afin de / à destination de / d'ici à », c'est **para** ; si tu peux dire « à cause de / par / en échange de », c'est **por**."
       ],
       "exemples": [
         {
-          "vo": "Él es el director de exportación.",
-          "fr": "Lui, c'est le directeur export."
+          "vo": "Le enviamos el presupuesto por correo electrónico.",
+          "fr": "Nous vous envoyons le devis par e-mail."
         },
         {
-          "vo": "Si el cliente dice que sí, firmamos mañana.",
-          "fr": "Si le client dit oui, on signe demain."
+          "vo": "Necesitamos la mercancía para el 15 de diciembre.",
+          "fr": "Nous avons besoin de la marchandise pour le 15 décembre."
         },
         {
-          "vo": "No sé dónde está la factura.",
-          "fr": "Je ne sais pas où est la facture."
+          "vo": "El cliente canceló el pedido por el retraso.",
+          "fr": "Le client a annulé la commande à cause du retard."
         },
         {
-          "vo": "Necesitamos más tiempo para el envío.",
-          "fr": "Nous avons besoin de plus de temps pour l'expédition."
+          "vo": "Ofrecemos un descuento del 10 por ciento para pedidos grandes.",
+          "fr": "Nous offrons une remise de 10 % pour les grosses commandes."
         }
       ],
       "exercices": [
         {
           "type": "qcm",
-          "question": "___ cliente quiere hablar con ___.",
+          "question": "Trabajo ___ una empresa de exportación.",
           "choix": [
-            "El / el",
-            "Él / el",
-            "El / él"
+            "por",
+            "para"
           ],
-          "reponse": 2,
-          "explication": "« El cliente » = article (le) ; « con él » = pronom (avec lui) → tilde."
+          "reponse": 1,
+          "explication": "Travailler pour (le compte de) une entreprise = trabajar para."
+        },
+        {
+          "type": "qcm",
+          "question": "Gracias ___ tu ayuda.",
+          "choix": [
+            "por",
+            "para"
+          ],
+          "reponse": 0,
+          "explication": "La cause du remerciement → gracias por."
+        },
+        {
+          "type": "trou",
+          "phrase": "Hemos pagado el 30 % ___ adelantado.",
+          "reponse": [
+            "por"
+          ],
+          "explication": "Expression figée : por adelantado (d'avance)."
+        },
+        {
+          "type": "trou",
+          "phrase": "El informe tiene que estar listo ___ el viernes.",
+          "reponse": [
+            "para"
+          ],
+          "explication": "Échéance (d'ici à vendredi) → para."
         },
         {
           "type": "qcm",
           "question": "Quelle phrase est correcte ?",
           "choix": [
-            "¿Cuando llega el pedido?",
-            "¿Cuándo llega el pedido?",
-            "¿Cuándo llegá el pedido?"
+            "Vendimos el stock para 2.000 euros.",
+            "Vendimos el stock por 2.000 euros.",
+            "Vendimos el stock a por 2.000 euros."
           ],
           "reponse": 1,
-          "explication": "Interrogatif → cuándo prend la tilde. « llega » n'en prend pas."
-        },
-        {
-          "type": "trou",
-          "phrase": "Este informe es para ___ (moi).",
-          "reponse": [
-            "mí"
-          ],
-          "explication": "Après une préposition, le pronom « moi » = mí, avec tilde. « mi » sans tilde = mon/ma."
-        },
-        {
-          "type": "trou",
-          "phrase": "No ___ (je sais) si el proveedor aceptará.",
-          "reponse": [
-            "sé"
-          ],
-          "explication": "saber → yo sé (tilde). « se » sans tilde est le pronom."
-        },
-        {
-          "type": "qcm",
-          "question": "Si l'on suit la RAE (2010), comment écrire « seulement » ?",
-          "choix": [
-            "sólo",
-            "solo",
-            "sòlo"
-          ],
-          "reponse": 1,
-          "explication": "La RAE recommande « solo » sans tilde dans tous les cas."
+          "explication": "Le prix, l'échange → por."
         },
         {
           "type": "ordre",
-          "fr": "Je veux plus d'informations sur le prix.",
+          "fr": "Je cherche un stage pour améliorer mon anglais.",
           "mots": [
-            "el",
-            "información",
-            "Quiero",
-            "sobre",
-            "precio",
-            "más"
+            "mejorar",
+            "prácticas",
+            "Busco",
+            "inglés",
+            "para",
+            "mi",
+            "unas"
           ],
-          "reponse": "Quiero más información sobre el precio"
+          "reponse": "Busco unas prácticas para mejorar mi inglés"
         }
       ]
     },
     "mots": [
       {
-        "mot": "el almacén",
-        "trad": "l'entrepôt, le magasin de stockage",
-        "exemple": "La mercancía está en el almacén de Valencia."
+        "mot": "el pedido",
+        "trad": "la commande",
+        "exemple": "El pedido llegará el próximo martes."
       },
       {
-        "mot": "la factura",
-        "trad": "la facture",
-        "exemple": "Le enviamos la factura por correo electrónico."
+        "mot": "el proveedor",
+        "trad": "le fournisseur",
+        "exemple": "Hemos cambiado de proveedor para reducir costes."
       },
       {
-        "mot": "el envío",
-        "trad": "l'envoi, l'expédition",
-        "exemple": "El envío sale del puerto el lunes."
+        "mot": "el descuento",
+        "trad": "la remise, la réduction",
+        "exemple": "Nos han hecho un descuento del 8 por ciento."
       },
       {
-        "mot": "el éxito",
-        "trad": "le succès, la réussite (faux ami : pas « la sortie »)",
-        "exemple": "La feria fue un éxito para la empresa."
+        "mot": "la aduana",
+        "trad": "la douane",
+        "exemple": "La mercancía está bloqueada en la aduana."
       },
       {
-        "mot": "la cuota de mercado",
-        "trad": "la part de marché",
-        "exemple": "Queremos aumentar nuestra cuota de mercado en México."
+        "mot": "por lo tanto",
+        "trad": "par conséquent, donc",
+        "exemple": "El coste ha subido; por lo tanto, subiremos el precio."
       }
     ],
     "oral": {
       "repeter": [
-        "Él dice que sí, pero no sé cuándo.",
-        "El envío sale del almacén el lunes.",
-        "Necesitamos más cuota de mercado en México."
+        "Le envío el pedido por correo electrónico.",
+        "Necesitamos la mercancía para el lunes.",
+        "Gracias por el descuento, por supuesto lo aceptamos."
       ],
-      "question": "¿Qué empresa española o latinoamericana admiras y por qué ha tenido éxito?",
-      "aide": "Appuie bien sur les syllabes accentuées (éxito, más, él, almacén). Essaie de placer « éxito » et « cuota de mercado » dans ta réponse."
+      "question": "¿Para qué quieres hacer unas prácticas en el extranjero y por qué te interesa ese país?",
+      "aide": "La question elle-même mélange para (le but) et por (la raison) : réutilise les deux dans ta réponse. Essaie de placer « por lo tanto » pour relier tes idées."
     },
     "ecrit": {
-      "sujet": "Écris un court message (80 à 100 mots) à un client espagnol pour lui dire que son envoi a du retard, expliquer pourquoi et proposer une solution.",
+      "sujet": "Écris un e-mail (80 à 100 mots) à un fournisseur espagnol : ta commande est bloquée à la douane, tu lui demandes de t'envoyer les documents rapidement et tu as besoin de la marchandise pour une date précise.",
       "mots_imposes": [
-        "el envío",
-        "el almacén",
-        "más"
+        "el pedido",
+        "la aduana",
+        "por lo tanto"
       ],
-      "conseils": "Commence par « Estimado/a cliente: », relis chaque petit mot (él/el, sí/si, más/mas) et les interrogatifs, termine par « Disculpe las molestias. Un saludo cordial »."
+      "conseils": "Commence par « Estimado/a señor/a: », utilise au moins trois por et trois para différents (moyen, cause, échéance, but), termine par « Quedo a la espera de su respuesta. Un saludo cordial »."
     }
   }
 }

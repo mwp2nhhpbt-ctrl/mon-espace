@@ -1,384 +1,578 @@
 {
- "jours": [
-  {
-   "date": "2026-11-24",
-   "en": {
-    "titre": "Present perfect ou prétérit ?",
-    "mots": [
-     {
-      "mot": "a lead",
-      "trad": "un prospect, un contact commercial",
-      "exemple": "We got ten new leads at the trade fair."
-     },
-     {
-      "mot": "to follow up",
-      "trad": "relancer, faire un suivi",
-      "exemple": "I'll follow up with the client on Monday."
-     },
-     {
-      "mot": "a shortlist",
-      "trad": "une liste restreinte (de candidats)",
-      "exemple": "You are on the shortlist for the internship."
-     },
-     {
-      "mot": "to meet a deadline",
-      "trad": "respecter une échéance",
-      "exemple": "We worked late to meet the deadline."
-     },
-     {
-      "mot": "a strength",
-      "trad": "un point fort",
-      "exemple": "My main strength is that I speak three languages."
-     }
-    ],
-    "exercices": [
-     {
-      "type": "qcm",
-      "question": "I ___ the report yesterday.",
-      "choix": [
-       "have finished",
-       "finished",
-       "finish"
-      ],
-      "reponse": 1,
-      "explication": "« yesterday » = moment précis terminé → prétérit."
-     },
-     {
-      "type": "qcm",
-      "question": "We ___ this supplier for five years.",
-      "choix": [
-       "have known",
-       "knew",
-       "know"
-      ],
-      "reponse": 0,
-      "explication": "« for five years » et c'est toujours vrai → present perfect."
-     },
-     {
-      "type": "trou",
-      "phrase": "Have you ever ___ (be) to Spain?",
-      "reponse": [
-       "been"
-      ],
-      "explication": "Ever + expérience → present perfect : have + participe passé (been)."
-     },
-     {
-      "type": "qcm",
-      "question": "Quelle phrase est correcte ?",
-      "choix": [
-       "I have met the client in 2024.",
-       "I met the client in 2024.",
-       "I meet the client in 2024."
-      ],
-      "reponse": 1,
-      "explication": "« in 2024 » = date précise → prétérit."
-     },
-     {
-      "type": "ordre",
-      "fr": "Elle n'a jamais travaillé à l'étranger.",
-      "mots": [
-       "abroad",
-       "has",
-       "worked",
-       "She",
-       "never"
-      ],
-      "reponse": "She has never worked abroad"
-     },
-     {
-      "type": "trou",
-      "phrase": "They ___ (sign) the deal two days ago.",
-      "reponse": [
-       "signed"
-      ],
-      "explication": "« ago » → prétérit."
-     }
-    ]
-   },
-   "es": {
-    "titre": "Le subjonctif après « es importante que » et « espero que »",
-    "mots": [
-     {
-      "mot": "el presupuesto",
-      "trad": "le devis, le budget",
-      "exemple": "Nos han enviado el presupuesto esta mañana."
-     },
-     {
-      "mot": "el plazo de entrega",
-      "trad": "le délai de livraison",
-      "exemple": "El plazo de entrega es de dos semanas."
-     },
-     {
-      "mot": "las prácticas",
-      "trad": "le stage",
-      "exemple": "Busco unas prácticas en comercio internacional."
-     },
-     {
-      "mot": "rentable",
-      "trad": "rentable",
-      "exemple": "Este mercado no es rentable a corto plazo."
-     },
-     {
-      "mot": "llegar a un acuerdo",
-      "trad": "parvenir à un accord",
-      "exemple": "Por fin llegamos a un acuerdo con el cliente."
-     }
-    ],
-    "exercices": [
-     {
-      "type": "qcm",
-      "question": "Espero que el proveedor ___ los precios.",
-      "choix": [
-       "baja",
-       "baje",
-       "bajar"
-      ],
-      "reponse": 1,
-      "explication": "Espero que + changement de sujet → subjonctif : bajar → baje."
-     },
-     {
-      "type": "trou",
-      "phrase": "Es importante que nosotros ___ (llegar) puntuales.",
-      "reponse": [
-       "lleguemos"
-      ],
-      "explication": "llegar → llegue au subjonctif, nosotros → lleguemos (le -g devient -gu)."
-     },
-     {
-      "type": "qcm",
-      "question": "Quelle phrase est correcte ?",
-      "choix": [
-       "Quiero que trabajar en Madrid.",
-       "Quiero trabajar en Madrid.",
-       "Quiero que trabajo en Madrid."
-      ],
-      "reponse": 1,
-      "explication": "Même sujet (yo… yo) → infinitif, sans « que »."
-     },
-     {
-      "type": "trou",
-      "phrase": "Es necesario que tú ___ (hacer) el informe.",
-      "reponse": [
-       "hagas"
-      ],
-      "explication": "hacer → hago → haga, tú → hagas."
-     },
-     {
-      "type": "ordre",
-      "fr": "J'espère qu'ils me répondent bientôt.",
-      "mots": [
-       "respondan",
-       "Espero",
-       "pronto",
-       "me",
-       "que"
-      ],
-      "reponse": "Espero que me respondan pronto"
-     },
-     {
-      "type": "qcm",
-      "question": "Es importante que el contrato ___ claro.",
-      "choix": [
-       "es",
-       "sea",
-       "está"
-      ],
-      "reponse": 1,
-      "explication": "ser → sea (irrégulier)."
-     }
-    ]
-   }
-  },
-  {
-   "date": "2026-11-25",
-   "en": {
-    "titre": "Bien prononcer le -ed du passé",
-    "mots": [
-     {
-      "mot": "a receipt",
-      "trad": "un reçu, un ticket de caisse (le p est muet)",
-      "exemple": "Please keep the receipt for your expense report."
-     },
-     {
-      "mot": "a debt",
-      "trad": "une dette (le b est muet)",
-      "exemple": "The company has paid off most of its debt."
-     },
-     {
-      "mot": "a foreign market",
-      "trad": "un marché étranger (le g est muet)",
-      "exemple": "Mexico is our fastest-growing foreign market."
-     },
-     {
-      "mot": "a warehouse",
-      "trad": "un entrepôt",
-      "exemple": "The goods are stored in a warehouse near the port."
-     },
-     {
-      "mot": "to ship",
-      "trad": "expédier (par n'importe quel transport)",
-      "exemple": "We shipped the order to Madrid on Friday."
-     }
-    ],
-    "exercices": [
-     {
-      "type": "qcm",
-      "question": "Comment se prononce le -ed de « decided » ?",
-      "choix": [
-       "/t/",
-       "/d/",
-       "/ɪd/ (une syllabe en plus)"
-      ],
-      "reponse": 2,
-      "explication": "Le verbe se termine par d → /ɪd/ : de-ci-ded."
-     },
-     {
-      "type": "qcm",
-      "question": "Comment se prononce le -ed de « finished » ?",
-      "choix": [
-       "/t/",
-       "/d/",
-       "/ɪd/ (une syllabe en plus)"
-      ],
-      "reponse": 0,
-      "explication": "Son « sh » sourd → /t/ : finisht."
-     },
-     {
-      "type": "trou",
-      "phrase": "I ___ (apply) for three internships last week.",
-      "reponse": [
-       "applied"
-      ],
-      "explication": "Consonne + y → ied : apply → applied."
-     },
-     {
-      "type": "trou",
-      "phrase": "We ___ (plan) the meeting for Monday.",
-      "reponse": [
-       "planned"
-      ],
-      "explication": "plan = consonne + voyelle + consonne, une syllabe → on double le n."
-     },
-     {
-      "type": "qcm",
-      "question": "Quelle orthographe est correcte ?",
-      "choix": [
-       "offerred",
-       "offered",
-       "offred"
-      ],
-      "reponse": 1,
-      "explication": "OF-fer : l'accent est sur la 1re syllabe, donc on ne double pas le r."
-     },
-     {
-      "type": "ordre",
-      "fr": "Le client a accepté notre offre hier.",
-      "mots": [
-       "offer",
-       "accepted",
-       "The",
-       "yesterday",
-       "client",
-       "our"
-      ],
-      "reponse": "The client accepted our offer yesterday"
-     }
-    ]
-   },
-   "es": {
-    "titre": "La tilde diacritique : él/el, más/mas, sí/si…",
-    "mots": [
-     {
-      "mot": "el almacén",
-      "trad": "l'entrepôt, le magasin de stockage",
-      "exemple": "La mercancía está en el almacén de Valencia."
-     },
-     {
-      "mot": "la factura",
-      "trad": "la facture",
-      "exemple": "Le enviamos la factura por correo electrónico."
-     },
-     {
-      "mot": "el envío",
-      "trad": "l'envoi, l'expédition",
-      "exemple": "El envío sale del puerto el lunes."
-     },
-     {
-      "mot": "el éxito",
-      "trad": "le succès, la réussite (faux ami : pas « la sortie »)",
-      "exemple": "La feria fue un éxito para la empresa."
-     },
-     {
-      "mot": "la cuota de mercado",
-      "trad": "la part de marché",
-      "exemple": "Queremos aumentar nuestra cuota de mercado en México."
-     }
-    ],
-    "exercices": [
-     {
-      "type": "qcm",
-      "question": "___ cliente quiere hablar con ___.",
-      "choix": [
-       "El / el",
-       "Él / el",
-       "El / él"
-      ],
-      "reponse": 2,
-      "explication": "« El cliente » = article (le) ; « con él » = pronom (avec lui) → tilde."
-     },
-     {
-      "type": "qcm",
-      "question": "Quelle phrase est correcte ?",
-      "choix": [
-       "¿Cuando llega el pedido?",
-       "¿Cuándo llega el pedido?",
-       "¿Cuándo llegá el pedido?"
-      ],
-      "reponse": 1,
-      "explication": "Interrogatif → cuándo prend la tilde. « llega » n'en prend pas."
-     },
-     {
-      "type": "trou",
-      "phrase": "Este informe es para ___ (moi).",
-      "reponse": [
-       "mí"
-      ],
-      "explication": "Après une préposition, le pronom « moi » = mí, avec tilde. « mi » sans tilde = mon/ma."
-     },
-     {
-      "type": "trou",
-      "phrase": "No ___ (je sais) si el proveedor aceptará.",
-      "reponse": [
-       "sé"
-      ],
-      "explication": "saber → yo sé (tilde). « se » sans tilde est le pronom."
-     },
-     {
-      "type": "qcm",
-      "question": "Si l'on suit la RAE (2010), comment écrire « seulement » ?",
-      "choix": [
-       "sólo",
-       "solo",
-       "sòlo"
-      ],
-      "reponse": 1,
-      "explication": "La RAE recommande « solo » sans tilde dans tous les cas."
-     },
-     {
-      "type": "ordre",
-      "fr": "Je veux plus d'informations sur le prix.",
-      "mots": [
-       "el",
-       "información",
-       "Quiero",
-       "sobre",
-       "precio",
-       "más"
-      ],
-      "reponse": "Quiero más información sobre el precio"
-     }
-    ]
-   }
-  }
- ]
+  "jours": [
+    {
+      "date": "2026-11-24",
+      "en": {
+        "titre": "Present perfect ou prétérit ?",
+        "mots": [
+          {
+            "mot": "a lead",
+            "trad": "un prospect, un contact commercial",
+            "exemple": "We got ten new leads at the trade fair."
+          },
+          {
+            "mot": "to follow up",
+            "trad": "relancer, faire un suivi",
+            "exemple": "I'll follow up with the client on Monday."
+          },
+          {
+            "mot": "a shortlist",
+            "trad": "une liste restreinte (de candidats)",
+            "exemple": "You are on the shortlist for the internship."
+          },
+          {
+            "mot": "to meet a deadline",
+            "trad": "respecter une échéance",
+            "exemple": "We worked late to meet the deadline."
+          },
+          {
+            "mot": "a strength",
+            "trad": "un point fort",
+            "exemple": "My main strength is that I speak three languages."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "I ___ the report yesterday.",
+            "choix": [
+              "have finished",
+              "finished",
+              "finish"
+            ],
+            "reponse": 1,
+            "explication": "« yesterday » = moment précis terminé → prétérit."
+          },
+          {
+            "type": "qcm",
+            "question": "We ___ this supplier for five years.",
+            "choix": [
+              "have known",
+              "knew",
+              "know"
+            ],
+            "reponse": 0,
+            "explication": "« for five years » et c'est toujours vrai → present perfect."
+          },
+          {
+            "type": "trou",
+            "phrase": "Have you ever ___ (be) to Spain?",
+            "reponse": [
+              "been"
+            ],
+            "explication": "Ever + expérience → present perfect : have + participe passé (been)."
+          },
+          {
+            "type": "qcm",
+            "question": "Quelle phrase est correcte ?",
+            "choix": [
+              "I have met the client in 2024.",
+              "I met the client in 2024.",
+              "I meet the client in 2024."
+            ],
+            "reponse": 1,
+            "explication": "« in 2024 » = date précise → prétérit."
+          },
+          {
+            "type": "ordre",
+            "fr": "Elle n'a jamais travaillé à l'étranger.",
+            "mots": [
+              "abroad",
+              "has",
+              "worked",
+              "She",
+              "never"
+            ],
+            "reponse": "She has never worked abroad"
+          },
+          {
+            "type": "trou",
+            "phrase": "They ___ (sign) the deal two days ago.",
+            "reponse": [
+              "signed"
+            ],
+            "explication": "« ago » → prétérit."
+          }
+        ]
+      },
+      "es": {
+        "titre": "Le subjonctif après « es importante que » et « espero que »",
+        "mots": [
+          {
+            "mot": "el presupuesto",
+            "trad": "le devis, le budget",
+            "exemple": "Nos han enviado el presupuesto esta mañana."
+          },
+          {
+            "mot": "el plazo de entrega",
+            "trad": "le délai de livraison",
+            "exemple": "El plazo de entrega es de dos semanas."
+          },
+          {
+            "mot": "las prácticas",
+            "trad": "le stage",
+            "exemple": "Busco unas prácticas en comercio internacional."
+          },
+          {
+            "mot": "rentable",
+            "trad": "rentable",
+            "exemple": "Este mercado no es rentable a corto plazo."
+          },
+          {
+            "mot": "llegar a un acuerdo",
+            "trad": "parvenir à un accord",
+            "exemple": "Por fin llegamos a un acuerdo con el cliente."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "Espero que el proveedor ___ los precios.",
+            "choix": [
+              "baja",
+              "baje",
+              "bajar"
+            ],
+            "reponse": 1,
+            "explication": "Espero que + changement de sujet → subjonctif : bajar → baje."
+          },
+          {
+            "type": "trou",
+            "phrase": "Es importante que nosotros ___ (llegar) puntuales.",
+            "reponse": [
+              "lleguemos"
+            ],
+            "explication": "llegar → llegue au subjonctif, nosotros → lleguemos (le -g devient -gu)."
+          },
+          {
+            "type": "qcm",
+            "question": "Quelle phrase est correcte ?",
+            "choix": [
+              "Quiero que trabajar en Madrid.",
+              "Quiero trabajar en Madrid.",
+              "Quiero que trabajo en Madrid."
+            ],
+            "reponse": 1,
+            "explication": "Même sujet (yo… yo) → infinitif, sans « que »."
+          },
+          {
+            "type": "trou",
+            "phrase": "Es necesario que tú ___ (hacer) el informe.",
+            "reponse": [
+              "hagas"
+            ],
+            "explication": "hacer → hago → haga, tú → hagas."
+          },
+          {
+            "type": "ordre",
+            "fr": "J'espère qu'ils me répondent bientôt.",
+            "mots": [
+              "respondan",
+              "Espero",
+              "pronto",
+              "me",
+              "que"
+            ],
+            "reponse": "Espero que me respondan pronto"
+          },
+          {
+            "type": "qcm",
+            "question": "Es importante que el contrato ___ claro.",
+            "choix": [
+              "es",
+              "sea",
+              "está"
+            ],
+            "reponse": 1,
+            "explication": "ser → sea (irrégulier)."
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "en": {
+        "titre": "Bien prononcer le -ed du passé",
+        "mots": [
+          {
+            "mot": "a receipt",
+            "trad": "un reçu, un ticket de caisse (le p est muet)",
+            "exemple": "Please keep the receipt for your expense report."
+          },
+          {
+            "mot": "a debt",
+            "trad": "une dette (le b est muet)",
+            "exemple": "The company has paid off most of its debt."
+          },
+          {
+            "mot": "a foreign market",
+            "trad": "un marché étranger (le g est muet)",
+            "exemple": "Mexico is our fastest-growing foreign market."
+          },
+          {
+            "mot": "a warehouse",
+            "trad": "un entrepôt",
+            "exemple": "The goods are stored in a warehouse near the port."
+          },
+          {
+            "mot": "to ship",
+            "trad": "expédier (par n'importe quel transport)",
+            "exemple": "We shipped the order to Madrid on Friday."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "Comment se prononce le -ed de « decided » ?",
+            "choix": [
+              "/t/",
+              "/d/",
+              "/ɪd/ (une syllabe en plus)"
+            ],
+            "reponse": 2,
+            "explication": "Le verbe se termine par d → /ɪd/ : de-ci-ded."
+          },
+          {
+            "type": "qcm",
+            "question": "Comment se prononce le -ed de « finished » ?",
+            "choix": [
+              "/t/",
+              "/d/",
+              "/ɪd/ (une syllabe en plus)"
+            ],
+            "reponse": 0,
+            "explication": "Son « sh » sourd → /t/ : finisht."
+          },
+          {
+            "type": "trou",
+            "phrase": "I ___ (apply) for three internships last week.",
+            "reponse": [
+              "applied"
+            ],
+            "explication": "Consonne + y → ied : apply → applied."
+          },
+          {
+            "type": "trou",
+            "phrase": "We ___ (plan) the meeting for Monday.",
+            "reponse": [
+              "planned"
+            ],
+            "explication": "plan = consonne + voyelle + consonne, une syllabe → on double le n."
+          },
+          {
+            "type": "qcm",
+            "question": "Quelle orthographe est correcte ?",
+            "choix": [
+              "offerred",
+              "offered",
+              "offred"
+            ],
+            "reponse": 1,
+            "explication": "OF-fer : l'accent est sur la 1re syllabe, donc on ne double pas le r."
+          },
+          {
+            "type": "ordre",
+            "fr": "Le client a accepté notre offre hier.",
+            "mots": [
+              "offer",
+              "accepted",
+              "The",
+              "yesterday",
+              "client",
+              "our"
+            ],
+            "reponse": "The client accepted our offer yesterday"
+          }
+        ]
+      },
+      "es": {
+        "titre": "La tilde diacritique : él/el, más/mas, sí/si…",
+        "mots": [
+          {
+            "mot": "el almacén",
+            "trad": "l'entrepôt, le magasin de stockage",
+            "exemple": "La mercancía está en el almacén de Valencia."
+          },
+          {
+            "mot": "la factura",
+            "trad": "la facture",
+            "exemple": "Le enviamos la factura por correo electrónico."
+          },
+          {
+            "mot": "el envío",
+            "trad": "l'envoi, l'expédition",
+            "exemple": "El envío sale del puerto el lunes."
+          },
+          {
+            "mot": "el éxito",
+            "trad": "le succès, la réussite (faux ami : pas « la sortie »)",
+            "exemple": "La feria fue un éxito para la empresa."
+          },
+          {
+            "mot": "la cuota de mercado",
+            "trad": "la part de marché",
+            "exemple": "Queremos aumentar nuestra cuota de mercado en México."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "___ cliente quiere hablar con ___.",
+            "choix": [
+              "El / el",
+              "Él / el",
+              "El / él"
+            ],
+            "reponse": 2,
+            "explication": "« El cliente » = article (le) ; « con él » = pronom (avec lui) → tilde."
+          },
+          {
+            "type": "qcm",
+            "question": "Quelle phrase est correcte ?",
+            "choix": [
+              "¿Cuando llega el pedido?",
+              "¿Cuándo llega el pedido?",
+              "¿Cuándo llegá el pedido?"
+            ],
+            "reponse": 1,
+            "explication": "Interrogatif → cuándo prend la tilde. « llega » n'en prend pas."
+          },
+          {
+            "type": "trou",
+            "phrase": "Este informe es para ___ (moi).",
+            "reponse": [
+              "mí"
+            ],
+            "explication": "Après une préposition, le pronom « moi » = mí, avec tilde. « mi » sans tilde = mon/ma."
+          },
+          {
+            "type": "trou",
+            "phrase": "No ___ (je sais) si el proveedor aceptará.",
+            "reponse": [
+              "sé"
+            ],
+            "explication": "saber → yo sé (tilde). « se » sans tilde est le pronom."
+          },
+          {
+            "type": "qcm",
+            "question": "Si l'on suit la RAE (2010), comment écrire « seulement » ?",
+            "choix": [
+              "sólo",
+              "solo",
+              "sòlo"
+            ],
+            "reponse": 1,
+            "explication": "La RAE recommande « solo » sans tilde dans tous les cas."
+          },
+          {
+            "type": "ordre",
+            "fr": "Je veux plus d'informations sur le prix.",
+            "mots": [
+              "el",
+              "información",
+              "Quiero",
+              "sobre",
+              "precio",
+              "más"
+            ],
+            "reponse": "Quiero más información sobre el precio"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "en": {
+        "titre": "Négocier avec les conditionnels : If we order…, will you…?",
+        "mots": [
+          {
+            "mot": "a quote",
+            "trad": "un devis",
+            "exemple": "Could you send us a quote for 1,000 units?"
+          },
+          {
+            "mot": "a bulk order",
+            "trad": "une commande en gros volume",
+            "exemple": "We offer better prices for bulk orders."
+          },
+          {
+            "mot": "a deposit",
+            "trad": "un acompte, une caution",
+            "exemple": "A 30% deposit is required before production."
+          },
+          {
+            "mot": "a profit margin",
+            "trad": "une marge bénéficiaire",
+            "exemple": "Our profit margin on this product is only 12%."
+          },
+          {
+            "mot": "to meet halfway",
+            "trad": "couper la poire en deux, faire un compromis",
+            "exemple": "If you meet us halfway, we can sign today."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "If you ___ before Friday, we will deliver next week.",
+            "choix": [
+              "will confirm",
+              "confirm",
+              "would confirm"
+            ],
+            "reponse": 1,
+            "explication": "1er conditionnel : if + présent. Jamais de will après if."
+          },
+          {
+            "type": "qcm",
+            "question": "If we had a bigger budget, we ___ a stand at the trade fair.",
+            "choix": [
+              "will book",
+              "would book",
+              "booked"
+            ],
+            "reponse": 1,
+            "explication": "2e conditionnel : if + prétérit (had), puis would + verbe."
+          },
+          {
+            "type": "trou",
+            "phrase": "If the client ___ (accept) our offer, we will start production on Monday.",
+            "reponse": [
+              "accepts"
+            ],
+            "explication": "Situation probable → présent après if, avec le -s de la 3e personne."
+          },
+          {
+            "type": "trou",
+            "phrase": "If I ___ (be) the manager, I would hire more interns.",
+            "reponse": [
+              "were",
+              "was"
+            ],
+            "explication": "Hypothèse → If I were (forme soignée) ; « was » est accepté à l'oral."
+          },
+          {
+            "type": "qcm",
+            "question": "Quelle phrase veut dire « Nous ne baisserons pas le prix sauf si vous commandez plus » ?",
+            "choix": [
+              "We won't lower the price unless you order more.",
+              "We won't lower the price if you order more.",
+              "We won't lower the price unless you don't order more."
+            ],
+            "reponse": 0,
+            "explication": "unless = if… not, donc pas de négation après unless."
+          },
+          {
+            "type": "ordre",
+            "fr": "Si vous payiez d'avance, nous expédierions plus vite.",
+            "mots": [
+              "faster",
+              "paid",
+              "we",
+              "If",
+              "would",
+              "in",
+              "you",
+              "advance",
+              "ship"
+            ],
+            "reponse": "If you paid in advance we would ship faster"
+          }
+        ]
+      },
+      "es": {
+        "titre": "Por ou para ? Enfin clair",
+        "mots": [
+          {
+            "mot": "el pedido",
+            "trad": "la commande",
+            "exemple": "El pedido llegará el próximo martes."
+          },
+          {
+            "mot": "el proveedor",
+            "trad": "le fournisseur",
+            "exemple": "Hemos cambiado de proveedor para reducir costes."
+          },
+          {
+            "mot": "el descuento",
+            "trad": "la remise, la réduction",
+            "exemple": "Nos han hecho un descuento del 8 por ciento."
+          },
+          {
+            "mot": "la aduana",
+            "trad": "la douane",
+            "exemple": "La mercancía está bloqueada en la aduana."
+          },
+          {
+            "mot": "por lo tanto",
+            "trad": "par conséquent, donc",
+            "exemple": "El coste ha subido; por lo tanto, subiremos el precio."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "Trabajo ___ una empresa de exportación.",
+            "choix": [
+              "por",
+              "para"
+            ],
+            "reponse": 1,
+            "explication": "Travailler pour (le compte de) une entreprise = trabajar para."
+          },
+          {
+            "type": "qcm",
+            "question": "Gracias ___ tu ayuda.",
+            "choix": [
+              "por",
+              "para"
+            ],
+            "reponse": 0,
+            "explication": "La cause du remerciement → gracias por."
+          },
+          {
+            "type": "trou",
+            "phrase": "Hemos pagado el 30 % ___ adelantado.",
+            "reponse": [
+              "por"
+            ],
+            "explication": "Expression figée : por adelantado (d'avance)."
+          },
+          {
+            "type": "trou",
+            "phrase": "El informe tiene que estar listo ___ el viernes.",
+            "reponse": [
+              "para"
+            ],
+            "explication": "Échéance (d'ici à vendredi) → para."
+          },
+          {
+            "type": "qcm",
+            "question": "Quelle phrase est correcte ?",
+            "choix": [
+              "Vendimos el stock para 2.000 euros.",
+              "Vendimos el stock por 2.000 euros.",
+              "Vendimos el stock a por 2.000 euros."
+            ],
+            "reponse": 1,
+            "explication": "Le prix, l'échange → por."
+          },
+          {
+            "type": "ordre",
+            "fr": "Je cherche un stage pour améliorer mon anglais.",
+            "mots": [
+              "mejorar",
+              "prácticas",
+              "Busco",
+              "inglés",
+              "para",
+              "mi",
+              "unas"
+            ],
+            "reponse": "Busco unas prácticas para mejorar mi inglés"
+          }
+        ]
+      }
+    }
+  ]
 }

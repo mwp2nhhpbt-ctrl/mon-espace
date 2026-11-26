@@ -1,7 +1,7 @@
 {
   "demo": false,
-  "date": "2026-11-25",
-  "synthese": "Ce mercredi, la France reçoit le feu vert de Bruxelles pour son budget 2027, même si son déficit reste l'un des plus lourds d'Europe, et la gauche se divise encore avec le départ de Yannick Jadot des Écologistes. En Espagne, le dernier sondage avant les législatives de dimanche montre un PP à peine devant le PSOE, avec un bloc de droite proche de la majorité absolue. En Asie, la froideur entre Pékin et Tokyo au sommet de l'APEC confirme des tensions croissantes, pendant que le Japon et les États-Unis poussent leurs industriels de l'automobile vers la défense. Côté sport, Manchester United fait appel du rouge de Leny Yoro après sa claque à Liverpool. À noter : la plupart des médias français (20 Minutes, Ouest-France, Public Sénat, Contrepoints, Atlantico, Basta!, The Conversation) et la BBC, le Guardian et 20minutos étaient inaccessibles, donc aucun média de droite aujourd'hui.",
+  "date": "2026-11-26",
+  "synthese": "Ce jeudi, la guerre en Ukraine affiche un bilan vertigineux : selon des médias russes d'opposition, plus de 720 000 soldats russes seraient morts depuis 2022. En Espagne, la dernière moyenne des sondages avant les législatives de dimanche donne le PP en tête et un bloc PP-Vox au-dessus de la majorité absolue, même si le PSOE remonte. En Europe, le retard d'investissement dans la tech face aux États-Unis se creuse et les prix du gaz pourraient grimper avec un hiver imprévisible. En France, Reporterre enquête sur les data centers qui « achètent » l'acceptation des communes et sur la colère contre l'assouplissement des règles sur les pesticides. Côté culture, Ultraligera remplit les salles en Espagne et le procès de YNW Melly avance aux États-Unis.",
   "rubriques": [
     {
       "id": "politique",
@@ -27,120 +27,120 @@
   "articles": [
     {
       "rubrique": "politique",
-      "titre": "Macron veut accélérer l'installation des usines",
-      "resume": "Le gouvernement crée des « zones industrielles à haut potentiel » pour simplifier les démarches des industriels, annoncées au sommet Choose France du 23 novembre. L'objectif est d'attirer des usines plus vite, mais les écologistes craignent un recul des protections de l'environnement.",
+      "titre": "Data centers : un géant américain propose 170 000 € à une commune",
+      "resume": "À Bouc-Bel-Air (Bouches-du-Rhône), Digital Realty a obtenu de justesse le permis pour un énorme centre de données, puis a proposé un « mécénat » de 170 000 € à la mairie. Ces centres, indispensables à l'IA, consomment beaucoup d'électricité et d'eau, et leur acceptation locale devient un enjeu politique.",
       "source": "Reporterre",
-      "url": "https://reporterre.net/Macron-veut-supersimplifier-les-implantations-industrielles",
-      "bord": "gauche"
-    },
-    {
-      "rubrique": "politique",
-      "titre": "Yannick Jadot quitte Les Écologistes et fonde un nouveau parti",
-      "resume": "Le sénateur Yannick Jadot et quatre élus quittent Les Écologistes pour lancer « Écologistes et Démocrates », proche de Raphaël Glucksmann. C'est une nouvelle division à gauche, à quelques mois des élections et alors que la gauche cherche une candidature commune.",
-      "source": "Reporterre",
-      "url": "https://reporterre.net/Yannick-Jadot-et-des-ecologistes-pro-Glucksmann-fondent-leur-parti-politique",
-      "bord": "gauche"
-    },
-    {
-      "rubrique": "politique",
-      "titre": "Budget 2027 : Bruxelles valide la copie de la France",
-      "resume": "La Commission européenne juge le projet de budget français conforme aux règles de l'UE. Mais elle prévoit encore un déficit de 5,4 % du PIB en 2027 et une dette de 122 % du PIB, parmi les plus élevés de la zone euro.",
-      "source": "Toute l'Europe",
-      "url": "https://www.touteleurope.eu/economie-et-social/budget-2027-la-commission-europeenne-donne-son-feu-vert-a-la-france-malgre-un-deficit-toujours-preoccupant/",
-      "bord": "centre"
-    },
-    {
-      "rubrique": "politique",
-      "titre": "Espagne : le PP devance de peu le PSOE dans le dernier sondage",
-      "resume": "Avant les législatives du 29 novembre, un sondage pour elDiario.es donne le PP à 32,1 %, le PSOE à 30,8 % et Vox à 17,6 %. Le bloc de droite approche la majorité absolue, alors que le PSOE remonte depuis début novembre.",
-      "source": "elDiario.es",
-      "url": "https://www.eldiario.es/politica/pp-gana-minima-psoe-derecha-supera-izquierda-ultima-encuesta-29n_1_13684963.html",
       "bord": "gauche",
+      "url": "https://reporterre.net/Ils-achetent-le-silence-pour-faire-accepter-ses-data-centers-un-constructeur-sort-le"
+    },
+    {
+      "rubrique": "politique",
+      "titre": "Pesticides : malades et paysans manifestent devant le Parlement européen",
+      "resume": "Près de 500 personnes des 27 pays de l'UE se sont rassemblées à Strasbourg contre le texte « Omnibus », qui assouplit les règles sur les pesticides. L'UE cherche à simplifier ses normes pour sa compétitivité, mais ses opposants y voient un recul pour la santé et l'environnement.",
+      "source": "Reporterre",
+      "bord": "gauche",
+      "url": "https://reporterre.net/On-m-a-enleve-un-truc-dans-le-nichon-des-malades-du-cancer-et-des-paysans-deversent-leur"
+    },
+    {
+      "rubrique": "politique",
+      "titre": "Tech : l'Europe décroche face aux États-Unis",
+      "resume": "Les start-ups européennes devraient lever 81 milliards de dollars en 2026, contre déjà 450 milliards pour les américaines en neuf mois : l'écart est passé de 3,4 à 7,4 fois depuis 2017. Bruxelles propose un fonds jusqu'à 50 milliards d'euros pour l'IA et le quantique, car sans capitaux l'Europe dépendra des technologies étrangères.",
+      "source": "Le Grand Continent",
+      "bord": "centre",
+      "url": "https://legrandcontinent.eu/fr/2026/11/25/lecart-dinvestissement-dans-les-start-ups-technologiques-se-creuse-entre-leurope-et-les-etats-unis/"
+    },
+    {
+      "rubrique": "politique",
+      "titre": "Gaz : un hiver imprévisible pourrait faire flamber les prix",
+      "resume": "Le prix de référence du gaz en Europe a bondi de 8,6 % lundi, à 96 €/MWh, sur des prévisions de froid précoce. La météo explique environ 90 % des variations de consommation en France, en Allemagne et en Italie, donc un hiver rude pèserait sur les factures et sur l'industrie.",
+      "source": "Le Grand Continent",
+      "bord": "centre",
+      "url": "https://legrandcontinent.eu/fr/2026/11/25/lincertitude-meteorologique-pourrait-faire-grimper-les-prix-du-gaz-en-europe-cet-hiver/"
+    },
+    {
+      "rubrique": "geo",
+      "titre": "Espagne : dernière moyenne des sondages avant le vote de dimanche",
+      "resume": "Le PP est en tête (31,2 %) devant le PSOE (28,4 %) et Vox (18,3 %) ; ensemble, PP et Vox dépasseraient la majorité absolue de 176 sièges. Le PSOE remonte toutefois, et le scrutin du 29 novembre décidera si l'Espagne bascule à droite.",
+      "source": "elDiario.es",
+      "url": "https://www.eldiario.es/politica/media-final-encuestas-psoe-sube-bloques-acercan-apagon-demoscopico_1_13688784.html",
       "vo": "es"
     },
     {
       "rubrique": "geo",
-      "titre": "Japon-Chine : un accueil glacial au sommet de l'APEC",
-      "resume": "À Shenzhen, la Première ministre japonaise Sanae Takaichi n'a obtenu aucune rencontre avec Xi Jinping. Pour l'IRIS, c'est le signe d'une dégradation profonde des relations, sur fond d'îles Senkaku et de Taïwan.",
+      "titre": "Minerais critiques : l'Afrique exporte surtout du brut",
+      "resume": "Selon l'IRIS, l'Afrique subsaharienne détient près de 30 % des réserves mondiales de minerais critiques (cobalt, lithium…), mais 96 % sont exportés bruts ou peu transformés. Ces métaux sont clés pour les batteries et la défense, d'où la course entre Chine, États-Unis et Europe en RDC, Guinée ou Zimbabwe.",
       "source": "IRIS",
-      "url": "https://www.iris-france.org/le-japon-au-sommet-de-lapec-2026-une-froideur-diplomatique-qui-revele-lampleur-des-tensions-sino-japonaises/"
+      "url": "https://www.iris-france.org/minerais-critiques-en-afrique-etats-producteurs-strategies-des-puissances-etrangeres-et-risques-dapprovisionnement/"
     },
     {
       "rubrique": "geo",
-      "titre": "Élargissement de l'UE : qui entrera en premier ?",
-      "resume": "Dix pays sont candidats. Le Monténégro vise une adhésion en 2028, l'Albanie veut boucler ses négociations en 2027, l'Ukraine et la Moldavie visent 2028, tandis que la Turquie et la Géorgie sont à l'arrêt.",
-      "source": "Toute l'Europe",
-      "url": "https://www.touteleurope.eu/fonctionnement-de-l-ue/infographie-elargissement-de-l-union-europeenne-ou-en-est-on/"
-    },
-    {
-      "rubrique": "geo",
-      "titre": "L'Allemagne réarme massivement",
-      "resume": "Le chancelier Merz veut faire de la Bundeswehr la première armée conventionnelle d'Europe, avec une forte hausse du budget de défense en 2027. L'IRIS s'interroge sur ce que ce changement signifie pour l'équilibre européen, notamment face à la France.",
-      "source": "IRIS",
-      "url": "https://www.iris-france.org/une-allemagne-surarmee-les-mardis-de-liris/"
+      "titre": "Comment Moscou récupère les manifestations de jeunes en Europe",
+      "resume": "Des documentaires de la chaîne russe RT présentent les manifestations de jeunes Européens comme un rejet du réarmement et de l'aide à l'Ukraine, alors que les manifestants font rarement ce lien. C'est un exemple de guerre informationnelle : exploiter des colères réelles pour affaiblir le soutien à Kiev.",
+      "source": "Le Grand Continent",
+      "url": "https://legrandcontinent.eu/fr/2026/11/24/comment-moscou-exploite-les-manifestations-de-la-jeunesse-en-europe-pour-nourrir-sa-guerre-informationnelle/"
     },
     {
       "rubrique": "defense",
-      "titre": "Le Japon pousse ses sous-traitants automobiles vers l'armement",
-      "resume": "Face à la concurrence chinoise dans l'automobile, Tokyo encourage les fabricants de pièces auto à produire pour la défense, surtout des drones. C'est le plus grand réarmement du Japon depuis 1945.",
+      "titre": "Ukraine : plus de 720 000 soldats russes tués selon une estimation",
+      "resume": "Les médias d'opposition Mediazona et Meduza, à partir de données officielles qui ont fuité, estiment que plus de 720 000 soldats russes sont morts depuis 2022, plus que tous les morts militaires américains depuis 1917. Le Kremlin ne publie plus de bilan, et ces chiffres restent des estimations.",
       "source": "Defense News",
-      "url": "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/",
+      "url": "https://www.defensenews.com/global/europe/2026/11/25/estimates-of-russians-killed-in-ukraine-surpass-all-combined-us-war-deaths-since-wwi/",
       "vo": "en"
     },
     {
       "rubrique": "defense",
-      "titre": "Le MI5 alerte les industriels britanniques contre le sabotage russe",
-      "resume": "Le service de renseignement intérieur britannique demande aux entreprises de défense de limiter les informations publiques sur leurs employés et leurs sites. La menace de sabotage russe contre l'industrie européenne est prise de plus en plus au sérieux.",
+      "titre": "Méditerranée : l'OTAN surveille la Russie après une frappe ukrainienne près de la Libye",
+      "resume": "L'OTAN ne voit pas de renforcement naval russe après une frappe ukrainienne près des côtes libyennes. Des analystes craignent néanmoins des représailles et des tensions sur le flanc sud de l'Alliance, qui touche directement la France et l'Italie.",
       "source": "Breaking Defense",
-      "url": "https://breakingdefense.com/2026/11/uks-mi5-warns-local-defense-firms-of-russian-sabotage-risk/",
+      "url": "https://breakingdefense.com/2026/11/nato-sees-no-russian-naval-buildup-in-the-med-after-strike-near-libya-but-analysts-warn-of-wider-risks/",
       "vo": "en"
     },
     {
       "rubrique": "defense",
-      "titre": "Ford discute avec le Pentagone pour fabriquer des véhicules militaires",
-      "resume": "Le constructeur automobile confirme des discussions avec le Pentagone, qui parle aussi à GM pour produire des composants de drones en grande série. Comme au Japon, l'industrie automobile se tourne vers la défense.",
+      "titre": "L'Italie annonce atteindre l'objectif de l'OTAN",
+      "resume": "Rome affirme consacrer 2,8 % de son PIB à la défense et à la sécurité en 2026 (2,1 % pour la défense pure). Le chiffre n'apparaît pas clairement dans le budget, ce qui montre comment les pays « habillent » leurs dépenses pour satisfaire les exigences de l'OTAN.",
       "source": "Defense News",
-      "url": "https://www.defensenews.com/pentagon/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles/",
+      "url": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
+      "vo": "en"
+    },
+    {
+      "rubrique": "defense",
+      "titre": "Le Japon va tirer ses missiles longue portée en Inde",
+      "resume": "Un accord signé le 19 novembre permettra aux forces japonaises de faire des tirs réels sur des champs de tir indiens, faute de place au Japon. Tokyo renforce sa dissuasion face à la Chine et se rapproche de New Delhi, y compris sur le plan industriel.",
+      "source": "Defense News",
+      "url": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/",
       "vo": "en"
     },
     {
       "rubrique": "sport",
-      "titre": "Manchester United fait appel du carton rouge de Yoro",
-      "resume": "Après la lourde défaite 4-0 contre Liverpool, MU conteste l'expulsion du défenseur français Leny Yoro. Sans appel gagné, il manquerait plusieurs matchs dans une période déjà difficile pour le club.",
+      "titre": "Serie A : la Lazio en tête malgré le boycott de ses supporters",
+      "resume": "La Lazio Rome est première du championnat italien alors que ses ultras boycottent le club pour protester contre le propriétaire. Un cas rare où les résultats sportifs et la colère des fans vont dans des directions opposées (article de mardi, aucune actu foot récente accessible ce matin).",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50572590/man-united-leny-yoro-red-card-liverpool-premier-league",
-      "vo": "en"
-    },
-    {
-      "rubrique": "sport",
-      "titre": "Washington Spirit limoge son entraîneur après une 3e finale perdue",
-      "resume": "Le club de foot féminin américain renvoie Adrián González après sa troisième défaite de suite en finale du championnat NWSL. Une décision dure qui montre la pression sur les résultats dans le foot féminin pro.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50575099/spirit-fire-gonzalez-nwsl-championship-third-straight",
+      "url": "https://www.espn.com/espn/rss/soccer/news",
       "vo": "en"
     },
     {
       "rubrique": "rap",
-      "titre": "2 Chainz sort indemne d'un accident en Cybertruck",
-      "resume": "Le rappeur d'Atlanta a eu un accident au volant de son Cybertruck Tesla personnalisé. Il s'en sort sans blessure grave, selon XXL.",
+      "titre": "YNW Melly : le juge écarte des preuves Instagram et Snapchat",
+      "resume": "Pour le nouveau procès du rappeur, accusé de double meurtre, le juge a refusé des preuves tirées des réseaux sociaux. La sélection du jury doit commencer le 6 janvier 2027, et la place des réseaux sociaux comme preuve est un débat récurrent dans les procès de rappeurs.",
       "source": "XXL",
-      "url": "https://www.xxlmag.com/2-chainz-survives-car-accident-cybertruck/",
+      "url": "https://www.xxlmag.com/ynw-melly-retrial-social-media-evidence-gang-ties/",
       "vo": "en"
     },
     {
       "rubrique": "rap",
-      "titre": "GloRilla répond aux rumeurs de clash avec Megan Thee Stallion",
-      "resume": "La rappeuse de Memphis s'exprime sur un supposé conflit avec Megan Thee Stallion, sans l'attaquer. Une façon de calmer les réseaux sociaux qui alimentaient le « beef ».",
-      "source": "XXL",
-      "url": "https://www.xxlmag.com/glorilla-addresses-megan-thee-stallion-beef/",
-      "vo": "en"
-    },
-    {
-      "rubrique": "rap",
-      "titre": "Life Without Buildings revient après 24 ans",
-      "resume": "Le groupe culte écossais de post-punk, séparé en 2002 après un seul album, a rejoué à Glasgow et Londres devant des salles complètes. Son retour s'inscrit dans les 50 ans du label Rough Trade.",
+      "titre": "Ultraligera ajoute 17 villes à sa tournée espagnole",
+      "resume": "Après des dates complètes en deux heures au Movistar Arena de Madrid, le groupe passe à 20 concerts dans 18 villes entre mai et octobre 2027. Les billets des nouvelles dates sortent le 1er décembre.",
       "source": "Mondo Sonoro",
-      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/life-without-buildings-vuelve/",
+      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/ultraligera-amplian-gira/",
+      "vo": "es"
+    },
+    {
+      "rubrique": "rap",
+      "titre": "Benjamin Clementine en concert à Ferrol en 2027",
+      "resume": "L'artiste britannique jouera au Teatro Jofre de Ferrol (Galice) le 30 mai 2027. Une date rare en Espagne pour ce musicien inclassable, entre soul et piano classique.",
+      "source": "Mondo Sonoro",
+      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/benjamine-clementine-ferrol/",
       "vo": "es"
     }
   ],
@@ -148,43 +148,47 @@
     {
       "langue": "en",
       "rubrique": "defense",
-      "source": "Rédigé d'après Defense News (Reuters)",
-      "titre": "From car parts to drones: Japan's suppliers switch gears",
-      "url": "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/",
+      "source": "Rédigé d'après Defense News",
+      "titre": "Russia's hidden war toll: more than 720,000 dead",
+      "url": "https://www.defensenews.com/global/europe/2026/11/25/estimates-of-russians-killed-in-ukraine-surpass-all-combined-us-war-deaths-since-wwi/",
       "texte": [
-        "Japan's car industry, long a symbol of the country's economic power, is losing ground to Chinese competitors. Japanese factories built almost 900,000 fewer vehicles in 2025 than a decade earlier, and thousands of small parts makers are looking for new customers. The government in Tokyo believes it has found one: the military.",
-        "Prime Minister Sanae Takaichi is overseeing Japan's largest arms buildup since the Second World War, driven by concerns about China, Russia and North Korea. To speed it up, officials want to tap into the country's dense network of automotive suppliers. The defence procurement agency, ATLA, is assessing companies, matching them with arms manufacturers and offering funding, including a new drone programme launched in October.",
-        "Some firms have already made the switch. Aster, a former Toyota supplier based in Akita Prefecture, now makes electric motors for drones built by the American company Anduril. Defence already accounts for about a tenth of its revenue, and its chief executive says drones are a far more profitable business than car motors. Another supplier, Kyowa Industrial, has seen its defence sales rise from 3% to 10% of turnover in about eighteen months.",
-        "Japan still has a long way to go. It exported around 1,100 drones last year, compared with roughly 123,000 from Taiwan. And the country's three biggest carmakers, Toyota, Honda and Nissan, are staying away: a Toyota executive said the group would not take on defence work. A new national security strategy, expected by the end of the year, should set out Japan's plans for drone fleets."
+        "More than 720,000 Russian soldiers have been killed since Moscow launched its full-scale invasion of Ukraine in February 2022, according to a new estimate published on Monday by two independent Russian news outlets, Mediazona and Meduza. The figure has risen sharply from roughly 490,000 at the end of September, and it does not include the wounded.",
+        "Because the Kremlin stopped releasing casualty figures in 2022, when it admitted to fewer than 6,000 deaths, journalists have had to rely on indirect sources. This time, the estimate is based on leaked data from Rosstat, Russia's official statistics agency, which was obtained and analysed with the help of Belarusian and Ukrainian hackers. The outlets say they cross-checked the numbers against names of the deceased, inheritance records, civil registry data and court rulings, and adjusted them for reporting delays and soldiers listed as missing.",
+        "To put the toll into perspective, the article compares it with official Pentagon data: 624,547 American service members died in all US wars from the First World War to the conflicts of the 2000s. In other words, Russia may have lost more soldiers in less than five years than the United States has lost in more than a century. CNN calculated that this amounts to roughly one death every four minutes.",
+        "The numbers remain estimates, and historians often dispute war statistics. Still, the scale of the losses raises questions about how long Russia can sustain its recruitment drive, which relies heavily on generous signing bonuses, and about the long-term demographic and economic cost of the war for the country."
       ],
       "vocab": [
         {
-          "mot": "to lose ground",
-          "trad": "perdre du terrain"
+          "mot": "full-scale invasion",
+          "trad": "invasion à grande échelle"
         },
         {
-          "mot": "an arms buildup",
-          "trad": "un réarmement, une montée en puissance militaire"
+          "mot": "an outlet",
+          "trad": "un média (ici)"
         },
         {
-          "mot": "a supplier",
-          "trad": "un fournisseur, un sous-traitant"
+          "mot": "the toll",
+          "trad": "le bilan (des victimes)"
         },
         {
-          "mot": "procurement",
-          "trad": "les achats, l'approvisionnement (public)"
+          "mot": "leaked data",
+          "trad": "des données qui ont fuité"
         },
         {
-          "mot": "to tap into",
-          "trad": "exploiter, puiser dans"
+          "mot": "to cross-check",
+          "trad": "recouper, vérifier"
         },
         {
-          "mot": "revenue / turnover",
-          "trad": "le chiffre d'affaires"
+          "mot": "to put into perspective",
+          "trad": "remettre en perspective"
         },
         {
-          "mot": "to switch gears",
-          "trad": "changer de cap (litt. changer de vitesse)"
+          "mot": "to sustain",
+          "trad": "soutenir dans la durée, tenir"
+        },
+        {
+          "mot": "a signing bonus",
+          "trad": "une prime d'engagement"
         }
       ]
     },
@@ -192,42 +196,46 @@
       "langue": "es",
       "rubrique": "politique",
       "source": "Rédigé d'après elDiario.es",
-      "titre": "Empate técnico entre PP y PSOE a seis días del 29N",
-      "url": "https://www.eldiario.es/politica/pp-gana-minima-psoe-derecha-supera-izquierda-ultima-encuesta-29n_1_13684963.html",
+      "titre": "El Gobierno aprueba una cascada de medidas sociales a cinco días del 29N",
+      "url": "https://www.eldiario.es/economia/ultimo-consejo-ministros-elecciones-da-luz-verde-gran-paquete-permisos-ayudas-impuesto-banca_1_13688755.html",
       "texte": [
-        "A menos de una semana de las elecciones generales del 29 de noviembre, la última encuesta de Ateneo del Dato para elDiario.es dibuja un escenario muy ajustado. El Partido Popular obtendría el 32,1 % de los votos, frente al 30,8 % del PSOE, una diferencia de apenas 1,3 puntos que, teniendo en cuenta el margen de error, equivale prácticamente a un empate técnico.",
-        "La tendencia, sin embargo, favorece a los socialistas. Desde el sondeo anterior, publicado el 6 de noviembre, el PSOE ha subido más de dos puntos, mientras que el PP solo ha ganado seis décimas y Vox ha retrocedido un punto, hasta el 17,6 %. El estudio se realizó entre el 18 y el 20 de noviembre mediante 2.000 entrevistas en línea.",
-        "Aun así, el bloque de la derecha sigue por delante. La suma de PP y Vox alcanza el 49,7 %, cerca de la mayoría absoluta, mientras que la izquierda (PSOE, Frente Amplio y Podemos) se queda en el 37,5 %. El PP ya ha dejado claro que está dispuesto a gobernar con Vox, por lo que el resultado final dependerá en gran medida de los apoyos de los partidos minoritarios y nacionalistas.",
-        "En cuanto a los líderes, Pedro Sánchez sigue siendo el candidato preferido como presidente del Gobierno, con un 34 %, por delante de Alberto Núñez Feijóo (26 %) y Santiago Abascal (19 %). Pero es Feijóo quien recibe la mejor valoración personal. Todo se decidirá en las urnas el próximo domingo."
+        "A cinco días de las elecciones generales del 29 de noviembre, el Gobierno celebró este martes su último Consejo de Ministros de la legislatura y aprobó un amplio paquete de decretos-ley con un marcado perfil social. La portavoz, Elma Saiz, el ministro de Hacienda, Arcadi España, y la ministra de Trabajo, Yolanda Díaz, presentaron las medidas como la culminación de cuatro años de políticas progresistas.",
+        "La principal novedad afecta a los permisos laborales. El permiso por fallecimiento de un familiar directo pasa de dos días a diez, y el permiso por nacimiento alcanza las 20 semanas retribuidas por la Seguridad Social para cada progenitor, intransferibles. Además, se amplía la semana adicional de cuidados, sobre todo para las familias monoparentales.",
+        "En el terreno económico, el Ejecutivo prorroga para 2027 las ayudas al transporte público, dotadas con 1.200 millones de euros, y el impuesto a la banca, cuya recaudación quiere destinar en parte a vivienda asequible junto con las comunidades autónomas. Los autónomos, por su parte, se benefician de una rebaja fiscal de 465 millones: una deducción por gastos de difícil justificación, un pago fraccionado algo menor y, para quienes facturen menos de 85.000 euros, una única declaración anual de IVA.",
+        "La oposición no ha tardado en reaccionar. El PP, por boca de su secretario general, Miguel Tellado, acusa al Gobierno de electoralismo y amenaza con derogar las medidas si llega a La Moncloa. Los decretos deberán ser convalidados por la Diputación Permanente después de las elecciones, aunque entran en vigor de inmediato."
       ],
       "vocab": [
         {
-          "mot": "una encuesta / un sondeo",
-          "trad": "un sondage"
+          "mot": "el Consejo de Ministros",
+          "trad": "le Conseil des ministres"
         },
         {
-          "mot": "ajustado",
-          "trad": "serré"
+          "mot": "el decreto-ley",
+          "trad": "le décret-loi (texte du gouvernement à valeur de loi)"
         },
         {
-          "mot": "un empate técnico",
-          "trad": "une égalité statistique"
+          "mot": "retribuido",
+          "trad": "rémunéré"
         },
         {
-          "mot": "retroceder",
-          "trad": "reculer"
+          "mot": "prorrogar",
+          "trad": "prolonger, reconduire"
         },
         {
-          "mot": "la mayoría absoluta",
-          "trad": "la majorité absolue"
+          "mot": "la recaudación",
+          "trad": "les recettes fiscales"
         },
         {
-          "mot": "los apoyos",
-          "trad": "les soutiens"
+          "mot": "los autónomos",
+          "trad": "les travailleurs indépendants"
         },
         {
-          "mot": "las urnas",
-          "trad": "les urnes"
+          "mot": "derogar",
+          "trad": "abroger"
+        },
+        {
+          "mot": "convalidar",
+          "trad": "valider, ratifier"
         }
       ]
     }
