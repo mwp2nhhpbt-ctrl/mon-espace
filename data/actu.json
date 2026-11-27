@@ -1,7 +1,7 @@
 {
   "demo": false,
-  "date": "2026-11-26",
-  "synthese": "Ce jeudi, la guerre en Ukraine affiche un bilan vertigineux : selon des médias russes d'opposition, plus de 720 000 soldats russes seraient morts depuis 2022. En Espagne, la dernière moyenne des sondages avant les législatives de dimanche donne le PP en tête et un bloc PP-Vox au-dessus de la majorité absolue, même si le PSOE remonte. En Europe, le retard d'investissement dans la tech face aux États-Unis se creuse et les prix du gaz pourraient grimper avec un hiver imprévisible. En France, Reporterre enquête sur les data centers qui « achètent » l'acceptation des communes et sur la colère contre l'assouplissement des règles sur les pesticides. Côté culture, Ultraligera remplit les salles en Espagne et le procès de YNW Melly avance aux États-Unis.",
+  "date": "2026-11-27",
+  "synthese": "L'Europe est au cœur de l'actualité : réunis à Bruxelles, les dirigeants de l'UE se divisent sur le budget 2028-2034, mais la zone euro a choisi l'Espagnol Pablo Hernández de Cos pour diriger la BCE à partir de 2027. En Espagne, les quatre grands candidats se sont affrontés lors du dernier débat avant les législatives de dimanche. En France, le gouvernement recule sur l'indemnisation des victimes des essais nucléaires et la loi logement autorise de nouveau la location des passoires thermiques. Côté défense, l'Italie affirme atteindre 2,8 % de son PIB pour la sécurité, sous la pression de Washington, tandis que le blocus américain étouffe l'économie iranienne.",
   "rubriques": [
     {
       "id": "politique",
@@ -27,120 +27,119 @@
   "articles": [
     {
       "rubrique": "politique",
-      "titre": "Data centers : un géant américain propose 170 000 € à une commune",
-      "resume": "À Bouc-Bel-Air (Bouches-du-Rhône), Digital Realty a obtenu de justesse le permis pour un énorme centre de données, puis a proposé un « mécénat » de 170 000 € à la mairie. Ces centres, indispensables à l'IA, consomment beaucoup d'électricité et d'eau, et leur acceptation locale devient un enjeu politique.",
+      "titre": "Essais nucléaires : le gouvernement recule sur l'indemnisation des victimes",
+      "resume": "La ministre des Armées a annoncé que le gouvernement ne soutiendrait pas, en l'état, la loi qui reconnaît les victimes des essais nucléaires français en Algérie et en Polynésie (1960-1996), alors que l'Assemblée et le Sénat l'avaient déjà adoptée. C'est important car ces victimes attendent depuis des décennies une reconnaissance et des indemnités.",
       "source": "Reporterre",
-      "bord": "gauche",
-      "url": "https://reporterre.net/Ils-achetent-le-silence-pour-faire-accepter-ses-data-centers-un-constructeur-sort-le"
+      "url": "https://reporterre.net/Victimes-des-essais-nucleaires-le-gouvernement-fait-volte-face-sur-leur-indemnisation",
+      "bord": "gauche"
     },
     {
       "rubrique": "politique",
-      "titre": "Pesticides : malades et paysans manifestent devant le Parlement européen",
-      "resume": "Près de 500 personnes des 27 pays de l'UE se sont rassemblées à Strasbourg contre le texte « Omnibus », qui assouplit les règles sur les pesticides. L'UE cherche à simplifier ses normes pour sa compétitivité, mais ses opposants y voient un recul pour la santé et l'environnement.",
+      "titre": "Logement : les « passoires thermiques » pourront de nouveau être louées",
+      "resume": "La loi logement adoptée le 24 novembre supprime l'interdiction de louer les logements qui consomment beaucoup d'énergie, à la suite d'un amendement du RN. Pour les écologistes, c'est un recul face au réchauffement climatique ; pour les propriétaires, cela évite de retirer des logements du marché.",
       "source": "Reporterre",
-      "bord": "gauche",
-      "url": "https://reporterre.net/On-m-a-enleve-un-truc-dans-le-nichon-des-malades-du-cancer-et-des-paysans-deversent-leur"
+      "url": "https://reporterre.net/Derriere-la-reautorisation-des-passoires-thermiques-un-depute-RN-qui-fait-fortune-dans-l",
+      "bord": "gauche"
     },
     {
       "rubrique": "politique",
-      "titre": "Tech : l'Europe décroche face aux États-Unis",
-      "resume": "Les start-ups européennes devraient lever 81 milliards de dollars en 2026, contre déjà 450 milliards pour les américaines en neuf mois : l'écart est passé de 3,4 à 7,4 fois depuis 2017. Bruxelles propose un fonds jusqu'à 50 milliards d'euros pour l'IA et le quantique, car sans capitaux l'Europe dépendra des technologies étrangères.",
-      "source": "Le Grand Continent",
-      "bord": "centre",
-      "url": "https://legrandcontinent.eu/fr/2026/11/25/lecart-dinvestissement-dans-les-start-ups-technologiques-se-creuse-entre-leurope-et-les-etats-unis/"
+      "titre": "BCE : l'Espagnol Pablo Hernández de Cos va remplacer Christine Lagarde",
+      "resume": "Les dirigeants de la zone euro ont choisi l'ancien gouverneur de la Banque d'Espagne pour prendre la tête de la Banque centrale européenne en février 2027. La BCE fixe les taux d'intérêt de 21 pays : ses décisions pèsent sur les crédits immobiliers, l'inflation et les entreprises exportatrices.",
+      "source": "Toute l'Europe",
+      "url": "https://www.touteleurope.eu/economie-et-social/bce-l-espagnol-pablo-hernandez-cos-devrait-sauf-surprise-succeder-a-christine-lagarde-en-fevrier-2027/",
+      "bord": "centre"
     },
     {
       "rubrique": "politique",
-      "titre": "Gaz : un hiver imprévisible pourrait faire flamber les prix",
-      "resume": "Le prix de référence du gaz en Europe a bondi de 8,6 % lundi, à 96 €/MWh, sur des prévisions de froid précoce. La météo explique environ 90 % des variations de consommation en France, en Allemagne et en Italie, donc un hiver rude pèserait sur les factures et sur l'industrie.",
-      "source": "Le Grand Continent",
-      "bord": "centre",
-      "url": "https://legrandcontinent.eu/fr/2026/11/25/lincertitude-meteorologique-pourrait-faire-grimper-les-prix-du-gaz-en-europe-cet-hiver/"
+      "titre": "Sommet européen : les 27 se divisent sur le budget 2028-2034",
+      "resume": "Réunis à Bruxelles les 26 et 27 novembre, les dirigeants européens ne parviennent pas à s'entendre sur le prochain budget de l'UE ; un prêt de 45 milliards d'euros à l'Ukraine est aussi sur la table. Les pays « frugaux » veulent dépenser moins, d'autres veulent financer la défense et la transition écologique.",
+      "source": "Toute l'Europe",
+      "url": "https://www.touteleurope.eu/fonctionnement-de-l-ue/budget-europeen-ukraine-bce-les-grands-dossiers-du-sommet-europeen-des-26-et-27-novembre/",
+      "bord": "centre"
     },
     {
       "rubrique": "geo",
-      "titre": "Espagne : dernière moyenne des sondages avant le vote de dimanche",
-      "resume": "Le PP est en tête (31,2 %) devant le PSOE (28,4 %) et Vox (18,3 %) ; ensemble, PP et Vox dépasseraient la majorité absolue de 176 sièges. Le PSOE remonte toutefois, et le scrutin du 29 novembre décidera si l'Espagne bascule à droite.",
+      "titre": "Le blocus américain étouffe l'économie iranienne",
+      "resume": "Depuis le 14 juillet, les États-Unis bloquent les ports iraniens : pénuries de carburant et flambée des prix frappent la population. Téhéran promet de briser le blocus, tandis que des négociations indirectes continuent via le Qatar et le Pakistan.",
+      "source": "Le Grand Continent",
+      "url": "https://legrandcontinent.eu/fr/2026/11/26/le-blocus-maritime-americain-etouffe-leconomie-iranienne/"
+    },
+    {
+      "rubrique": "geo",
+      "titre": "Espagne : dernier grand débat avant les élections de dimanche",
+      "resume": "Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal et Ada Colau se sont affrontés à la télévision avant les législatives du 29 novembre. Le journal a vérifié leurs chiffres : plusieurs affirmations sur l'immigration, la délinquance et le logement sont fausses ou trompeuses.",
       "source": "elDiario.es",
-      "url": "https://www.eldiario.es/politica/media-final-encuestas-psoe-sube-bloques-acercan-apagon-demoscopico_1_13688784.html",
+      "url": "https://www.eldiario.es/politica/mentiras-debate-cuatro_1_13697433.html",
       "vo": "es"
     },
     {
       "rubrique": "geo",
-      "titre": "Minerais critiques : l'Afrique exporte surtout du brut",
-      "resume": "Selon l'IRIS, l'Afrique subsaharienne détient près de 30 % des réserves mondiales de minerais critiques (cobalt, lithium…), mais 96 % sont exportés bruts ou peu transformés. Ces métaux sont clés pour les batteries et la défense, d'où la course entre Chine, États-Unis et Europe en RDC, Guinée ou Zimbabwe.",
+      "titre": "IA : bulle financière ou révolution industrielle ?",
+      "resume": "L'IRIS analyse la bataille entre fabricants de puces (comme Nvidia) et créateurs de modèles d'IA. Les IA « agents » font exploser les besoins de calcul, tandis que les modèles chinois gratuits font baisser les prix : un enjeu de puissance entre États-Unis et Chine.",
       "source": "IRIS",
-      "url": "https://www.iris-france.org/minerais-critiques-en-afrique-etats-producteurs-strategies-des-puissances-etrangeres-et-risques-dapprovisionnement/"
-    },
-    {
-      "rubrique": "geo",
-      "titre": "Comment Moscou récupère les manifestations de jeunes en Europe",
-      "resume": "Des documentaires de la chaîne russe RT présentent les manifestations de jeunes Européens comme un rejet du réarmement et de l'aide à l'Ukraine, alors que les manifestants font rarement ce lien. C'est un exemple de guerre informationnelle : exploiter des colères réelles pour affaiblir le soutien à Kiev.",
-      "source": "Le Grand Continent",
-      "url": "https://legrandcontinent.eu/fr/2026/11/24/comment-moscou-exploite-les-manifestations-de-la-jeunesse-en-europe-pour-nourrir-sa-guerre-informationnelle/"
+      "url": "https://www.iris-france.org/luttes-de-pouvoir-dans-lia-entre-bulle-financiere-et-revolution-industrielle/"
     },
     {
       "rubrique": "defense",
-      "titre": "Ukraine : plus de 720 000 soldats russes tués selon une estimation",
-      "resume": "Les médias d'opposition Mediazona et Meduza, à partir de données officielles qui ont fuité, estiment que plus de 720 000 soldats russes sont morts depuis 2022, plus que tous les morts militaires américains depuis 1917. Le Kremlin ne publie plus de bilan, et ces chiffres restent des estimations.",
-      "source": "Defense News",
-      "url": "https://www.defensenews.com/global/europe/2026/11/25/estimates-of-russians-killed-in-ukraine-surpass-all-combined-us-war-deaths-since-wwi/",
-      "vo": "en"
+      "titre": "La France veut un missile balistique « manœuvrant » et pas trop cher",
+      "resume": "La DGA et l'armée de Terre étudient un missile tiré depuis le sol, capable de changer de trajectoire pour échapper aux défenses, ouvert à des partenariats. La guerre en Ukraine a montré l'importance des frappes à longue portée ; les études doivent aboutir l'an prochain.",
+      "source": "FOB",
+      "url": "https://forcesoperations.com/un-missile-balistique-manoeuvrant-et-a-cout-raisonnable-dans-le-viseur-de-la-dga/"
     },
     {
       "rubrique": "defense",
-      "titre": "Méditerranée : l'OTAN surveille la Russie après une frappe ukrainienne près de la Libye",
-      "resume": "L'OTAN ne voit pas de renforcement naval russe après une frappe ukrainienne près des côtes libyennes. Des analystes craignent néanmoins des représailles et des tensions sur le flanc sud de l'Alliance, qui touche directement la France et l'Italie.",
-      "source": "Breaking Defense",
-      "url": "https://breakingdefense.com/2026/11/nato-sees-no-russian-naval-buildup-in-the-med-after-strike-near-libya-but-analysts-warn-of-wider-risks/",
-      "vo": "en"
-    },
-    {
-      "rubrique": "defense",
-      "titre": "L'Italie annonce atteindre l'objectif de l'OTAN",
-      "resume": "Rome affirme consacrer 2,8 % de son PIB à la défense et à la sécurité en 2026 (2,1 % pour la défense pure). Le chiffre n'apparaît pas clairement dans le budget, ce qui montre comment les pays « habillent » leurs dépenses pour satisfaire les exigences de l'OTAN.",
+      "titre": "L'Italie atteindrait 2,8 % du PIB pour la défense et la sécurité",
+      "resume": "Selon des responsables italiens, Rome tient sa promesse faite à l'OTAN, mais le budget publié ne donne pas clairement ce chiffre et le journaliste a dû le reconstituer. L'OTAN vise 5 % du PIB d'ici 2035, sous la pression de Donald Trump.",
       "source": "Defense News",
       "url": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
       "vo": "en"
     },
     {
       "rubrique": "defense",
-      "titre": "Le Japon va tirer ses missiles longue portée en Inde",
-      "resume": "Un accord signé le 19 novembre permettra aux forces japonaises de faire des tirs réels sur des champs de tir indiens, faute de place au Japon. Tokyo renforce sa dissuasion face à la Chine et se rapproche de New Delhi, y compris sur le plan industriel.",
+      "titre": "Le Japon va s'entraîner au tir de missiles en Inde",
+      "resume": "Un accord signé le 19 novembre permet pour la première fois aux forces japonaises de faire des tirs réels sur des terrains indiens. Les deux pays se rapprochent pour faire contrepoids à la Chine en Asie.",
       "source": "Defense News",
       "url": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/",
       "vo": "en"
     },
     {
       "rubrique": "sport",
-      "titre": "Serie A : la Lazio en tête malgré le boycott de ses supporters",
-      "resume": "La Lazio Rome est première du championnat italien alors que ses ultras boycottent le club pour protester contre le propriétaire. Un cas rare où les résultats sportifs et la colère des fans vont dans des directions opposées (article de mardi, aucune actu foot récente accessible ce matin).",
+      "titre": "Ligue des champions : Manchester United accroché par le Sporting (2-2)",
+      "resume": "Mauricio Pochettino, toujours sans victoire depuis son arrivée, estime que son équipe a été « beaucoup pénalisée » par l'arbitrage et la VAR. La pression monte déjà sur le nouvel entraîneur.",
       "source": "ESPN",
-      "url": "https://www.espn.com/espn/rss/soccer/news",
+      "url": "https://www.espn.com/soccer/story/_/id/50599139/man-united-mauricio-pochettino-sporting-referee-var-goal",
+      "vo": "en"
+    },
+    {
+      "rubrique": "sport",
+      "titre": "Doublé d'Isak, Liverpool écrase Bruges 3-0",
+      "resume": "L'attaquant suédois a marqué deux fois en Ligue des champions et son entraîneur Andoni Iraola salue sa grande forme. Une victoire nette qui rassure les Reds en Ligue des champions.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50598768/andoni-iraola-alexander-isak-great-moment-liverpool",
+      "vo": "en"
+    },
+    {
+      "rubrique": "sport",
+      "titre": "Guardiola a refusé l'Italie mais rêve d'une sélection",
+      "resume": "Pep Guardiola explique avoir été « gêné » de dire non à la sélection italienne. S'il revient sur un banc, ce sera probablement à la tête d'une équipe nationale.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50587357/guardiola-embarrassed-italy-national-team-next",
       "vo": "en"
     },
     {
       "rubrique": "rap",
-      "titre": "YNW Melly : le juge écarte des preuves Instagram et Snapchat",
-      "resume": "Pour le nouveau procès du rappeur, accusé de double meurtre, le juge a refusé des preuves tirées des réseaux sociaux. La sélection du jury doit commencer le 6 janvier 2027, et la place des réseaux sociaux comme preuve est un débat récurrent dans les procès de rappeurs.",
+      "titre": "ILoveMakonnen travaille désormais dans un supermarché",
+      "resume": "Le rappeur, connu pour le tube « Tuesday » avec Drake, dit ne plus se sentir utile dans la musique et a pris un emploi dans une épicerie, tout en continuant à composer. Un témoignage rare sur la précarité des artistes après le succès.",
       "source": "XXL",
-      "url": "https://www.xxlmag.com/ynw-melly-retrial-social-media-evidence-gang-ties/",
+      "url": "https://www.xxlmag.com/ilovemakonnen-grocery-store-job/",
       "vo": "en"
     },
     {
       "rubrique": "rap",
-      "titre": "Ultraligera ajoute 17 villes à sa tournée espagnole",
-      "resume": "Après des dates complètes en deux heures au Movistar Arena de Madrid, le groupe passe à 20 concerts dans 18 villes entre mai et octobre 2027. Les billets des nouvelles dates sortent le 1er décembre.",
+      "titre": "Musique et IA : l'Espagne prépare un premier code de bonnes pratiques",
+      "resume": "GenAIe, liée à l'AIE (la société qui gère les droits des artistes interprètes en Espagne), lance un code pour encadrer l'usage de l'intelligence artificielle dans la musique. L'enjeu : protéger les voix et les œuvres des artistes copiées par l'IA.",
       "source": "Mondo Sonoro",
-      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/ultraligera-amplian-gira/",
-      "vo": "es"
-    },
-    {
-      "rubrique": "rap",
-      "titre": "Benjamin Clementine en concert à Ferrol en 2027",
-      "resume": "L'artiste britannique jouera au Teatro Jofre de Ferrol (Galice) le 30 mai 2027. Une date rare en Espagne pour ce musicien inclassable, entre soul et piano classique.",
-      "source": "Mondo Sonoro",
-      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/benjamine-clementine-ferrol/",
+      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/genaie-aie/",
       "vo": "es"
     }
   ],
@@ -149,46 +148,42 @@
       "langue": "en",
       "rubrique": "defense",
       "source": "Rédigé d'après Defense News",
-      "titre": "Russia's hidden war toll: more than 720,000 dead",
-      "url": "https://www.defensenews.com/global/europe/2026/11/25/estimates-of-russians-killed-in-ukraine-surpass-all-combined-us-war-deaths-since-wwi/",
+      "titre": "Italy says it has hit NATO's spending target, but the numbers are hard to find",
+      "url": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
       "texte": [
-        "More than 720,000 Russian soldiers have been killed since Moscow launched its full-scale invasion of Ukraine in February 2022, according to a new estimate published on Monday by two independent Russian news outlets, Mediazona and Meduza. The figure has risen sharply from roughly 490,000 at the end of September, and it does not include the wounded.",
-        "Because the Kremlin stopped releasing casualty figures in 2022, when it admitted to fewer than 6,000 deaths, journalists have had to rely on indirect sources. This time, the estimate is based on leaked data from Rosstat, Russia's official statistics agency, which was obtained and analysed with the help of Belarusian and Ukrainian hackers. The outlets say they cross-checked the numbers against names of the deceased, inheritance records, civil registry data and court rulings, and adjusted them for reporting delays and soldiers listed as missing.",
-        "To put the toll into perspective, the article compares it with official Pentagon data: 624,547 American service members died in all US wars from the First World War to the conflicts of the 2000s. In other words, Russia may have lost more soldiers in less than five years than the United States has lost in more than a century. CNN calculated that this amounts to roughly one death every four minutes.",
-        "The numbers remain estimates, and historians often dispute war statistics. Still, the scale of the losses raises questions about how long Russia can sustain its recruitment drive, which relies heavily on generous signing bonuses, and about the long-term demographic and economic cost of the war for the country."
+        "Italian officials say Rome spent 2.8% of its gross domestic product on defence and security in 2026, fulfilling a pledge it made to NATO allies at their summit in July. Under the alliance's new goal, members are expected to reach 5% of GDP by 2035, split between 3.5% for core defence and 1.5% for wider security, such as protecting infrastructure.",
+        "However, the figure does not appear anywhere in Italy's budget. The 2026 document was published months late, and it gives no clear total for military spending. Journalists had to work out the numbers themselves by adding up different lines of the budget.",
+        "According to those calculations, the core defence function, which covers the army, air force and navy, rose by about €1.1 billion to roughly €23.6 billion. Once pensions and spending by other ministries are included, the total counted for NATO purposes reaches about €48 billion, or 2.1% of GDP, up from 2% last year. Government sources say the remaining 0.7% is spread across other budgets and pays for border control, counterterrorism and the protection of energy infrastructure.",
+        "The issue is politically sensitive. Italy has one of the highest public debts in Europe, and many voters are reluctant to see money moved away from health and pensions. At the same time, the United States under Donald Trump keeps pressing European allies to shoulder a bigger share of the burden. For Rome, presenting security spending creatively is a way to satisfy Washington without triggering a domestic backlash, but critics say it makes it harder for citizens to know how their taxes are actually being spent."
       ],
       "vocab": [
         {
-          "mot": "full-scale invasion",
-          "trad": "invasion à grande échelle"
+          "mot": "gross domestic product (GDP)",
+          "trad": "produit intérieur brut (PIB)"
         },
         {
-          "mot": "an outlet",
-          "trad": "un média (ici)"
+          "mot": "to fulfil a pledge",
+          "trad": "tenir une promesse, un engagement"
         },
         {
-          "mot": "the toll",
-          "trad": "le bilan (des victimes)"
+          "mot": "to work out",
+          "trad": "calculer, déterminer"
         },
         {
-          "mot": "leaked data",
-          "trad": "des données qui ont fuité"
+          "mot": "public debt",
+          "trad": "la dette publique"
         },
         {
-          "mot": "to cross-check",
-          "trad": "recouper, vérifier"
+          "mot": "reluctant",
+          "trad": "réticent"
         },
         {
-          "mot": "to put into perspective",
-          "trad": "remettre en perspective"
+          "mot": "to shoulder a burden",
+          "trad": "assumer une charge"
         },
         {
-          "mot": "to sustain",
-          "trad": "soutenir dans la durée, tenir"
-        },
-        {
-          "mot": "a signing bonus",
-          "trad": "une prime d'engagement"
+          "mot": "a backlash",
+          "trad": "une réaction hostile, un retour de bâton"
         }
       ]
     },
@@ -196,46 +191,46 @@
       "langue": "es",
       "rubrique": "politique",
       "source": "Rédigé d'après elDiario.es",
-      "titre": "El Gobierno aprueba una cascada de medidas sociales a cinco días del 29N",
-      "url": "https://www.eldiario.es/economia/ultimo-consejo-ministros-elecciones-da-luz-verde-gran-paquete-permisos-ayudas-impuesto-banca_1_13688755.html",
+      "titre": "Pablo Hernández de Cos, primer español al frente del Banco Central Europeo",
+      "url": "https://www.eldiario.es/economia/lideres-europeos-eligen-espanol-pablo-hernandez-cos-presidente-bce_1_13694914.html",
       "texte": [
-        "A cinco días de las elecciones generales del 29 de noviembre, el Gobierno celebró este martes su último Consejo de Ministros de la legislatura y aprobó un amplio paquete de decretos-ley con un marcado perfil social. La portavoz, Elma Saiz, el ministro de Hacienda, Arcadi España, y la ministra de Trabajo, Yolanda Díaz, presentaron las medidas como la culminación de cuatro años de políticas progresistas.",
-        "La principal novedad afecta a los permisos laborales. El permiso por fallecimiento de un familiar directo pasa de dos días a diez, y el permiso por nacimiento alcanza las 20 semanas retribuidas por la Seguridad Social para cada progenitor, intransferibles. Además, se amplía la semana adicional de cuidados, sobre todo para las familias monoparentales.",
-        "En el terreno económico, el Ejecutivo prorroga para 2027 las ayudas al transporte público, dotadas con 1.200 millones de euros, y el impuesto a la banca, cuya recaudación quiere destinar en parte a vivienda asequible junto con las comunidades autónomas. Los autónomos, por su parte, se benefician de una rebaja fiscal de 465 millones: una deducción por gastos de difícil justificación, un pago fraccionado algo menor y, para quienes facturen menos de 85.000 euros, una única declaración anual de IVA.",
-        "La oposición no ha tardado en reaccionar. El PP, por boca de su secretario general, Miguel Tellado, acusa al Gobierno de electoralismo y amenaza con derogar las medidas si llega a La Moncloa. Los decretos deberán ser convalidados por la Diputación Permanente después de las elecciones, aunque entran en vigor de inmediato."
+        "Los líderes de la zona euro eligieron este jueves en Bruselas a Pablo Hernández de Cos como próximo presidente del Banco Central Europeo (BCE). El exgobernador del Banco de España, que actualmente dirige el Banco de Pagos Internacionales, se impuso al candidato neerlandés Klaas Knot y sustituirá a Christine Lagarde a principios de febrero de 2027, nueve meses antes de que termine su mandato.",
+        "Será la primera vez que un español ocupe la presidencia de la institución que fija los tipos de interés para los 21 países del euro. Hasta ahora, el cargo más alto alcanzado por un español había sido la vicepresidencia de Luis de Guindos. Pedro Sánchez, en plena campaña electoral, no acudió a la cumbre y delegó su voto en Emmanuel Macron.",
+        "El nombramiento forma parte de un reparto de puestos pactado entre Francia y Alemania. El alemán Markus Brunnermeier será el nuevo economista jefe, mientras que París ha propuesto a la exministra Laurence Boone para dirigir las operaciones de mercado. Los Países Bajos, que apoyaban a Knot, aceptaron finalmente el consenso.",
+        "Hernández de Cos llega en un momento delicado: el crecimiento es débil, la inflación sigue alta y los mercados de deuda muestran tensiones, sobre todo en Francia e Italia. Aunque se le considera un economista ortodoxo, también tiene fama de ser menos partidario que otros de subir los tipos. Antes de asumir el cargo, el Parlamento Europeo y el Consejo de Gobierno del BCE deberán dar su opinión, un trámite que nunca ha bloqueado un nombramiento."
       ],
       "vocab": [
         {
-          "mot": "el Consejo de Ministros",
-          "trad": "le Conseil des ministres"
+          "mot": "imponerse a",
+          "trad": "l'emporter sur"
         },
         {
-          "mot": "el decreto-ley",
-          "trad": "le décret-loi (texte du gouvernement à valeur de loi)"
+          "mot": "el mandato",
+          "trad": "le mandat"
         },
         {
-          "mot": "retribuido",
-          "trad": "rémunéré"
+          "mot": "los tipos de interés",
+          "trad": "les taux d'intérêt"
         },
         {
-          "mot": "prorrogar",
-          "trad": "prolonger, reconduire"
+          "mot": "la cumbre",
+          "trad": "le sommet"
         },
         {
-          "mot": "la recaudación",
-          "trad": "les recettes fiscales"
+          "mot": "el reparto de puestos",
+          "trad": "la répartition des postes"
         },
         {
-          "mot": "los autónomos",
-          "trad": "les travailleurs indépendants"
+          "mot": "el economista jefe",
+          "trad": "l'économiste en chef"
         },
         {
-          "mot": "derogar",
-          "trad": "abroger"
+          "mot": "ser partidario de",
+          "trad": "être favorable à"
         },
         {
-          "mot": "convalidar",
-          "trad": "valider, ratifier"
+          "mot": "un trámite",
+          "trad": "une formalité, une démarche"
         }
       ]
     }

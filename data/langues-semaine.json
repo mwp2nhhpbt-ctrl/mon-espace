@@ -573,6 +573,204 @@
           }
         ]
       }
+    },
+    {
+      "date": "2026-11-27",
+      "en": {
+        "titre": "Parler comme un pro en réunion : touch base, ballpark figure…",
+        "mots": [
+          {
+            "mot": "a stakeholder",
+            "trad": "une partie prenante",
+            "exemple": "We need to inform all the stakeholders before the launch."
+          },
+          {
+            "mot": "turnover",
+            "trad": "le chiffre d'affaires (anglais britannique)",
+            "exemple": "The company's annual turnover reached £5 million."
+          },
+          {
+            "mot": "to outsource",
+            "trad": "externaliser, sous-traiter",
+            "exemple": "Many firms outsource their customer service abroad."
+          },
+          {
+            "mot": "an invoice",
+            "trad": "une facture",
+            "exemple": "Please send the invoice to our accounting department."
+          },
+          {
+            "mot": "a supply chain",
+            "trad": "une chaîne d'approvisionnement",
+            "exemple": "The strike has disrupted the whole supply chain."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "Your manager says: \"Can you give me a ballpark figure?\" They want…",
+            "choix": [
+              "an exact price",
+              "an approximate number",
+              "a sports result"
+            ],
+            "reponse": 1,
+            "explication": "A ballpark figure = un chiffre approximatif, un ordre de grandeur."
+          },
+          {
+            "type": "qcm",
+            "question": "Before we sign, I want to make sure we're all ___ the same page.",
+            "choix": [
+              "in",
+              "at",
+              "on"
+            ],
+            "reponse": 2,
+            "explication": "L'expression est figée : to be on the same page."
+          },
+          {
+            "type": "trou",
+            "phrase": "It's 7 pm and we've done a lot. Let's call it a ___.",
+            "reponse": [
+              "day"
+            ],
+            "explication": "To call it a day = s'arrêter là pour aujourd'hui."
+          },
+          {
+            "type": "trou",
+            "phrase": "I'll touch ___ with you next week to see how the project is going.",
+            "reponse": [
+              "base"
+            ],
+            "explication": "To touch base (with someone) = faire un point, reprendre contact."
+          },
+          {
+            "type": "qcm",
+            "question": "The prototype failed every test. What do you say?",
+            "choix": [
+              "We're on the same page.",
+              "It's back to the drawing board.",
+              "Let's get the ball rolling."
+            ],
+            "reponse": 1,
+            "explication": "Back to the drawing board = on recommence depuis le début."
+          },
+          {
+            "type": "ordre",
+            "fr": "Lançons la réunion avec les chiffres de vente.",
+            "mots": [
+              "ball",
+              "the",
+              "Let's",
+              "with",
+              "rolling",
+              "sales",
+              "get",
+              "the",
+              "figures"
+            ],
+            "reponse": "Let's get the ball rolling with the sales figures"
+          }
+        ]
+      },
+      "es": {
+        "titre": "Ir al grano, meter la pata, dar el visto bueno : l'espagnol du bureau",
+        "mots": [
+          {
+            "mot": "la plantilla",
+            "trad": "l'effectif, le personnel (d'une entreprise)",
+            "exemple": "La empresa ha ampliado su plantilla a 200 empleados."
+          },
+          {
+            "mot": "la facturación",
+            "trad": "le chiffre d'affaires",
+            "exemple": "La facturación creció un 15 % el año pasado."
+          },
+          {
+            "mot": "la cadena de suministro",
+            "trad": "la chaîne d'approvisionnement",
+            "exemple": "La huelga ha afectado a toda la cadena de suministro."
+          },
+          {
+            "mot": "el socio comercial",
+            "trad": "le partenaire commercial",
+            "exemple": "Marruecos es un socio comercial clave para España."
+          },
+          {
+            "mot": "la sede",
+            "trad": "le siège (social)",
+            "exemple": "La sede de la empresa está en Barcelona."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "Tu chef te dice: «¿Me echas una mano con el informe?». Te pide…",
+            "choix": [
+              "que le des la mano",
+              "que le ayudes",
+              "que firmes el informe"
+            ],
+            "reponse": 1,
+            "explication": "Echar una mano = donner un coup de main, aider."
+          },
+          {
+            "type": "qcm",
+            "question": "«Quedan dos días para el plazo: tenemos que ___ las pilas.»",
+            "choix": [
+              "ponernos",
+              "meternos",
+              "darnos"
+            ],
+            "reponse": 0,
+            "explication": "L'expression est ponerse las pilas (se bouger)."
+          },
+          {
+            "type": "trou",
+            "phrase": "Envié el correo sin el archivo adjunto. ¡He metido la ___!",
+            "reponse": [
+              "pata"
+            ],
+            "explication": "Meter la pata = faire une gaffe."
+          },
+          {
+            "type": "trou",
+            "phrase": "Cuando el director ___ (dar) el visto bueno, empezaremos la campaña.",
+            "reponse": [
+              "dé"
+            ],
+            "explication": "Cuando + futur → subjonctif présent : cuando dé (avec accent pour le distinguer de la préposition de)."
+          },
+          {
+            "type": "qcm",
+            "question": "Dans un e-mail formel à un client, quelle phrase est la plus adaptée ?",
+            "choix": [
+              "Hemos metido la pata con su pedido.",
+              "Hemos cometido un error con su pedido.",
+              "Estamos hasta arriba con su pedido."
+            ],
+            "reponse": 1,
+            "explication": "Registre formel : cometer un error. Meter la pata est familier."
+          },
+          {
+            "type": "ordre",
+            "fr": "Je préfère y réfléchir avant de signer le contrat.",
+            "mots": [
+              "la",
+              "Prefiero",
+              "almohada",
+              "firmar",
+              "con",
+              "el",
+              "consultarlo",
+              "contrato",
+              "antes",
+              "de"
+            ],
+            "reponse": "Prefiero consultarlo con la almohada antes de firmar el contrato"
+          }
+        ]
+      }
     }
   ]
 }

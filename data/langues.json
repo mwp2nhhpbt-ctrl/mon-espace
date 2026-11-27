@@ -1,284 +1,288 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "en": {
     "lecon": {
-      "type": "Grammaire",
-      "titre": "Négocier avec les conditionnels : If we order…, will you…?",
+      "type": "Expressions idiomatiques et langue professionnelle",
+      "titre": "Parler comme un pro en réunion : touch base, ballpark figure…",
       "explication": [
-        "En négociation, on passe son temps à poser des conditions : « si vous commandez plus, on baisse le prix ». En anglais, on utilise surtout deux structures, et les francophones les mélangent souvent.",
-        "**Le 1er conditionnel** sert pour une situation **réelle et probable** : **If + présent, will + base verbale**. « If you order 500 units, we **will** give you a 5 % discount. » Piège n°1 : jamais de *will* après *if* : on dit « If you **order** », pas « If you will order ».",
-        "**Le 2e conditionnel** sert pour une situation **hypothétique** ou pour faire une proposition **plus prudente et polie** : **If + prétérit, would + base verbale**. « If you **paid** in advance, we **would** ship faster. » Avec *to be*, on dit **If I were / If it were** en anglais soigné.",
-        "Astuce pro : **unless** = « sauf si » (= if… not) : « We can't lower the price **unless** you sign a two-year contract. » Et **as long as / provided that** = « à condition que »."
+        "Dans les réunions en anglais, on entend sans arrêt des **expressions toutes faites** qu'on ne trouve pas dans les manuels. Les comprendre évite de décrocher, et en placer une ou deux te fait paraître beaucoup plus à l'aise, même si ton accent n'est pas parfait.",
+        "**Pour lancer et organiser** : **to get the ball rolling** = lancer, démarrer (« Let's get the ball rolling with a quick update »). **To touch base** = faire un point rapide, reprendre contact (« I'll touch base with you on Monday »). **To be on the same page** = être d'accord, avoir la même compréhension.",
+        "**Pour parler chiffres et décisions** : **a ballpark figure** = un ordre de grandeur, un chiffre approximatif. **To call it a day** = s'arrêter là pour aujourd'hui. **Back to the drawing board** = on repart de zéro (le projet n'a pas marché).",
+        "Piège : ces expressions sont **figées**. On dit « on the same page » (jamais « on the same side »), et « touch base **with** someone ». Astuce oral : quand tu ne comprends pas une expression, dis simplement « Sorry, could you rephrase that? », c'est très naturel en anglais pro."
       ],
       "exemples": [
         {
-          "vo": "If you order 500 units, we will give you a 5% discount.",
-          "fr": "Si vous commandez 500 unités, nous vous accorderons une remise de 5 %."
+          "vo": "Let's get the ball rolling with a quick update from the sales team.",
+          "fr": "Lançons la réunion avec un petit point de l'équipe commerciale."
         },
         {
-          "vo": "If we lowered the price, would you sign today?",
-          "fr": "Si nous baissions le prix, signeriez-vous aujourd'hui ?"
+          "vo": "Could you give me a ballpark figure for the shipping costs?",
+          "fr": "Pourriez-vous me donner un ordre de grandeur des frais d'expédition ?"
         },
         {
-          "vo": "We can't ship the goods unless you pay the deposit.",
-          "fr": "Nous ne pouvons pas expédier la marchandise sauf si vous payez l'acompte."
+          "vo": "I'll touch base with the supplier and get back to you tomorrow.",
+          "fr": "Je fais le point avec le fournisseur et je reviens vers vous demain."
         },
         {
-          "vo": "If I were you, I would ask for a written quote.",
-          "fr": "À ta place, je demanderais un devis écrit."
+          "vo": "The client rejected the design, so it's back to the drawing board.",
+          "fr": "Le client a refusé le design, donc on repart de zéro."
         }
       ],
       "exercices": [
         {
           "type": "qcm",
-          "question": "If you ___ before Friday, we will deliver next week.",
+          "question": "Your manager says: \"Can you give me a ballpark figure?\" They want…",
           "choix": [
-            "will confirm",
-            "confirm",
-            "would confirm"
+            "an exact price",
+            "an approximate number",
+            "a sports result"
           ],
           "reponse": 1,
-          "explication": "1er conditionnel : if + présent. Jamais de will après if."
+          "explication": "A ballpark figure = un chiffre approximatif, un ordre de grandeur."
         },
         {
           "type": "qcm",
-          "question": "If we had a bigger budget, we ___ a stand at the trade fair.",
+          "question": "Before we sign, I want to make sure we're all ___ the same page.",
           "choix": [
-            "will book",
-            "would book",
-            "booked"
+            "in",
+            "at",
+            "on"
           ],
-          "reponse": 1,
-          "explication": "2e conditionnel : if + prétérit (had), puis would + verbe."
+          "reponse": 2,
+          "explication": "L'expression est figée : to be on the same page."
         },
         {
           "type": "trou",
-          "phrase": "If the client ___ (accept) our offer, we will start production on Monday.",
+          "phrase": "It's 7 pm and we've done a lot. Let's call it a ___.",
           "reponse": [
-            "accepts"
+            "day"
           ],
-          "explication": "Situation probable → présent après if, avec le -s de la 3e personne."
+          "explication": "To call it a day = s'arrêter là pour aujourd'hui."
         },
         {
           "type": "trou",
-          "phrase": "If I ___ (be) the manager, I would hire more interns.",
+          "phrase": "I'll touch ___ with you next week to see how the project is going.",
           "reponse": [
-            "were",
-            "was"
+            "base"
           ],
-          "explication": "Hypothèse → If I were (forme soignée) ; « was » est accepté à l'oral."
+          "explication": "To touch base (with someone) = faire un point, reprendre contact."
         },
         {
           "type": "qcm",
-          "question": "Quelle phrase veut dire « Nous ne baisserons pas le prix sauf si vous commandez plus » ?",
+          "question": "The prototype failed every test. What do you say?",
           "choix": [
-            "We won't lower the price unless you order more.",
-            "We won't lower the price if you order more.",
-            "We won't lower the price unless you don't order more."
+            "We're on the same page.",
+            "It's back to the drawing board.",
+            "Let's get the ball rolling."
           ],
-          "reponse": 0,
-          "explication": "unless = if… not, donc pas de négation après unless."
+          "reponse": 1,
+          "explication": "Back to the drawing board = on recommence depuis le début."
         },
         {
           "type": "ordre",
-          "fr": "Si vous payiez d'avance, nous expédierions plus vite.",
+          "fr": "Lançons la réunion avec les chiffres de vente.",
           "mots": [
-            "faster",
-            "paid",
-            "we",
-            "If",
-            "would",
-            "in",
-            "you",
-            "advance",
-            "ship"
+            "ball",
+            "the",
+            "Let's",
+            "with",
+            "rolling",
+            "sales",
+            "get",
+            "the",
+            "figures"
           ],
-          "reponse": "If you paid in advance we would ship faster"
+          "reponse": "Let's get the ball rolling with the sales figures"
         }
       ]
     },
     "mots": [
       {
-        "mot": "a quote",
-        "trad": "un devis",
-        "exemple": "Could you send us a quote for 1,000 units?"
+        "mot": "a stakeholder",
+        "trad": "une partie prenante",
+        "exemple": "We need to inform all the stakeholders before the launch."
       },
       {
-        "mot": "a bulk order",
-        "trad": "une commande en gros volume",
-        "exemple": "We offer better prices for bulk orders."
+        "mot": "turnover",
+        "trad": "le chiffre d'affaires (anglais britannique)",
+        "exemple": "The company's annual turnover reached £5 million."
       },
       {
-        "mot": "a deposit",
-        "trad": "un acompte, une caution",
-        "exemple": "A 30% deposit is required before production."
+        "mot": "to outsource",
+        "trad": "externaliser, sous-traiter",
+        "exemple": "Many firms outsource their customer service abroad."
       },
       {
-        "mot": "a profit margin",
-        "trad": "une marge bénéficiaire",
-        "exemple": "Our profit margin on this product is only 12%."
+        "mot": "an invoice",
+        "trad": "une facture",
+        "exemple": "Please send the invoice to our accounting department."
       },
       {
-        "mot": "to meet halfway",
-        "trad": "couper la poire en deux, faire un compromis",
-        "exemple": "If you meet us halfway, we can sign today."
+        "mot": "a supply chain",
+        "trad": "une chaîne d'approvisionnement",
+        "exemple": "The strike has disrupted the whole supply chain."
       }
     ],
     "oral": {
       "repeter": [
-        "If you place a bulk order, we will lower the price.",
-        "If we paid a deposit, would you ship next week?",
-        "We can't sign unless you send a written quote."
+        "Let's get the ball rolling.",
+        "Could you give me a ballpark figure?",
+        "I'll touch base with the stakeholders tomorrow."
       ],
-      "question": "Imagine you are selling a product to a foreign client. What conditions would you offer to close the deal?",
-      "aide": "Utilise au moins une phrase au 1er conditionnel (If you…, we will…) et une au 2e (If you…ed, we would…). Parle lentement et marque bien le « 'll » de we'll."
+      "question": "Imagine you are starting a team meeting during your internship. How would you open it and what would you ask your colleagues?",
+      "aide": "Commence par « Let's get the ball rolling » puis pose une ou deux questions simples. Parle lentement : en réunion, une phrase courte et claire vaut mieux qu'une longue phrase hésitante. Essaie d'utiliser « stakeholder » et « supply chain »."
     },
     "ecrit": {
-      "sujet": "Écris un e-mail (80 à 100 mots) à un fournisseur pour négocier : tu veux une remise si tu passes une grosse commande, et tu proposes de payer un acompte en échange d'un délai plus court.",
+      "sujet": "Écris un e-mail (80 à 100 mots) à ton tuteur de stage après une réunion : tu résumes ce qui a été décidé, tu demandes un ordre de grandeur du budget et tu proposes de refaire un point la semaine prochaine.",
       "mots_imposes": [
-        "a quote",
-        "a bulk order",
-        "a deposit"
+        "a ballpark figure",
+        "to touch base",
+        "an invoice"
       ],
-      "conseils": "Commence par « Dear Mr/Ms … », fais au moins deux phrases avec if (une au 1er conditionnel, une au 2e pour rester poli), ajoute un « unless » si tu peux, termine par « I look forward to hearing from you. Kind regards »."
+      "conseils": "Commence par « Hi Mark, » ou « Dear Ms Smith, », puis « Thanks for today's meeting. ». Utilise des phrases courtes, une idée par phrase. Termine par « Let me know if that works for you. Best regards, »."
     }
   },
   "es": {
     "lecon": {
-      "type": "Grammaire",
-      "titre": "Por ou para ? Enfin clair",
+      "type": "Expresiones idiomáticas y lenguaje profesional",
+      "titre": "Ir al grano, meter la pata, dar el visto bueno : l'espagnol du bureau",
       "explication": [
-        "**Por** et **para** se traduisent tous les deux par « pour », mais ils ne disent pas la même chose. Retiens l'idée : **para** regarde vers **le but, la destination, l'échéance** ; **por** regarde vers **la cause, le moyen, l'échange**.",
-        "**Para** : le but (« Estudio LEA **para** trabajar en comercio internacional »), le destinataire (« Este informe es **para** el director »), la destination (« Salgo **para** Madrid »), l'échéance (« Lo necesito **para** el lunes ») et l'opinion (« **Para** mí, es caro »).",
-        "**Por** : la cause (« Cancelaron el pedido **por** el retraso »), le moyen (« Le envío la factura **por** correo electrónico »), l'échange ou le prix (« Lo compramos **por** 500 euros »), la durée approximative ou le passage (« **por** la mañana », « pasamos **por** Barcelona ») et **por ciento** (pourcentage).",
-        "Expressions toutes faites très utiles au travail : **por favor, por supuesto, por fin, por lo tanto** (par conséquent), **por adelantado** (d'avance), **para siempre**. Astuce : si tu peux dire « afin de / à destination de / d'ici à », c'est **para** ; si tu peux dire « à cause de / par / en échange de », c'est **por**."
+        "Ton espagnol est déjà solide : ce qui fait la différence à ton niveau, ce sont les **expresiones coloquiales** qu'on entend tous les jours au bureau en Espagne et qu'un natif utilise sans y penser.",
+        "**Pour travailler** : **ir al grano** = aller droit au but. **Estar hasta arriba (de trabajo)** = être débordé. **Ponerse las pilas** = se bouger, se mettre au travail sérieusement (littéralement « mettre ses piles »). **Echar una mano** = donner un coup de main.",
+        "**Pour décider et se tromper** : **dar el visto bueno** = donner son feu vert, valider. **Meter la pata** = faire une gaffe. **Consultarlo con la almohada** = la nuit porte conseil (y réfléchir avant de décider).",
+        "Attention au registre : ces expressions sont parfaites à l'oral et dans un e-mail entre collègues, mais dans un e-mail formel à un client on préfère **aprobar** (au lieu de dar el visto bueno) ou **cometer un error** (au lieu de meter la pata). Et n'oublie pas de conjuguer : « **he metido** la pata », « nos **tenemos que poner** las pilas »."
       ],
       "exemples": [
         {
-          "vo": "Le enviamos el presupuesto por correo electrónico.",
-          "fr": "Nous vous envoyons le devis par e-mail."
+          "vo": "No tenemos mucho tiempo, así que voy a ir al grano.",
+          "fr": "Nous n'avons pas beaucoup de temps, donc je vais aller droit au but."
         },
         {
-          "vo": "Necesitamos la mercancía para el 15 de diciembre.",
-          "fr": "Nous avons besoin de la marchandise pour le 15 décembre."
+          "vo": "El director ya ha dado el visto bueno al presupuesto.",
+          "fr": "Le directeur a déjà donné son feu vert au budget."
         },
         {
-          "vo": "El cliente canceló el pedido por el retraso.",
-          "fr": "Le client a annulé la commande à cause du retard."
+          "vo": "Esta semana estoy hasta arriba de trabajo con la feria.",
+          "fr": "Cette semaine, je suis débordé de travail avec le salon."
         },
         {
-          "vo": "Ofrecemos un descuento del 10 por ciento para pedidos grandes.",
-          "fr": "Nous offrons une remise de 10 % pour les grosses commandes."
+          "vo": "Metí la pata: envié la factura al cliente equivocado.",
+          "fr": "J'ai fait une gaffe : j'ai envoyé la facture au mauvais client."
         }
       ],
       "exercices": [
         {
           "type": "qcm",
-          "question": "Trabajo ___ una empresa de exportación.",
+          "question": "Tu chef te dice: «¿Me echas una mano con el informe?». Te pide…",
           "choix": [
-            "por",
-            "para"
+            "que le des la mano",
+            "que le ayudes",
+            "que firmes el informe"
           ],
           "reponse": 1,
-          "explication": "Travailler pour (le compte de) une entreprise = trabajar para."
+          "explication": "Echar una mano = donner un coup de main, aider."
         },
         {
           "type": "qcm",
-          "question": "Gracias ___ tu ayuda.",
+          "question": "«Quedan dos días para el plazo: tenemos que ___ las pilas.»",
           "choix": [
-            "por",
-            "para"
+            "ponernos",
+            "meternos",
+            "darnos"
           ],
           "reponse": 0,
-          "explication": "La cause du remerciement → gracias por."
+          "explication": "L'expression est ponerse las pilas (se bouger)."
         },
         {
           "type": "trou",
-          "phrase": "Hemos pagado el 30 % ___ adelantado.",
+          "phrase": "Envié el correo sin el archivo adjunto. ¡He metido la ___!",
           "reponse": [
-            "por"
+            "pata"
           ],
-          "explication": "Expression figée : por adelantado (d'avance)."
+          "explication": "Meter la pata = faire une gaffe."
         },
         {
           "type": "trou",
-          "phrase": "El informe tiene que estar listo ___ el viernes.",
+          "phrase": "Cuando el director ___ (dar) el visto bueno, empezaremos la campaña.",
           "reponse": [
-            "para"
+            "dé"
           ],
-          "explication": "Échéance (d'ici à vendredi) → para."
+          "explication": "Cuando + futur → subjonctif présent : cuando dé (avec accent pour le distinguer de la préposition de)."
         },
         {
           "type": "qcm",
-          "question": "Quelle phrase est correcte ?",
+          "question": "Dans un e-mail formel à un client, quelle phrase est la plus adaptée ?",
           "choix": [
-            "Vendimos el stock para 2.000 euros.",
-            "Vendimos el stock por 2.000 euros.",
-            "Vendimos el stock a por 2.000 euros."
+            "Hemos metido la pata con su pedido.",
+            "Hemos cometido un error con su pedido.",
+            "Estamos hasta arriba con su pedido."
           ],
           "reponse": 1,
-          "explication": "Le prix, l'échange → por."
+          "explication": "Registre formel : cometer un error. Meter la pata est familier."
         },
         {
           "type": "ordre",
-          "fr": "Je cherche un stage pour améliorer mon anglais.",
+          "fr": "Je préfère y réfléchir avant de signer le contrat.",
           "mots": [
-            "mejorar",
-            "prácticas",
-            "Busco",
-            "inglés",
-            "para",
-            "mi",
-            "unas"
+            "la",
+            "Prefiero",
+            "almohada",
+            "firmar",
+            "con",
+            "el",
+            "consultarlo",
+            "contrato",
+            "antes",
+            "de"
           ],
-          "reponse": "Busco unas prácticas para mejorar mi inglés"
+          "reponse": "Prefiero consultarlo con la almohada antes de firmar el contrato"
         }
       ]
     },
     "mots": [
       {
-        "mot": "el pedido",
-        "trad": "la commande",
-        "exemple": "El pedido llegará el próximo martes."
+        "mot": "la plantilla",
+        "trad": "l'effectif, le personnel (d'une entreprise)",
+        "exemple": "La empresa ha ampliado su plantilla a 200 empleados."
       },
       {
-        "mot": "el proveedor",
-        "trad": "le fournisseur",
-        "exemple": "Hemos cambiado de proveedor para reducir costes."
+        "mot": "la facturación",
+        "trad": "le chiffre d'affaires",
+        "exemple": "La facturación creció un 15 % el año pasado."
       },
       {
-        "mot": "el descuento",
-        "trad": "la remise, la réduction",
-        "exemple": "Nos han hecho un descuento del 8 por ciento."
+        "mot": "la cadena de suministro",
+        "trad": "la chaîne d'approvisionnement",
+        "exemple": "La huelga ha afectado a toda la cadena de suministro."
       },
       {
-        "mot": "la aduana",
-        "trad": "la douane",
-        "exemple": "La mercancía está bloqueada en la aduana."
+        "mot": "el socio comercial",
+        "trad": "le partenaire commercial",
+        "exemple": "Marruecos es un socio comercial clave para España."
       },
       {
-        "mot": "por lo tanto",
-        "trad": "par conséquent, donc",
-        "exemple": "El coste ha subido; por lo tanto, subiremos el precio."
+        "mot": "la sede",
+        "trad": "le siège (social)",
+        "exemple": "La sede de la empresa está en Barcelona."
       }
     ],
     "oral": {
       "repeter": [
-        "Le envío el pedido por correo electrónico.",
-        "Necesitamos la mercancía para el lunes.",
-        "Gracias por el descuento, por supuesto lo aceptamos."
+        "Voy a ir al grano.",
+        "El jefe ya ha dado el visto bueno.",
+        "Esta semana estoy hasta arriba de trabajo."
       ],
-      "question": "¿Para qué quieres hacer unas prácticas en el extranjero y por qué te interesa ese país?",
-      "aide": "La question elle-même mélange para (le but) et por (la raison) : réutilise les deux dans ta réponse. Essaie de placer « por lo tanto » pour relier tes idées."
+      "question": "¿Alguna vez has metido la pata en un trabajo o en clase? ¿Qué pasó y cómo lo solucionaste?",
+      "aide": "Raconte au passé : utilise le passé simple (metí, dije, tuve que…) pour les actions et l'imparfait (estaba, tenía) pour le décor. Place au moins deux expressions de la leçon, par exemple « echar una mano » et « ponerse las pilas »."
     },
     "ecrit": {
-      "sujet": "Écris un e-mail (80 à 100 mots) à un fournisseur espagnol : ta commande est bloquée à la douane, tu lui demandes de t'envoyer les documents rapidement et tu as besoin de la marchandise pour une date précise.",
+      "sujet": "Écris un message (80 à 100 mots) à un collègue espagnol de ton stage : tu as fait une erreur dans une commande, tu t'en excuses, tu lui demandes un coup de main pour la corriger et tu expliques que le chef doit encore valider la nouvelle version.",
       "mots_imposes": [
-        "el pedido",
-        "la aduana",
-        "por lo tanto"
+        "meter la pata",
+        "echar una mano",
+        "dar el visto bueno"
       ],
-      "conseils": "Commence par « Estimado/a señor/a: », utilise au moins trois por et trois para différents (moyen, cause, échéance, but), termine par « Quedo a la espera de su respuesta. Un saludo cordial »."
+      "conseils": "Ton message est entre collègues : commence par « Hola, Lucía: » et reste naturel. Utilise le passé composé pour l'erreur récente (he metido la pata) et le subjonctif après « cuando » (cuando el jefe dé el visto bueno). Termine par « ¡Mil gracias! »."
     }
   }
 }
