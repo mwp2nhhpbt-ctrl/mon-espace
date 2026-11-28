@@ -1,7 +1,7 @@
 {
   "demo": false,
-  "date": "2026-11-27",
-  "synthese": "L'Europe est au cœur de l'actualité : réunis à Bruxelles, les dirigeants de l'UE se divisent sur le budget 2028-2034, mais la zone euro a choisi l'Espagnol Pablo Hernández de Cos pour diriger la BCE à partir de 2027. En Espagne, les quatre grands candidats se sont affrontés lors du dernier débat avant les législatives de dimanche. En France, le gouvernement recule sur l'indemnisation des victimes des essais nucléaires et la loi logement autorise de nouveau la location des passoires thermiques. Côté défense, l'Italie affirme atteindre 2,8 % de son PIB pour la sécurité, sous la pression de Washington, tandis que le blocus américain étouffe l'économie iranienne.",
+  "date": "2026-11-28",
+  "synthese": "L'Espagne vote demain, dimanche 29 novembre : Pedro Sánchez accuse le grand patronat de soutenir la droite, tandis qu'une phrase jugée sexiste de son rival Feijóo agite la fin de campagne. En Europe, la menace russe pèse partout : semaine record d'affaires d'espionnage et achat groupé historique de 400 blindés par cinq pays du Nord. En France, le débat sur l'agriculture se tend autour de l'argent de la PAC et du retour possible d'un pesticide interdit. Côté sport, le Bayern est secoué par les critiques de Kimmich sur la gestion de Musiala.",
   "rubriques": [
     {
       "id": "politique",
@@ -27,119 +27,118 @@
   "articles": [
     {
       "rubrique": "politique",
-      "titre": "Essais nucléaires : le gouvernement recule sur l'indemnisation des victimes",
-      "resume": "La ministre des Armées a annoncé que le gouvernement ne soutiendrait pas, en l'état, la loi qui reconnaît les victimes des essais nucléaires français en Algérie et en Polynésie (1960-1996), alors que l'Assemblée et le Sénat l'avaient déjà adoptée. C'est important car ces victimes attendent depuis des décennies une reconnaissance et des indemnités.",
+      "titre": "PAC : l'argent agricole risque de profiter surtout à l'agriculture intensive",
+      "resume": "L'État et les syndicats agricoles se battent pour garder le budget national de la Politique agricole commune (PAC), l'enveloppe européenne qui fait vivre beaucoup de fermes. Reporterre alerte : sans conditions, cet argent pourrait financer de plus en plus l'agriculture intensive plutôt que des pratiques durables.",
       "source": "Reporterre",
-      "url": "https://reporterre.net/Victimes-des-essais-nucleaires-le-gouvernement-fait-volte-face-sur-leur-indemnisation",
+      "url": "https://reporterre.net/Les-paysans-se-battent-pour-l-argent-de-la-PAC-mais-celui-ci-risque-de-servir-l",
       "bord": "gauche"
     },
     {
       "rubrique": "politique",
-      "titre": "Logement : les « passoires thermiques » pourront de nouveau être louées",
-      "resume": "La loi logement adoptée le 24 novembre supprime l'interdiction de louer les logements qui consomment beaucoup d'énergie, à la suite d'un amendement du RN. Pour les écologistes, c'est un recul face au réchauffement climatique ; pour les propriétaires, cela évite de retirer des logements du marché.",
+      "titre": "Betteraves : un pesticide interdit pourrait revenir par dérogation",
+      "resume": "Le gouvernement pourrait autoriser à titre exceptionnel le flupyradifurone, un insecticide réclamé par les producteurs de betteraves sucrières. Problème soulevé par Reporterre : l'agence sanitaire ANSES n'a pas rendu d'avis, et son silence vaut normalement refus.",
       "source": "Reporterre",
-      "url": "https://reporterre.net/Derriere-la-reautorisation-des-passoires-thermiques-un-depute-RN-qui-fait-fortune-dans-l",
+      "url": "https://reporterre.net/La-guerre-des-betteraves-le-gouvernement-parviendra-t-il-a-reintroduire-un-pesticide",
       "bord": "gauche"
     },
     {
       "rubrique": "politique",
-      "titre": "BCE : l'Espagnol Pablo Hernández de Cos va remplacer Christine Lagarde",
-      "resume": "Les dirigeants de la zone euro ont choisi l'ancien gouverneur de la Banque d'Espagne pour prendre la tête de la Banque centrale européenne en février 2027. La BCE fixe les taux d'intérêt de 21 pays : ses décisions pèsent sur les crédits immobiliers, l'inflation et les entreprises exportatrices.",
+      "titre": "En Ille-et-Vilaine, un programme aide les personnes fragiles psychiquement à retrouver un emploi",
+      "resume": "L'association bretonne Apase accompagne environ 207 adultes par an vers le travail grâce à un programme financé par le Fonds social européen (FSE+) ; 19 % des participants trouvent un emploi ou une formation. Un exemple concret de ce que l'argent européen finance près de chez toi, à Rennes et autour.",
       "source": "Toute l'Europe",
-      "url": "https://www.touteleurope.eu/economie-et-social/bce-l-espagnol-pablo-hernandez-cos-devrait-sauf-surprise-succeder-a-christine-lagarde-en-fevrier-2027/",
-      "bord": "centre"
-    },
-    {
-      "rubrique": "politique",
-      "titre": "Sommet européen : les 27 se divisent sur le budget 2028-2034",
-      "resume": "Réunis à Bruxelles les 26 et 27 novembre, les dirigeants européens ne parviennent pas à s'entendre sur le prochain budget de l'UE ; un prêt de 45 milliards d'euros à l'Ukraine est aussi sur la table. Les pays « frugaux » veulent dépenser moins, d'autres veulent financer la défense et la transition écologique.",
-      "source": "Toute l'Europe",
-      "url": "https://www.touteleurope.eu/fonctionnement-de-l-ue/budget-europeen-ukraine-bce-les-grands-dossiers-du-sommet-europeen-des-26-et-27-novembre/",
+      "url": "https://www.touteleurope.eu/l-europe-en-region/retrouver-le-chemin-de-l-emploi-malgre-les-fragilites-psychiques-le-pari-recompense-de-l-association-bretonne-apase/",
       "bord": "centre"
     },
     {
       "rubrique": "geo",
-      "titre": "Le blocus américain étouffe l'économie iranienne",
-      "resume": "Depuis le 14 juillet, les États-Unis bloquent les ports iraniens : pénuries de carburant et flambée des prix frappent la population. Téhéran promet de briser le blocus, tandis que des négociations indirectes continuent via le Qatar et le Pakistan.",
-      "source": "Le Grand Continent",
-      "url": "https://legrandcontinent.eu/fr/2026/11/26/le-blocus-maritime-americain-etouffe-leconomie-iranienne/"
-    },
-    {
-      "rubrique": "geo",
-      "titre": "Espagne : dernier grand débat avant les élections de dimanche",
-      "resume": "Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal et Ada Colau se sont affrontés à la télévision avant les législatives du 29 novembre. Le journal a vérifié leurs chiffres : plusieurs affirmations sur l'immigration, la délinquance et le logement sont fausses ou trompeuses.",
+      "titre": "Espagne : Pedro Sánchez accuse le grand patronat de soutenir la droite avant le vote de dimanche",
+      "resume": "À deux jours des élections générales du 29 novembre, le Premier ministre socialiste affirme que « le capital et les grandes entreprises » soutiennent la droite et l'extrême droite. Il vise 176 sièges pour la gauche (la majorité absolue) et appelle à une forte participation.",
       "source": "elDiario.es",
-      "url": "https://www.eldiario.es/politica/mentiras-debate-cuatro_1_13697433.html",
+      "url": "https://www.eldiario.es/politica/pedro-sanchez-capital-gran-empresa-apoyando-derecha-ultraderecha-pais_1_13697070.html",
       "vo": "es"
     },
     {
       "rubrique": "geo",
-      "titre": "IA : bulle financière ou révolution industrielle ?",
-      "resume": "L'IRIS analyse la bataille entre fabricants de puces (comme Nvidia) et créateurs de modèles d'IA. Les IA « agents » font exploser les besoins de calcul, tandis que les modèles chinois gratuits font baisser les prix : un enjeu de puissance entre États-Unis et Chine.",
+      "titre": "Fin de campagne en Espagne : le « calladita » de Feijóo fait polémique",
+      "resume": "Lors du débat à quatre, le chef de la droite (PP) Alberto Núñez Feijóo a lancé « et vous, taisez-vous » à Ada Colau (gauche), ce qui a été jugé sexiste. Il dit avoir parlé du silence sur la corruption et propose de retirer la phrase si elle a blessé quelqu'un.",
+      "source": "elDiario.es",
+      "url": "https://www.eldiario.es/politica/feijoo-enreda-polemica-calladita-referirse-ada-colau-mujeres-no-calladitas_1_13697743.html",
+      "vo": "es"
+    },
+    {
+      "rubrique": "geo",
+      "titre": "Espionnage russe : l'Europe vit sa semaine la plus agitée",
+      "resume": "Entre le 21 et le 27 novembre, 32 actions hostiles contre l'Europe ont été recensées, dont 18 attribuées à la Russie ou soupçonnées de l'être. C'est la semaine la plus chargée depuis le début du suivi, avec un nombre record d'affaires d'espionnage.",
+      "source": "Le Grand Continent",
+      "url": "https://legrandcontinent.eu/fr/2026/11/27/leurope-fait-face-a-une-vague-daffaires-despionnage-russe/"
+    },
+    {
+      "rubrique": "geo",
+      "titre": "Asie : la France absente des grands sommets de novembre",
+      "resume": "Aux sommets de l'ASEAN à Manille et de l'APEC à Shenzhen, Donald Trump était présent mais ni la France ni l'UE. L'IRIS analyse la place de la France dans la région, alors qu'Emmanuel Macron a visité le Cambodge et la Malaisie.",
       "source": "IRIS",
-      "url": "https://www.iris-france.org/luttes-de-pouvoir-dans-lia-entre-bulle-financiere-et-revolution-industrielle/"
+      "url": "https://www.iris-france.org/retours-sur-les-sommets-asiatiques-quelle-place-pour-la-france-dans-la-region/"
+    },
+    {
+      "rubrique": "geo",
+      "titre": "Sanctions : un accord trouvé pour racheter les actifs internationaux de Lukoil",
+      "resume": "Un consortium mené par l'Américain Todd Boehly veut racheter les actifs énergétiques hors de Russie du pétrolier Lukoil, sanctionné par Washington depuis plus d'un an, pour environ 10 milliards de dollars en actions. L'accord doit encore être validé par l'OFAC, l'agence américaine des sanctions.",
+      "source": "Le Grand Continent",
+      "url": "https://legrandcontinent.eu/fr/2026/11/27/plus-dun-an-apres-limposition-de-sanctions-les-etats-unis-concluent-un-accord-pour-les-actifs-de-lukoil/"
     },
     {
       "rubrique": "defense",
-      "titre": "La France veut un missile balistique « manœuvrant » et pas trop cher",
-      "resume": "La DGA et l'armée de Terre étudient un missile tiré depuis le sol, capable de changer de trajectoire pour échapper aux défenses, ouvert à des partenariats. La guerre en Ukraine a montré l'importance des frappes à longue portée ; les études doivent aboutir l'an prochain.",
-      "source": "FOB",
-      "url": "https://forcesoperations.com/un-missile-balistique-manoeuvrant-et-a-cout-raisonnable-dans-le-viseur-de-la-dga/"
+      "titre": "Record : cinq pays de l'OTAN commandent plus de 400 blindés CV90",
+      "resume": "La Suède, la Finlande, la Norvège, la Lituanie et les Pays-Bas achètent ensemble des véhicules de combat suédois pour environ 6 milliards de dollars, le plus gros contrat de l'histoire de BAE Hägglunds. Ces achats groupés répondent à la menace russe sur le flanc nord de l'OTAN.",
+      "source": "Breaking Defense",
+      "url": "https://breakingdefense.com/2026/11/bae-hagglunds-lands-record-6b-deal-for-400-cv90s-from-five-nato-nations/",
+      "vo": "en"
     },
     {
       "rubrique": "defense",
-      "titre": "L'Italie atteindrait 2,8 % du PIB pour la défense et la sécurité",
-      "resume": "Selon des responsables italiens, Rome tient sa promesse faite à l'OTAN, mais le budget publié ne donne pas clairement ce chiffre et le journaliste a dû le reconstituer. L'OTAN vise 5 % du PIB d'ici 2035, sous la pression de Donald Trump.",
+      "titre": "Des pirates ont pénétré le cloud de l'US Air Force",
+      "resume": "Selon Reuters, des hackers ont infiltré Cloud One, la principale plateforme informatique de l'armée de l'air américaine, découverte lors d'une mise à jour. Des données logistiques, opérationnelles et sur le personnel pourraient être exposées.",
       "source": "Defense News",
-      "url": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
+      "url": "https://www.defensenews.com/pentagon/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
       "vo": "en"
     },
     {
       "rubrique": "defense",
-      "titre": "Le Japon va s'entraîner au tir de missiles en Inde",
-      "resume": "Un accord signé le 19 novembre permet pour la première fois aux forces japonaises de faire des tirs réels sur des terrains indiens. Les deux pays se rapprochent pour faire contrepoids à la Chine en Asie.",
+      "titre": "Anti-drones : la France lance un pacte avec ses industriels",
+      "resume": "Paris a lancé jusqu'à fin 2027 un pacte avec les industriels pour développer des moyens de lutte contre les drones aériens, maritimes et terrestres. Le but : rapprocher les entreprises, les armées et la DGA, l'agence qui achète les armements.",
       "source": "Defense News",
-      "url": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/",
+      "url": "https://www.defensenews.com/global/europe/2026/11/27/france-kicks-off-defense-industry-pact-to-build-up-counter-drone-efforts/",
+      "vo": "en"
+    },
+    {
+      "rubrique": "defense",
+      "titre": "Ukraine : un drone à réaction abattu au laser, une première",
+      "resume": "L'Ukraine a détruit pour la première fois un drone à réaction avec une arme laser, le « Blysk ». Les lasers coûtent très peu par tir, un vrai enjeu face aux vagues de drones russes.",
+      "source": "Le Grand Continent",
+      "url": "https://legrandcontinent.eu/fr/2026/11/26/lukraine-a-detruit-pour-la-premiere-fois-un-drone-a-reaction-avec-une-arme-laser/"
+    },
+    {
+      "rubrique": "sport",
+      "titre": "Bayern : Kimmich critique le traitement réservé à Musiala",
+      "resume": "Le capitaine Joshua Kimmich juge « indigne du Bayern » la façon dont le club gère Jamal Musiala, atteint d'un problème de santé qui provoque des crises. Une rare critique publique en interne dans un grand club.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50602935/bayern-munich-jamal-musiala-health-issues-kimmich",
       "vo": "en"
     },
     {
       "rubrique": "sport",
-      "titre": "Ligue des champions : Manchester United accroché par le Sporting (2-2)",
-      "resume": "Mauricio Pochettino, toujours sans victoire depuis son arrivée, estime que son équipe a été « beaucoup pénalisée » par l'arbitrage et la VAR. La pression monte déjà sur le nouvel entraîneur.",
+      "titre": "Dopage : l'Allemande Laura Freigang privée de Coupe du monde",
+      "resume": "L'attaquante allemande est suspendue 16 mois pour avoir manqué trois contrôles antidopage, et ratera la Coupe du monde féminine 2027. Rater trois contrôles est sanctionné même sans test positif.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50599139/man-united-mauricio-pochettino-sporting-referee-var-goal",
-      "vo": "en"
-    },
-    {
-      "rubrique": "sport",
-      "titre": "Doublé d'Isak, Liverpool écrase Bruges 3-0",
-      "resume": "L'attaquant suédois a marqué deux fois en Ligue des champions et son entraîneur Andoni Iraola salue sa grande forme. Une victoire nette qui rassure les Reds en Ligue des champions.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50598768/andoni-iraola-alexander-isak-great-moment-liverpool",
-      "vo": "en"
-    },
-    {
-      "rubrique": "sport",
-      "titre": "Guardiola a refusé l'Italie mais rêve d'une sélection",
-      "resume": "Pep Guardiola explique avoir été « gêné » de dire non à la sélection italienne. S'il revient sur un banc, ce sera probablement à la tête d'une équipe nationale.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50587357/guardiola-embarrassed-italy-national-team-next",
+      "url": "https://www.espn.com/soccer/story/_/id/50604130/germany-laura-freigang-womens-world-cup",
       "vo": "en"
     },
     {
       "rubrique": "rap",
-      "titre": "ILoveMakonnen travaille désormais dans un supermarché",
-      "resume": "Le rappeur, connu pour le tube « Tuesday » avec Drake, dit ne plus se sentir utile dans la musique et a pris un emploi dans une épicerie, tout en continuant à composer. Un témoignage rare sur la précarité des artistes après le succès.",
-      "source": "XXL",
-      "url": "https://www.xxlmag.com/ilovemakonnen-grocery-store-job/",
-      "vo": "en"
-    },
-    {
-      "rubrique": "rap",
-      "titre": "Musique et IA : l'Espagne prépare un premier code de bonnes pratiques",
-      "resume": "GenAIe, liée à l'AIE (la société qui gère les droits des artistes interprètes en Espagne), lance un code pour encadrer l'usage de l'intelligence artificielle dans la musique. L'enjeu : protéger les voix et les œuvres des artistes copiées par l'IA.",
+      "titre": "Le festival Sonorama fête ses 30 ans avec une centaine d'artistes",
+      "resume": "Le festival d'Aranda de Duero (Castille-et-León), un des plus connus d'Espagne, a dévoilé l'affiche de son 30e anniversaire. Un bon indicateur de la scène pop-rock espagnole du moment.",
       "source": "Mondo Sonoro",
-      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/genaie-aie/",
+      "url": "https://www.mondosonoro.com/noticias-actualidad-musical/sonorama-trigesimo-aniversario/",
       "vo": "es"
     }
   ],
@@ -147,90 +146,88 @@
     {
       "langue": "en",
       "rubrique": "defense",
-      "source": "Rédigé d'après Defense News",
-      "titre": "Italy says it has hit NATO's spending target, but the numbers are hard to find",
-      "url": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
+      "source": "Rédigé d'après Breaking Defense",
+      "titre": "Five NATO nations sign record deal for 400 combat vehicles",
+      "url": "https://breakingdefense.com/2026/11/bae-hagglunds-lands-record-6b-deal-for-400-cv90s-from-five-nato-nations/",
       "texte": [
-        "Italian officials say Rome spent 2.8% of its gross domestic product on defence and security in 2026, fulfilling a pledge it made to NATO allies at their summit in July. Under the alliance's new goal, members are expected to reach 5% of GDP by 2035, split between 3.5% for core defence and 1.5% for wider security, such as protecting infrastructure.",
-        "However, the figure does not appear anywhere in Italy's budget. The 2026 document was published months late, and it gives no clear total for military spending. Journalists had to work out the numbers themselves by adding up different lines of the budget.",
-        "According to those calculations, the core defence function, which covers the army, air force and navy, rose by about €1.1 billion to roughly €23.6 billion. Once pensions and spending by other ministries are included, the total counted for NATO purposes reaches about €48 billion, or 2.1% of GDP, up from 2% last year. Government sources say the remaining 0.7% is spread across other budgets and pays for border control, counterterrorism and the protection of energy infrastructure.",
-        "The issue is politically sensitive. Italy has one of the highest public debts in Europe, and many voters are reluctant to see money moved away from health and pensions. At the same time, the United States under Donald Trump keeps pressing European allies to shoulder a bigger share of the burden. For Rome, presenting security spending creatively is a way to satisfy Washington without triggering a domestic backlash, but critics say it makes it harder for citizens to know how their taxes are actually being spent."
+        "Five northern European countries have joined forces to buy more than 400 armoured combat vehicles in a single deal worth around $6 billion. Finland, Lithuania, the Netherlands, Norway and Sweden signed contracts this week with BAE Systems Hägglunds, the Swedish manufacturer of the CV90 infantry fighting vehicle. The company's general manager described it as the biggest deal in its history.",
+        "The order is a clear example of joint procurement, a strategy that European governments increasingly favour. By pooling their orders, the five countries can negotiate better prices, share maintenance and make their armies work together more easily. Sweden's defence procurement agency signed the main contract, and each country then signs its own agreement.",
+        "The figures vary from one buyer to another. Finland is the largest customer, with 160 vehicles, a budget of €2.8 billion and an option for 100 more. Part of the funding could come from SAFE, the European Union's new loan scheme for defence. Lithuania is buying slightly more than 100 vehicles for about $1.3 billion, Norway 70 and Sweden around 60.",
+        "The context explains the urgency. All five countries see Russia as a direct threat to NATO's northern flank, and Lithuania's defence minister said that receiving the vehicles quickly, ideally before 2030, was crucial for deterrence. However, deliveries are only expected to start in 2029 and could run until 2034, which shows how long it takes the defence industry to scale up.",
+        "BAE has already invested around $450 million to expand its factory in Örnsköldsvik, in northern Sweden, where the hulls are welded. The rest of the assembly will be shared among the buyer nations, a way of creating jobs at home and keeping public opinion on side."
       ],
       "vocab": [
         {
-          "mot": "gross domestic product (GDP)",
-          "trad": "produit intérieur brut (PIB)"
+          "mot": "to join forces",
+          "trad": "s'associer, unir ses forces"
         },
         {
-          "mot": "to fulfil a pledge",
-          "trad": "tenir une promesse, un engagement"
+          "mot": "joint procurement",
+          "trad": "achat groupé (entre États)"
         },
         {
-          "mot": "to work out",
-          "trad": "calculer, déterminer"
+          "mot": "to pool",
+          "trad": "mettre en commun"
         },
         {
-          "mot": "public debt",
-          "trad": "la dette publique"
+          "mot": "a loan scheme",
+          "trad": "un dispositif de prêts"
         },
         {
-          "mot": "reluctant",
-          "trad": "réticent"
+          "mot": "deterrence",
+          "trad": "la dissuasion"
         },
         {
-          "mot": "to shoulder a burden",
-          "trad": "assumer une charge"
+          "mot": "to scale up",
+          "trad": "monter en puissance, augmenter la production"
         },
         {
-          "mot": "a backlash",
-          "trad": "une réaction hostile, un retour de bâton"
+          "mot": "to keep someone on side",
+          "trad": "garder quelqu'un de son côté"
         }
       ]
     },
     {
       "langue": "es",
-      "rubrique": "politique",
+      "rubrique": "geo",
       "source": "Rédigé d'après elDiario.es",
-      "titre": "Pablo Hernández de Cos, primer español al frente del Banco Central Europeo",
-      "url": "https://www.eldiario.es/economia/lideres-europeos-eligen-espanol-pablo-hernandez-cos-presidente-bce_1_13694914.html",
+      "titre": "Sánchez cierra la campaña acusando a la gran empresa de apoyar a la derecha",
+      "url": "https://www.eldiario.es/politica/pedro-sanchez-capital-gran-empresa-apoyando-derecha-ultraderecha-pais_1_13697070.html",
       "texte": [
-        "Los líderes de la zona euro eligieron este jueves en Bruselas a Pablo Hernández de Cos como próximo presidente del Banco Central Europeo (BCE). El exgobernador del Banco de España, que actualmente dirige el Banco de Pagos Internacionales, se impuso al candidato neerlandés Klaas Knot y sustituirá a Christine Lagarde a principios de febrero de 2027, nueve meses antes de que termine su mandato.",
-        "Será la primera vez que un español ocupe la presidencia de la institución que fija los tipos de interés para los 21 países del euro. Hasta ahora, el cargo más alto alcanzado por un español había sido la vicepresidencia de Luis de Guindos. Pedro Sánchez, en plena campaña electoral, no acudió a la cumbre y delegó su voto en Emmanuel Macron.",
-        "El nombramiento forma parte de un reparto de puestos pactado entre Francia y Alemania. El alemán Markus Brunnermeier será el nuevo economista jefe, mientras que París ha propuesto a la exministra Laurence Boone para dirigir las operaciones de mercado. Los Países Bajos, que apoyaban a Knot, aceptaron finalmente el consenso.",
-        "Hernández de Cos llega en un momento delicado: el crecimiento es débil, la inflación sigue alta y los mercados de deuda muestran tensiones, sobre todo en Francia e Italia. Aunque se le considera un economista ortodoxo, también tiene fama de ser menos partidario que otros de subir los tipos. Antes de asumir el cargo, el Parlamento Europeo y el Consejo de Gobierno del BCE deberán dar su opinión, un trámite que nunca ha bloqueado un nombramiento."
+        "A dos días de las elecciones generales del 29 de noviembre, el presidente del Gobierno, Pedro Sánchez, ha endurecido su discurso. En una entrevista con elDiario.es, el candidato socialista afirma que «el capital y la gran empresa» están apoyando a la derecha y a la ultraderecha, y les acusa de haber contribuido a normalizar a Vox.",
+        "Sánchez cree que todavía existe una oportunidad de lograr una victoria histórica, pero insiste en que todo depende de la movilización. Por eso pide una participación del 75 % o más. Se fija tres objetivos: que el PP y Vox no sumen una mayoría, que los partidos progresistas alcancen 176 escaños, es decir, la mayoría absoluta en el Congreso, y que el PSOE vuelva a ser la primera fuerza.",
+        "En el terreno económico, el presidente defiende su balance. Según sus cifras, el salario medio ha subido un 28 % mientras que la inflación acumulada ha sido del 23 %, lo que supondría una ganancia de poder adquisitivo. También promete consolidar la ley estatal de vivienda y dedicar el 1 % del PIB a políticas de vivienda, uno de los grandes problemas para los jóvenes, y anuncia 19.000 millones de euros de inversión en el ferrocarril.",
+        "La entrevista tiene también un tono autocrítico: Sánchez pide perdón por haber confiado en su exministro José Luis Ábalos, al que califica de «gran decepción». Al mismo tiempo, ataca a su rival, Alberto Núñez Feijóo, a quien reprocha haber convertido el insulto y la mentira en un método político.",
+        "El domingo, los españoles decidirán si estos argumentos bastan para prolongar un Gobierno de izquierdas o si se abre la puerta a un cambio de mayoría."
       ],
       "vocab": [
         {
-          "mot": "imponerse a",
-          "trad": "l'emporter sur"
+          "mot": "endurecer el discurso",
+          "trad": "durcir le ton"
         },
         {
-          "mot": "el mandato",
-          "trad": "le mandat"
+          "mot": "la movilización",
+          "trad": "la mobilisation (des électeurs)"
         },
         {
-          "mot": "los tipos de interés",
-          "trad": "les taux d'intérêt"
+          "mot": "el escaño",
+          "trad": "le siège (de député)"
         },
         {
-          "mot": "la cumbre",
-          "trad": "le sommet"
+          "mot": "el balance",
+          "trad": "le bilan"
         },
         {
-          "mot": "el reparto de puestos",
-          "trad": "la répartition des postes"
+          "mot": "el poder adquisitivo",
+          "trad": "le pouvoir d'achat"
         },
         {
-          "mot": "el economista jefe",
-          "trad": "l'économiste en chef"
+          "mot": "el ferrocarril",
+          "trad": "le chemin de fer"
         },
         {
-          "mot": "ser partidario de",
-          "trad": "être favorable à"
-        },
-        {
-          "mot": "un trámite",
-          "trad": "une formalité, une démarche"
+          "mot": "pedir perdón",
+          "trad": "demander pardon, s'excuser"
         }
       ]
     }

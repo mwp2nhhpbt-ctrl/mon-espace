@@ -771,6 +771,197 @@
           }
         ]
       }
+    },
+    {
+      "date": "2026-11-28",
+      "en": {
+        "titre": "Révision : temps du passé, -ed, conditionnels et expressions pro",
+        "mots": [
+          {
+            "mot": "a forecast",
+            "trad": "une prévision",
+            "exemple": "The sales forecast for next year is very optimistic."
+          },
+          {
+            "mot": "a competitor",
+            "trad": "un concurrent",
+            "exemple": "Our main competitor has just lowered its prices."
+          },
+          {
+            "mot": "lead time",
+            "trad": "le délai (entre la commande et la livraison)",
+            "exemple": "The lead time for this product is six weeks."
+          },
+          {
+            "mot": "a bottleneck",
+            "trad": "un goulot d'étranglement, un point de blocage",
+            "exemple": "The port has become a bottleneck for our exports."
+          },
+          {
+            "mot": "to negotiate",
+            "trad": "négocier",
+            "exemple": "We managed to negotiate a better price with the supplier."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "We ___ three new clients since September.",
+            "choix": [
+              "have signed",
+              "signed",
+              "sign"
+            ],
+            "reponse": 0,
+            "explication": "« since September » = lien avec le présent → present perfect."
+          },
+          {
+            "type": "qcm",
+            "question": "Comment se prononce le -ed de « worked » ?",
+            "choix": [
+              "/t/",
+              "/d/",
+              "/ɪd/ (une syllabe en plus)"
+            ],
+            "reponse": 0,
+            "explication": "Le k est un son sourd → /t/ : workt."
+          },
+          {
+            "type": "trou",
+            "phrase": "If they ___ (lower) the price, we will place a bulk order.",
+            "reponse": [
+              "lower"
+            ],
+            "explication": "1er conditionnel : if + présent (they lower), puis will."
+          },
+          {
+            "type": "trou",
+            "phrase": "If I ___ (have) more time, I would learn Chinese.",
+            "reponse": [
+              "had"
+            ],
+            "explication": "Hypothèse → if + prétérit (had), puis would."
+          },
+          {
+            "type": "qcm",
+            "question": "Let's ___ base next Monday to discuss the project.",
+            "choix": [
+              "touch",
+              "call",
+              "get"
+            ],
+            "reponse": 0,
+            "explication": "L'expression figée est to touch base (faire un point)."
+          },
+          {
+            "type": "ordre",
+            "fr": "Nous avons déjà envoyé la facture.",
+            "mots": [
+              "invoice",
+              "already",
+              "We",
+              "the",
+              "sent",
+              "have"
+            ],
+            "reponse": "We have already sent the invoice"
+          }
+        ]
+      },
+      "es": {
+        "titre": "Révision : subjonctif, tildes, por/para et expressions du bureau",
+        "mots": [
+          {
+            "mot": "la competencia",
+            "trad": "la concurrence",
+            "exemple": "La competencia en el sector textil es muy fuerte."
+          },
+          {
+            "mot": "el beneficio",
+            "trad": "le bénéfice, le profit",
+            "exemple": "La empresa ha duplicado sus beneficios este año."
+          },
+          {
+            "mot": "la previsión",
+            "trad": "la prévision",
+            "exemple": "Las previsiones de ventas para 2027 son positivas."
+          },
+          {
+            "mot": "el cuello de botella",
+            "trad": "le goulot d'étranglement",
+            "exemple": "El puerto se ha convertido en un cuello de botella."
+          },
+          {
+            "mot": "la feria comercial",
+            "trad": "le salon professionnel",
+            "exemple": "Conocimos a nuestro socio en una feria comercial en Madrid."
+          }
+        ],
+        "exercices": [
+          {
+            "type": "qcm",
+            "question": "Espero que el cliente ___ pronto.",
+            "choix": [
+              "contesta",
+              "conteste",
+              "contestar"
+            ],
+            "reponse": 1,
+            "explication": "Espero que + autre sujet → subjonctif : contestar → conteste."
+          },
+          {
+            "type": "qcm",
+            "question": "El tren sale ___ Madrid a las ocho.",
+            "choix": [
+              "por",
+              "para"
+            ],
+            "reponse": 1,
+            "explication": "Destination → para."
+          },
+          {
+            "type": "trou",
+            "phrase": "¿___ (combien) cuesta el envío?",
+            "reponse": [
+              "Cuánto",
+              "cuánto"
+            ],
+            "explication": "Mot interrogatif → tilde : cuánto."
+          },
+          {
+            "type": "trou",
+            "phrase": "Es necesario que ustedes ___ (tener) el pasaporte en regla.",
+            "reponse": [
+              "tengan"
+            ],
+            "explication": "tener → tengo → tenga, ustedes → tengan."
+          },
+          {
+            "type": "qcm",
+            "question": "Estamos a dos días del plazo: tenemos que ___.",
+            "choix": [
+              "ponernos las pilas",
+              "meter la pata",
+              "dar el visto bueno"
+            ],
+            "reponse": 0,
+            "explication": "Ponerse las pilas = se bouger, se mettre au travail."
+          },
+          {
+            "type": "ordre",
+            "fr": "Je veux qu'il signe le contrat.",
+            "mots": [
+              "firme",
+              "Quiero",
+              "contrato",
+              "él",
+              "el",
+              "que"
+            ],
+            "reponse": "Quiero que él firme el contrato"
+          }
+        ]
+      }
     }
   ]
 }
